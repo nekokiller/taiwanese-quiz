@@ -205,6 +205,10 @@ function renderQuestion() {
 
   const practice = practicing();
   const last = state.index === n - 1;
+  $("quiz").classList.toggle("practice", practice);
+  // 練習模式把播放按鈕放進題目卡片；測驗模式放回評分結果下方
+  if (practice) document.querySelector("#quiz .question").append($("actions"));
+  else $("quiz").insertBefore($("actions"), document.querySelector("#quiz .nav"));
   $("feedback").hidden = true;
   $("feedback").classList.toggle("concealed", practice && state.hideAnswer);
   $("play-ref").disabled = true;
@@ -307,6 +311,7 @@ function showAnswer(q) {
 
 function showFeedback(q, result) {
   $("score-row").hidden = false;
+  $("feedback").classList.remove("no-score");
   const score = $("score");
   score.textContent = result.score;
   score.className = `score ${grade(result.score)}`;
@@ -324,6 +329,7 @@ function showFeedback(q, result) {
 
 function revealWithoutScore() {
   $("score-row").hidden = true;
+  $("feedback").classList.add("no-score");
   $("warnings").textContent = "";
   $("debug").hidden = true;
   showAnswer(current());

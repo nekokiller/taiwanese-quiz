@@ -284,6 +284,33 @@ button:disabled {
 }
 
 /* 作答 */
+#quiz {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 練習模式：播放按鈕放進題目卡片，上一題／下一題緊接在卡片下方，手機不用捲動就按得到 */
+#quiz.practice .question {
+  margin-bottom: 0;
+  padding-bottom: 16px;
+}
+
+.question .actions {
+  margin-top: 16px;
+}
+
+#quiz.practice .nav {
+  order: 1;
+}
+
+#quiz.practice .nav .big {
+  margin: 12px 0 16px;
+}
+
+#quiz.practice .feedback {
+  order: 2;
+}
+
 .nav {
   display: flex;
   gap: 8px;
@@ -510,6 +537,17 @@ button:disabled {
 
 .answer .han {
   font-family: var(--han);
+}
+
+/* 沒有分數時（練習模式、看答案）不留分數區的空白 */
+.feedback.no-score .answer {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.feedback.no-score .score-hint {
+  display: none;
 }
 
 .note {
