@@ -21,6 +21,8 @@ const state = {
   results: [],
   busy: false,
   holding: false,
+  micError: null,
+  enablingMic: false,
   lastRecording: null,
   playToken: 0,
 };
@@ -152,19 +154,44 @@ async function onStart(e) {
     $("count").value = count;
   }
 
+  // 麥克風開不了也照樣進入測驗，作答畫面再提示（可重試或直接看答案）
   const button = $("start");
   button.disabled = true;
   button.textContent = "準備麥克風…";
+  await tryInitMic();
+  button.disabled = false;
+  updateAvailable();
+  startSession(shuffle(playable).slice(0, count), "quiz");
+}
+
+async function tryInitMic() {
   try {
     await recorder.init();
+    state.micError = null;
   } catch (err) {
-    setupError(err instanceof MicError ? err.message : `無法開啟麥克風：${err.message}`);
-    return;
-  } finally {
-    button.disabled = false;
-    updateAvailable();
+    state.micError = err instanceof MicError ? err.message : `無法開啟麥克風：${err.message}`;
   }
-  startSession(shuffle(playable).slice(0, count), "quiz");
+  return recorder.ready;
+}
+
+function micUnavailableText() {
+  return `${state.micError} 按「開啟麥克風」可以再試一次；也可以按「看答案」聽標準發音（不評分）。`;
+}
+
+function updateRecordButton() {
+  const ready = recorder.ready;
+  $("record").classList.toggle("unavailable", !ready);
+  $("record").querySelector(".record-label").textContent = ready ? "按住說話" : "開啟麥克風";
+}
+
+async function enableMic() {
+  if (state.enablingMic) return;
+  state.enablingMic = true;
+  setStatus("正在開啟麥克風…");
+  const ok = await tryInitMic();
+  state.enablingMic = false;
+  updateRecordButton();
+  setStatus(ok ? "麥克風已開啟，請按住按鈕唸出讀音" : micUnavailableText());
 }
 
 // ---------- 作答 ----------
@@ -225,7 +252,8 @@ function renderQuestion() {
   $("next").disabled = practice && last;
   $("quit").textContent = practice ? "結束練習" : "結束測驗";
   state.lastRecording = null;
-  setStatus("按住按鈕唸出讀音，唸完再放開");
+  updateRecordButton();
+  setStatus(recorder.ready ? "按住按鈕唸出讀音，唸完再放開" : micUnavailableText());
   if (practice) revealWithoutScore();
 
   // 先在背景準備這題和下一題的標準音
@@ -235,7 +263,11 @@ function renderQuestion() {
 }
 
 function beginRecording() {
-  if (state.busy || state.holding || !recorder.ready) return;
+  if (state.busy || state.holding) return;
+  if (!recorder.ready) {
+    enableMic(); // 在使用者按下時重新要求權限
+    return;
+  }
   stop();
   state.holding = true;
   recorder.start();

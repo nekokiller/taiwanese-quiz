@@ -416,6 +416,11 @@ button:disabled {
   transition: transform 0.1s, background 0.1s;
 }
 
+.record.unavailable {
+  background: var(--muted);
+  box-shadow: none;
+}
+
 .record-label {
   font-weight: 700;
   font-size: 16px;
