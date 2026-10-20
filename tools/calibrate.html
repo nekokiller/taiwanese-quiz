@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>評分校正</title>
+  <style>
+    body { font: 15px/1.6 system-ui, sans-serif; margin: 16px; background: #fff; color: #222; }
+    table { border-collapse: collapse; margin: 12px 0; }
+    th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: right; }
+    th:first-child, td:first-child { text-align: left; }
+    pre { background: #f4f4f4; padding: 8px; }
+  </style>
+</head>
+<body>
+  <h1>評分校正</h1>
+  <p>用標準音模擬三種情況，檢查分數能不能分出「唸對」與「唸錯」：</p>
+  <ul>
+    <li><b>自己</b>：標準音和自己比，應該接近 100 分。</li>
+    <li><b>同詞變聲</b>：標準音改變語速與音高（模擬不同人）並加雜音，再和原本的標準音比，應該高分。</li>
+    <li><b>不同詞</b>：變聲後的錄音和其他題目的標準音比，應該低分。</li>
+  </ul>
+  <button id="run">開始（約 1 分鐘）</button>
+  <p id="status"></p>
+  <div id="out"></div>
+
+  <script type="module">
+    import { analyze, compare, CALIBRATION } from "../js/scoring.js";
+    import { audioContext, loadAudio, toAnalysisRate } from "../js/audio.js";
+
+    const $ = (id) => document.getElementById(id);
+    const RATES = [0.88, 1.12];
+    const SNR_DB = 25;
+    const OTHERS = 3;
+
+    async function variant(buffer, rate) {
+      const length = Math.ceil((buffer.duration / rate) * 16000);
+      const off = new OfflineAudioContext(1, length, 16000);
+      const src = off.createBufferSource();
+      src.buffer = buffer;
+      src.playbackRate.value = rate; // 同時改變長度與音高、共振峰，近似不同說話者
+      src.connect(off.destination);
+      src.start();
+      const x = (await off.startRendering()).getChannelData(0);
+      let p = 0;
+      for (const v of x) p += v * v;
+      const noise = Math.sqrt(p / x.length / 10 ** (SNR_DB / 10));
+      return x.map((v) => v + noise * (Math.random() * 2 - 1) * Math.sqrt(3));
+    }
+
+    const pct = (arr, q) => {
+      const a = arr.filter(Number.isFinite).sort((x, y) => x - y);
+      return a.length ? a[Math.min(a.length - 1, Math.floor(q * a.length))] : NaN;
+    };
+
+    function table(rows) {
+      const cols = ["p10", "p50", "p90"];
+      const head = `<tr><th>組別</th><th>數量</th>${["音段距離", "音高差", "分數"].map((n) => cols.map((c) => `<th>${n} ${c}</th>`).join("")).join("")}</tr>`;
+      const body = rows
+        .map(([name, rs]) => {
+          const cells = [rs.map((r) => r.details.cost), rs.map((r) => r.details.toneDiff), rs.map((r) => r.score)]
+            .map((vals) => [0.1, 0.5, 0.9].map((q) => `<td>${pct(vals, q).toFixed(2)}</td>`).join(""))
+            .join("");
+          return `<tr><td>${name}</td><td>${rs.length}</td>${cells}</tr>`;
+        })
+        .join("");
+      return `<table>${head}${body}</table>`;
+    }
+
+    async function run() {
+      audioContext();
+      $("run").disabled = true;
+      const bank = await (await fetch("../data/questions.json")).json();
+      const qs = bank.questions.filter((q) => q.reference);
+      const url = (f) => "../" + bank.audioBase + encodeURIComponent(f);
+
+      const refs = [];
+      for (const [i, q] of qs.entries()) {
+        $("status").textContent = `分析標準音 ${i + 1} / ${qs.length}`;
+        const buffer = await loadAudio(url(q.reference));
+        refs.push({ q, buffer, a: analyze(await toAnalysisRate(buffer)) });
+      }
+
+      const self = [];
+      const same = [];
+      const diff = [];
+      for (const [i, r] of refs.entries()) {
+        $("status").textContent = `比對 ${i + 1} / ${refs.length}`;
+        self.push(compare(r.a, r.a));
+        for (const rate of RATES) {
+          const v = analyze(await variant(r.buffer, rate));
+          if (v.error) continue;
+          same.push(compare(v, r.a));
+          for (let k = 1; k <= OTHERS; k++) {
+            const other = refs[(i + k * 37) % refs.length];
+            diff.push(compare(v, other.a));
+          }
+        }
+      }
+
+      const sameCost = same.map((r) => r.details.cost);
+      const diffCost = diff.map((r) => r.details.cost);
+      const sameTone = same.map((r) => r.details.toneDiff);
+      const diffTone = diff.map((r) => r.details.toneDiff);
+      const suggest = {
+        spectral: { best: +pct(sameCost, 0.5).toFixed(2), worst: +pct(diffCost, 0.25).toFixed(2) },
+        tone: { best: +pct(sameTone, 0.5).toFixed(2), worst: +pct(diffTone, 0.5).toFixed(2) },
+      };
+      const separation = {
+        sameAbove60: same.filter((r) => r.score >= 60).length / same.length,
+        diffBelow60: diff.filter((r) => r.score < 60).length / diff.length,
+      };
+      window.calibration = { current: CALIBRATION, suggest, separation };
+      $("status").textContent = "完成";
+      $("out").innerHTML =
+        table([["自己", self], ["同詞變聲", same], ["不同詞", diff]]) +
+        `<p>同詞變聲 ≥ 60 分：${(separation.sameAbove60 * 100).toFixed(1)}%；不同詞 &lt; 60 分：${(separation.diffBelow60 * 100).toFixed(1)}%</p>` +
+        `<pre>目前設定：${JSON.stringify({ spectral: CALIBRATION.spectral, tone: CALIBRATION.tone })}\n建議設定：${JSON.stringify(suggest)}</pre>`;
+      $("run").disabled = false;
+    }
+
+    $("run").addEventListener("click", () => run().catch((e) => ($("status").textContent = "錯誤：" + e.message)));
+  </script>
+</body>
+</html>

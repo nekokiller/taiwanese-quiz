@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="台灣台語字音字形讀音練習：看題目唸出台語讀音，系統比對標準發音並給分。">
+  <title>台語字音字形練習</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>台語字音字形練習</h1>
+  </header>
+
+  <main>
+    <p id="loading" class="status">載入題庫中…</p>
+
+    <!-- 測驗設定 -->
+    <section id="setup" hidden>
+      <form id="setup-form" novalidate>
+        <fieldset class="card">
+          <legend>模式</legend>
+          <div class="modes">
+            <label class="mode">
+              <input type="radio" name="mode" value="quiz" checked>
+              <span><b>測驗</b><small>隨機出題，錄音後評分</small></span>
+            </label>
+            <label class="mode">
+              <input type="radio" name="mode" value="practice">
+              <span><b>練習</b><small>依題號瀏覽，聽標準發音</small></span>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="card">
+          <legend>題目範圍</legend>
+          <div class="range-row" data-section="字音">
+            <label class="check"><input type="checkbox" name="section" value="字音" checked> 字音</label>
+            <span class="range">第 <input type="number" name="from" inputmode="numeric" min="1" max="100" value="1"> –
+              <input type="number" name="to" inputmode="numeric" min="1" max="100" value="100"> 題</span>
+          </div>
+          <div class="range-row" data-section="字形">
+            <label class="check"><input type="checkbox" name="section" value="字形" checked> 字形</label>
+            <span class="range">第 <input type="number" name="from" inputmode="numeric" min="1" max="100" value="1"> –
+              <input type="number" name="to" inputmode="numeric" min="1" max="100" value="100"> 題</span>
+          </div>
+          <p class="hint">字形題改成看漢字詞、唸出讀音。</p>
+        </fieldset>
+
+        <p id="practice-info" class="hint" hidden></p>
+
+        <fieldset id="count-field" class="card">
+          <legend>題數</legend>
+          <div class="chips" role="group" aria-label="常用題數">
+            <button type="button" class="chip" data-count="10">10</button>
+            <button type="button" class="chip" data-count="20">20</button>
+            <button type="button" class="chip" data-count="30">30</button>
+          </div>
+          <label class="count-input">自訂 <input type="number" id="count" inputmode="numeric" min="1" value="10"> 題</label>
+          <p id="available" class="hint"></p>
+        </fieldset>
+
+        <p id="setup-error" class="error" role="alert" hidden></p>
+        <button type="submit" id="start" class="primary big">開始測驗</button>
+        <p id="mic-hint" class="hint center">開始時瀏覽器會詢問是否允許使用麥克風，請按「允許」。</p>
+      </form>
+    </section>
+
+    <!-- 作答 -->
+    <section id="quiz" hidden>
+      <div class="progress-row">
+        <span id="progress"></span>
+        <button type="button" id="quit" class="link">結束測驗</button>
+      </div>
+      <div class="progress-bar"><div id="progress-fill"></div></div>
+
+      <div class="card question">
+        <p id="q-label" class="q-label"></p>
+        <p id="q-prompt" class="q-prompt"></p>
+        <p id="q-speak" class="q-speak" hidden></p>
+      </div>
+
+      <div id="record-area" class="record-area">
+        <button type="button" id="record" class="record" aria-describedby="record-status">
+          <svg class="record-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="8.5" y="2.5" width="7" height="12" rx="3.5" />
+            <path d="M5 11a7 7 0 0 0 14 0M12 18v3.5M8.5 21.5h7" />
+          </svg>
+          <span class="record-label">按住說話</span>
+        </button>
+        <p id="record-status" class="status" aria-live="polite">按住按鈕唸出讀音，唸完再放開</p>
+        <button type="button" id="show-answer" class="link">不會唸？看答案</button>
+      </div>
+
+      <div id="feedback" class="card feedback" hidden>
+        <div id="score-row" class="score-row">
+          <div id="score" class="score"></div>
+          <div>
+            <p id="score-text" class="score-text"></p>
+            <p id="score-parts" class="score-parts"></p>
+          </div>
+        </div>
+        <ul id="warnings" class="warnings"></ul>
+        <dl id="answer" class="answer"></dl>
+        <p id="accent-note" class="note" hidden></p>
+        <pre id="debug" class="debug" hidden></pre>
+        <p class="hint">分數由聲音比對而來，僅供練習參考。</p>
+      </div>
+
+      <div class="actions">
+        <button type="button" id="play-ref" class="secondary" disabled>🔊 標準發音</button>
+        <span id="char-buttons"></span>
+        <button type="button" id="play-mine" class="secondary" disabled>聽我的錄音</button>
+        <button type="button" id="toggle-answer" class="secondary" hidden>隱藏讀音</button>
+      </div>
+      <div class="nav">
+        <button type="button" id="prev" class="secondary big" hidden>上一題</button>
+        <button type="button" id="next" class="primary big">下一題</button>
+      </div>
+    </section>
+
+    <!-- 結果 -->
+    <section id="result" hidden>
+      <div class="card result-summary">
+        <p class="hint">平均分數</p>
+        <p id="avg" class="avg"></p>
+        <p id="result-meta" class="hint"></p>
+      </div>
+      <ol id="result-list" class="result-list"></ol>
+      <button type="button" id="retry-low" class="primary big">只重練 60 分以下的題目</button>
+      <button type="button" id="restart" class="secondary big">重新設定</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>試題：信義國小 115 學年度語文競賽臺灣台語字音字形（引自 113 年全國語文競賽國小組）。</p>
+    <p>音檔：教育部《<a href="https://sutian.moe.edu.tw/" target="_blank" rel="noopener">臺灣台語常用詞辭典</a>》原始錄音，未經剪輯，權利依教育部網站公告。</p>
+    <p>錄音只在你的裝置上分析，不會上傳或保存。</p>
+  </footer>
+</body>
+</html>
