@@ -328,9 +328,10 @@ function showAnswer(q) {
     : "";
 
   if (!$("char-buttons").childElementCount) {
-    for (const clip of q.audio) {
-      if (clip.kind !== "單字本調" || clip.file === q.reference) continue;
-      const label = `單字${clip.register ? `（${clip.register}）` : ""}`;
+    const clips = q.audio.filter((a) => a.kind === "單字本調" && a.file !== q.reference);
+    for (const [i, clip] of clips.entries()) {
+      // 用半形括號縮短按鈕，窄螢幕才排得下；同題有多段且沒有文白標示時加編號
+      const label = `單字${clip.register ? `(${clip.register})` : clips.length > 1 ? i + 1 : ""}`;
       const b = el("button", { type: "button", className: "secondary", textContent: `🔊 ${label}` });
       b.addEventListener("click", () => playClip(clip.file));
       $("char-buttons").append(b);

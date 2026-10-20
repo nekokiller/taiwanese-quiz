@@ -297,6 +297,24 @@ button:disabled {
 
 .question .actions {
   margin-top: 16px;
+  gap: 6px;
+}
+
+/* 窄螢幕（約 360 px 寬的 Android）也要讓按鈕排在同一行 */
+.question .actions button {
+  flex: 1 1 auto;
+  padding: 8px 6px;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+/* 「隱藏讀音」緊跟在「標準發音」後面：單字按鈕多到要換行時，這兩個仍在第一行 */
+.question .actions #toggle-answer {
+  order: 1;
+}
+
+.question .actions #char-buttons > button {
+  order: 2;
 }
 
 #quiz.practice .nav {
