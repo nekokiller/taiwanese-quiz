@@ -3,154 +3,20 @@
     "exam": "信義國小115學年度語文競賽—臺灣台語字音字形（題目引自113年全國語文競賽【國小組】）",
     "audio": "教育部《臺灣台語常用詞辭典》 https://sutian.moe.edu.tw/"
   },
-  "audioBase": "taiwanese-pronunciation-130-mp3/mp3/",
-  "sections": {
-    "字音": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      100
-    ],
-    "字形": [
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81,
-      82,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96,
-      97,
-      98,
-      99,
-      100
-    ]
-  },
+  "audioBase": "taiwanese-pronunciation-200-mp3/mp3/",
   "questions": [
     {
       "id": "A001",
       "section": "字音",
       "no": 1,
+      "paper": "「噪」音",
       "prompt": "噪音",
       "promptNote": null,
       "target": "噪",
       "readings": [
         "tshò"
       ],
+      "uncertain": null,
       "speak": "噪音",
       "speakRomanization": [
         "tshò-im"
@@ -170,6 +36,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -179,6 +46,7 @@
       "id": "A002",
       "section": "字音",
       "no": 2,
+      "paper": "蘭「嶼」",
       "prompt": "蘭嶼",
       "promptNote": null,
       "target": "嶼",
@@ -188,6 +56,7 @@
         "sī",
         "sǐr"
       ],
+      "uncertain": null,
       "speak": "島嶼",
       "speakRomanization": [
         "tó-sū",
@@ -209,6 +78,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": true,
         "readings": [
@@ -222,12 +92,14 @@
       "id": "A003",
       "section": "字音",
       "no": 3,
+      "paper": "花「彔」彔",
       "prompt": "花彔彔",
       "promptNote": null,
       "target": "彔",
       "readings": [
         "lok"
       ],
+      "uncertain": null,
       "speak": "花彔彔",
       "speakRomanization": [
         "hue-lok-lok"
@@ -247,6 +119,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -256,12 +129,14 @@
       "id": "A004",
       "section": "字音",
       "no": 4,
+      "paper": "追「溯」",
       "prompt": "追溯",
       "promptNote": null,
       "target": "溯",
       "readings": [
         "sòo"
       ],
+      "uncertain": null,
       "speak": "追溯",
       "speakRomanization": [
         "tui-sòo"
@@ -281,6 +156,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -290,6 +166,7 @@
       "id": "A005",
       "section": "字音",
       "no": 5,
+      "paper": "慢死「趖」",
       "prompt": "慢死趖",
       "promptNote": null,
       "target": "趖",
@@ -297,6 +174,7 @@
         "sô",
         "sôr"
       ],
+      "uncertain": null,
       "speak": "慢死趖",
       "speakRomanization": [
         "bān-sí-sô"
@@ -327,6 +205,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -338,12 +217,14 @@
       "id": "A006",
       "section": "字音",
       "no": 6,
+      "paper": "「迅」速",
       "prompt": "迅速",
       "promptNote": null,
       "target": "迅",
       "readings": [
         "sìn"
       ],
+      "uncertain": null,
       "speak": "迅速",
       "speakRomanization": [
         "sìn-sok"
@@ -363,6 +244,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -372,12 +254,14 @@
       "id": "A007",
       "section": "字音",
       "no": 7,
+      "paper": "「鋼」琴",
       "prompt": "鋼琴",
       "promptNote": null,
       "target": "鋼",
       "readings": [
         "kǹg"
       ],
+      "uncertain": null,
       "speak": "鋼琴",
       "speakRomanization": [
         "kǹg-khîm"
@@ -408,6 +292,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -417,12 +302,14 @@
       "id": "A008",
       "section": "字音",
       "no": 8,
+      "paper": "閉「思」",
       "prompt": "閉思",
       "promptNote": null,
       "target": "思",
       "readings": [
         "sù"
       ],
+      "uncertain": null,
       "speak": "閉思",
       "speakRomanization": [
         "pì-sù"
@@ -442,6 +329,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -451,12 +339,14 @@
       "id": "A009",
       "section": "字音",
       "no": 9,
+      "paper": "「藃」藃",
       "prompt": "藃藃",
       "promptNote": null,
       "target": "藃",
       "readings": [
         "hiauh"
       ],
+      "uncertain": null,
       "speak": "藃藃",
       "speakRomanization": [
         "hiauh-hiauh"
@@ -487,6 +377,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -496,12 +387,14 @@
       "id": "A010",
       "section": "字音",
       "no": 10,
+      "paper": "佛「龕」",
       "prompt": "佛龕",
       "promptNote": null,
       "target": "龕",
       "readings": [
         "kham"
       ],
+      "uncertain": null,
       "speak": "佛龕",
       "speakRomanization": [
         "pu̍t-kham"
@@ -521,6 +414,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -530,12 +424,14 @@
       "id": "A011",
       "section": "字音",
       "no": 11,
+      "paper": "強「調」",
       "prompt": "強調",
       "promptNote": null,
       "target": "調",
       "readings": [
         "tiāu"
       ],
+      "uncertain": null,
       "speak": "強調",
       "speakRomanization": [
         "kiông-tiāu"
@@ -566,6 +462,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -575,12 +472,14 @@
       "id": "A012",
       "section": "字音",
       "no": 12,
+      "paper": "落「跑」",
       "prompt": "落跑",
       "promptNote": null,
       "target": "跑",
       "readings": [
         "phâu"
       ],
+      "uncertain": null,
       "speak": "落跑",
       "speakRomanization": [
         "làu-phâu"
@@ -600,6 +499,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -609,6 +509,7 @@
       "id": "A013",
       "section": "字音",
       "no": 13,
+      "paper": "坐「禪」",
       "prompt": "坐禪",
       "promptNote": null,
       "target": "禪",
@@ -616,6 +517,7 @@
         "siân",
         "siâm"
       ],
+      "uncertain": null,
       "speak": "坐禪",
       "speakRomanization": [
         "tsē-siân"
@@ -646,6 +548,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -657,12 +560,14 @@
       "id": "A014",
       "section": "字音",
       "no": 14,
+      "paper": "半「老」老",
       "prompt": "半老老",
       "promptNote": null,
       "target": "老",
       "readings": [
         "ló"
       ],
+      "uncertain": null,
       "speak": "半老老",
       "speakRomanization": [
         "puànn-ló-lāu"
@@ -682,6 +587,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -691,12 +597,14 @@
       "id": "A015",
       "section": "字音",
       "no": 15,
+      "paper": "「犀」牛",
       "prompt": "犀牛",
       "promptNote": null,
       "target": "犀",
       "readings": [
         "sai"
       ],
+      "uncertain": null,
       "speak": "犀牛",
       "speakRomanization": [
         "sai-gû"
@@ -716,6 +624,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -725,12 +634,14 @@
       "id": "A016",
       "section": "字音",
       "no": 16,
+      "paper": "「顯」目",
       "prompt": "顯目",
       "promptNote": null,
       "target": "顯",
       "readings": [
         "hiánn"
       ],
+      "uncertain": null,
       "speak": "顯目",
       "speakRomanization": [
         "hiánn-ba̍k"
@@ -761,6 +672,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -770,12 +682,14 @@
       "id": "A017",
       "section": "字音",
       "no": 17,
+      "paper": "上「腳」",
       "prompt": "上腳",
       "promptNote": null,
       "target": "腳",
       "readings": [
         "kioh"
       ],
+      "uncertain": null,
       "speak": "上腳",
       "speakRomanization": [
         "tsiūnn-kioh"
@@ -795,6 +709,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -804,6 +719,7 @@
       "id": "A018",
       "section": "字音",
       "no": 18,
+      "paper": "「舒」被",
       "prompt": "舒被",
       "promptNote": null,
       "target": "舒",
@@ -811,6 +727,7 @@
         "tshu",
         "tshir"
       ],
+      "uncertain": null,
       "speak": "舒被",
       "speakRomanization": [
         "tshu-phuē",
@@ -843,6 +760,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -854,12 +772,14 @@
       "id": "A019",
       "section": "字音",
       "no": 19,
+      "paper": "「臨」臨仔",
       "prompt": "臨臨仔",
       "promptNote": null,
       "target": "臨",
       "readings": [
         "lím"
       ],
+      "uncertain": null,
       "speak": "臨臨仔",
       "speakRomanization": [
         "lím-lím--á"
@@ -890,6 +810,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -899,12 +820,14 @@
       "id": "A020",
       "section": "字音",
       "no": 20,
+      "paper": "齷「齪」",
       "prompt": "齷齪",
       "promptNote": null,
       "target": "齪",
       "readings": [
         "tsak"
       ],
+      "uncertain": null,
       "speak": "齷齪",
       "speakRomanization": [
         "ak-tsak"
@@ -935,6 +858,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -944,12 +868,14 @@
       "id": "A021",
       "section": "字音",
       "no": 21,
+      "paper": "明呼明「唱」",
       "prompt": "明呼明唱",
       "promptNote": null,
       "target": "唱",
       "readings": [
         "tshiàng"
       ],
+      "uncertain": null,
       "speak": "唱",
       "speakRomanization": [
         "tshiàng"
@@ -969,6 +895,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": false,
         "readings": []
@@ -978,6 +905,7 @@
       "id": "A022",
       "section": "字音",
       "no": 22,
+      "paper": "鵁「鴒」",
       "prompt": "鵁鴒",
       "promptNote": null,
       "target": "鴒",
@@ -985,6 +913,7 @@
         "līng",
         "lǐng"
       ],
+      "uncertain": null,
       "speak": "鵁鴒",
       "speakRomanization": [
         "ka-līng"
@@ -1004,6 +933,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": [
@@ -1015,12 +945,14 @@
       "id": "A023",
       "section": "字音",
       "no": 23,
+      "paper": "父「兄」",
       "prompt": "父兄",
       "promptNote": null,
       "target": "兄",
       "readings": [
         "hing"
       ],
+      "uncertain": null,
       "speak": "父兄",
       "speakRomanization": [
         "hū-hing"
@@ -1040,6 +972,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -1049,12 +982,14 @@
       "id": "A024",
       "section": "字音",
       "no": 24,
+      "paper": "惜「略」",
       "prompt": "惜略",
       "promptNote": null,
       "target": "略",
       "readings": [
         "lio̍h"
       ],
+      "uncertain": null,
       "speak": "惜略",
       "speakRomanization": [
         "sioh-lio̍h"
@@ -1074,6 +1009,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -1083,12 +1019,14 @@
       "id": "A025",
       "section": "字音",
       "no": 25,
+      "paper": "「碟」仔",
       "prompt": "碟仔",
       "promptNote": null,
       "target": "碟",
       "readings": [
         "ti̍h"
       ],
+      "uncertain": null,
       "speak": "碟仔",
       "speakRomanization": [
         "ti̍h-á"
@@ -1108,6 +1046,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -1117,12 +1056,14 @@
       "id": "A026",
       "section": "字音",
       "no": 26,
+      "paper": "牛「犅」",
       "prompt": "牛犅",
       "promptNote": null,
       "target": "犅",
       "readings": [
         "káng"
       ],
+      "uncertain": null,
       "speak": "牛犅",
       "speakRomanization": [
         "gû-káng"
@@ -1153,6 +1094,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1162,12 +1104,14 @@
       "id": "A027",
       "section": "字音",
       "no": 27,
+      "paper": "膩「瓤」",
       "prompt": "膩瓤",
       "promptNote": null,
       "target": "瓤",
       "readings": [
         "nn̂g"
       ],
+      "uncertain": null,
       "speak": "膩瓤",
       "speakRomanization": [
         "jī-nn̂g",
@@ -1200,6 +1144,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1209,12 +1154,14 @@
       "id": "A028",
       "section": "字音",
       "no": 28,
+      "paper": "「擛」風",
       "prompt": "擛風",
       "promptNote": null,
       "target": "擛",
       "readings": [
         "ia̍t"
       ],
+      "uncertain": null,
       "speak": "擛風",
       "speakRomanization": [
         "ia̍t-hong"
@@ -1245,6 +1192,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1254,12 +1202,14 @@
       "id": "A029",
       "section": "字音",
       "no": 29,
+      "paper": "「大」端",
       "prompt": "大端",
       "promptNote": null,
       "target": "大",
       "readings": [
         "tāi"
       ],
+      "uncertain": null,
       "speak": "大端",
       "speakRomanization": [
         "tāi-tuan"
@@ -1290,6 +1240,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1299,12 +1250,14 @@
       "id": "A030",
       "section": "字音",
       "no": 30,
+      "paper": "目降鬚「聳」",
       "prompt": "目降鬚聳",
       "promptNote": null,
       "target": "聳",
       "readings": [
         "tshàng"
       ],
+      "uncertain": null,
       "speak": "目降鬚聳",
       "speakRomanization": [
         "ba̍k-kàng-tshiu-tshàng"
@@ -1335,6 +1288,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1344,12 +1298,14 @@
       "id": "A031",
       "section": "字音",
       "no": 31,
+      "paper": "米「糠」",
       "prompt": "米糠",
       "promptNote": null,
       "target": "糠",
       "readings": [
         "khng"
       ],
+      "uncertain": null,
       "speak": "米糠",
       "speakRomanization": [
         "bí-khng"
@@ -1380,6 +1336,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1389,12 +1346,14 @@
       "id": "A032",
       "section": "字音",
       "no": 32,
+      "paper": "「吩」咐",
       "prompt": "吩咐",
       "promptNote": null,
       "target": "吩",
       "readings": [
         "huan"
       ],
+      "uncertain": null,
       "speak": "吩咐",
       "speakRomanization": [
         "huan-hù"
@@ -1414,6 +1373,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -1423,12 +1383,14 @@
       "id": "A033",
       "section": "字音",
       "no": 33,
+      "paper": "「亥」時",
       "prompt": "亥時",
       "promptNote": null,
       "target": "亥",
       "readings": [
         "hāi"
       ],
+      "uncertain": null,
       "speak": "亥",
       "speakRomanization": [
         "hāi"
@@ -1448,6 +1410,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": false,
         "readings": []
@@ -1457,6 +1420,7 @@
       "id": "A034",
       "section": "字音",
       "no": 34,
+      "paper": "桑「椹」",
       "prompt": "桑椹",
       "promptNote": null,
       "target": "椹",
@@ -1464,6 +1428,7 @@
         "suî",
         "suînn"
       ],
+      "uncertain": null,
       "speak": "桑椹",
       "speakRomanization": [
         "sng-suî"
@@ -1483,6 +1448,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": [
@@ -1494,12 +1460,14 @@
       "id": "A035",
       "section": "字音",
       "no": 35,
+      "paper": "下「𦜆」",
       "prompt": "下𦜆",
       "promptNote": null,
       "target": "𦜆",
       "readings": [
         "ham"
       ],
+      "uncertain": null,
       "speak": "下𦜆",
       "speakRomanization": [
         "ē-ham"
@@ -1530,6 +1498,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1539,12 +1508,14 @@
       "id": "A036",
       "section": "字音",
       "no": 36,
+      "paper": "「簾」簷",
       "prompt": "簾簷",
       "promptNote": null,
       "target": "簾",
       "readings": [
         "nî"
       ],
+      "uncertain": null,
       "speak": "簾簷",
       "speakRomanization": [
         "nî-tsînn"
@@ -1564,6 +1535,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -1573,12 +1545,14 @@
       "id": "A037",
       "section": "字音",
       "no": 37,
+      "paper": "匏「桸」",
       "prompt": "匏桸",
       "promptNote": null,
       "target": "桸",
       "readings": [
         "hia"
       ],
+      "uncertain": null,
       "speak": "匏桸",
       "speakRomanization": [
         "pû-hia"
@@ -1609,6 +1583,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1618,12 +1593,14 @@
       "id": "A038",
       "section": "字音",
       "no": 38,
+      "paper": "硬「掙」",
       "prompt": "硬掙",
       "promptNote": null,
       "target": "掙",
       "readings": [
         "tsiānn"
       ],
+      "uncertain": null,
       "speak": "硬掙",
       "speakRomanization": [
         "ngē-tsiānn",
@@ -1645,6 +1622,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -1654,12 +1632,14 @@
       "id": "A039",
       "section": "字音",
       "no": 39,
+      "paper": "得「定」",
       "prompt": "得定",
       "promptNote": null,
       "target": "定",
       "readings": [
         "tiānn"
       ],
+      "uncertain": null,
       "speak": "得定",
       "speakRomanization": [
         "tik-tiānn"
@@ -1690,6 +1670,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1699,6 +1680,7 @@
       "id": "A040",
       "section": "字音",
       "no": 40,
+      "paper": "矮「頓」",
       "prompt": "矮頓",
       "promptNote": null,
       "target": "頓",
@@ -1706,6 +1688,7 @@
         "tǹg",
         "tuìnn"
       ],
+      "uncertain": null,
       "speak": "矮頓",
       "speakRomanization": [
         "é-tǹg",
@@ -1738,6 +1721,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -1749,12 +1733,14 @@
       "id": "A041",
       "section": "字音",
       "no": 41,
+      "paper": "生「癬」",
       "prompt": "生癬",
       "promptNote": null,
       "target": "癬",
       "readings": [
         "sián"
       ],
+      "uncertain": null,
       "speak": "生癬",
       "speakRomanization": [
         "senn sián",
@@ -1787,6 +1773,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1796,12 +1783,14 @@
       "id": "A042",
       "section": "字音",
       "no": 42,
+      "paper": "操「勞」",
       "prompt": "操勞",
       "promptNote": null,
       "target": "勞",
       "readings": [
         "lô"
       ],
+      "uncertain": null,
       "speak": "操勞",
       "speakRomanization": [
         "tshau-lô"
@@ -1832,6 +1821,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1841,12 +1831,14 @@
       "id": "A043",
       "section": "字音",
       "no": 43,
+      "paper": "種「作」",
       "prompt": "種作",
       "promptNote": null,
       "target": "作",
       "readings": [
         "tsoh"
       ],
+      "uncertain": null,
       "speak": "種作",
       "speakRomanization": [
         "tsìng-tsoh"
@@ -1877,6 +1869,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -1886,12 +1879,14 @@
       "id": "A044",
       "section": "字音",
       "no": 44,
+      "paper": "反「駁」",
       "prompt": "反駁",
       "promptNote": null,
       "target": "駁",
       "readings": [
         "pok"
       ],
+      "uncertain": null,
       "speak": "反駁",
       "speakRomanization": [
         "huán-pok"
@@ -1911,6 +1906,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -1920,12 +1916,14 @@
       "id": "A045",
       "section": "字音",
       "no": 45,
+      "paper": "作「孽」",
       "prompt": "作孽",
       "promptNote": null,
       "target": "孽",
       "readings": [
         "gia̍t"
       ],
+      "uncertain": null,
       "speak": "作孽",
       "speakRomanization": [
         "tsok-gia̍t"
@@ -1945,6 +1943,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -1954,12 +1953,14 @@
       "id": "A046",
       "section": "字音",
       "no": 46,
+      "paper": "「滸」苔",
       "prompt": "滸苔",
       "promptNote": null,
       "target": "滸",
       "readings": [
         "hóo"
       ],
+      "uncertain": null,
       "speak": "滸苔",
       "speakRomanization": [
         "hóo-thî"
@@ -1979,6 +1980,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -1988,12 +1990,14 @@
       "id": "A047",
       "section": "字音",
       "no": 47,
+      "paper": "墨「賊」仔",
       "prompt": "墨賊仔",
       "promptNote": null,
       "target": "賊",
       "readings": [
         "tsa̍t"
       ],
+      "uncertain": null,
       "speak": "墨賊仔",
       "speakRomanization": [
         "ba̍k-tsa̍t-á"
@@ -2013,6 +2017,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -2022,6 +2027,7 @@
       "id": "A048",
       "section": "字音",
       "no": 48,
+      "paper": "食甲真「飫」",
       "prompt": "食甲真飫",
       "promptNote": null,
       "target": "飫",
@@ -2029,6 +2035,7 @@
         "uì",
         "ìr"
       ],
+      "uncertain": null,
       "speak": "飫",
       "speakRomanization": [
         "uì"
@@ -2048,6 +2055,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": false,
         "readings": [
@@ -2059,12 +2067,14 @@
       "id": "A049",
       "section": "字音",
       "no": 49,
+      "paper": "拍交「落」",
       "prompt": "拍交落",
       "promptNote": null,
       "target": "落",
       "readings": [
         "la̍uh"
       ],
+      "uncertain": null,
       "speak": "拍交落",
       "speakRomanization": [
         "phah-ka-la̍uh"
@@ -2084,6 +2094,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -2093,12 +2104,14 @@
       "id": "A050",
       "section": "字音",
       "no": 50,
+      "paper": "打「揲」",
       "prompt": "打揲",
       "promptNote": null,
       "target": "揲",
       "readings": [
         "tia̍p"
       ],
+      "uncertain": null,
       "speak": "打揲",
       "speakRomanization": [
         "tánn-tia̍p"
@@ -2129,6 +2142,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2138,12 +2152,14 @@
       "id": "A051",
       "section": "字音",
       "no": 51,
+      "paper": "「看」護婦",
       "prompt": "看護婦",
       "promptNote": null,
       "target": "看",
       "readings": [
         "khàn"
       ],
+      "uncertain": null,
       "speak": "看護婦",
       "speakRomanization": [
         "khàn-hōo-hū"
@@ -2174,6 +2190,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2183,12 +2200,14 @@
       "id": "A052",
       "section": "字音",
       "no": 52,
+      "paper": "「沓」沓滴滴",
       "prompt": "沓沓滴滴",
       "promptNote": null,
       "target": "沓",
       "readings": [
         "ta̍p"
       ],
+      "uncertain": null,
       "speak": "沓沓滴滴",
       "speakRomanization": [
         "ta̍p-ta̍p-tih-tih"
@@ -2208,6 +2227,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -2217,12 +2237,14 @@
       "id": "A053",
       "section": "字音",
       "no": 53,
+      "paper": "焦「蔫」",
       "prompt": "焦蔫",
       "promptNote": null,
       "target": "蔫",
       "readings": [
         "lian"
       ],
+      "uncertain": null,
       "speak": "焦蔫",
       "speakRomanization": [
         "ta-lian"
@@ -2253,6 +2275,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2262,12 +2285,14 @@
       "id": "A054",
       "section": "字音",
       "no": 54,
+      "paper": "「癰」仔",
       "prompt": "癰仔",
       "promptNote": null,
       "target": "癰",
       "readings": [
         "ing"
       ],
+      "uncertain": null,
       "speak": "癰仔",
       "speakRomanization": [
         "ing-á"
@@ -2298,6 +2323,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2307,12 +2333,14 @@
       "id": "A055",
       "section": "字音",
       "no": 55,
+      "paper": "水「崩」山",
       "prompt": "水崩山",
       "promptNote": null,
       "target": "崩",
       "readings": [
         "pang"
       ],
+      "uncertain": null,
       "speak": "水崩山",
       "speakRomanization": [
         "tsuí-pang-suann"
@@ -2343,6 +2371,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2352,12 +2381,14 @@
       "id": "A056",
       "section": "字音",
       "no": 56,
+      "paper": "訪「查」",
       "prompt": "訪查",
       "promptNote": null,
       "target": "查",
       "readings": [
         "tsa"
       ],
+      "uncertain": null,
       "speak": "訪查",
       "speakRomanization": [
         "hóng-tsa"
@@ -2377,6 +2408,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -2386,6 +2418,7 @@
       "id": "A057",
       "section": "字音",
       "no": 57,
+      "paper": "「熁」燒",
       "prompt": "熁燒",
       "promptNote": null,
       "target": "熁",
@@ -2393,6 +2426,7 @@
         "hannh",
         "hah"
       ],
+      "uncertain": null,
       "speak": "熁",
       "speakRomanization": [
         "hannh"
@@ -2412,6 +2446,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": false,
         "readings": [
@@ -2423,12 +2458,14 @@
       "id": "A058",
       "section": "字音",
       "no": 58,
+      "paper": "「存」後步",
       "prompt": "存後步",
       "promptNote": null,
       "target": "存",
       "readings": [
         "tshûn"
       ],
+      "uncertain": null,
       "speak": "存後步",
       "speakRomanization": [
         "tshûn-āu-pōo"
@@ -2448,6 +2485,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -2457,12 +2495,14 @@
       "id": "A059",
       "section": "字音",
       "no": 59,
+      "paper": "興「衰」",
       "prompt": "興衰",
       "promptNote": null,
       "target": "衰",
       "readings": [
         "sue"
       ],
+      "uncertain": null,
       "speak": "興衰",
       "speakRomanization": [
         "hing-sue"
@@ -2493,6 +2533,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2502,12 +2543,14 @@
       "id": "A060",
       "section": "字音",
       "no": 60,
+      "paper": "名「譽」",
       "prompt": "名譽",
       "promptNote": null,
       "target": "譽",
       "readings": [
         "ū"
       ],
+      "uncertain": null,
       "speak": "名譽",
       "speakRomanization": [
         "bîng-ū"
@@ -2527,6 +2570,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -2536,6 +2580,7 @@
       "id": "A061",
       "section": "字音",
       "no": 61,
+      "paper": "米糕「𣻸」",
       "prompt": "米糕𣻸",
       "promptNote": null,
       "target": "𣻸",
@@ -2543,6 +2588,7 @@
         "siûnn",
         "siônn"
       ],
+      "uncertain": null,
       "speak": "米糕𣻸",
       "speakRomanization": [
         "bí-ko-siûnn"
@@ -2573,6 +2619,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -2584,12 +2631,14 @@
       "id": "A062",
       "section": "字音",
       "no": 62,
+      "paper": "「𫝻」手機仔",
       "prompt": "𫝻手機仔",
       "promptNote": null,
       "target": "𫝻",
       "readings": [
         "huê"
       ],
+      "uncertain": null,
       "speak": "𫝻",
       "speakRomanization": [
         "huê"
@@ -2609,6 +2658,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": false,
         "readings": []
@@ -2618,6 +2668,7 @@
       "id": "A063",
       "section": "字音",
       "no": 63,
+      "paper": "洗「汰」",
       "prompt": "洗汰",
       "promptNote": null,
       "target": "汰",
@@ -2625,6 +2676,7 @@
         "thuā",
         "thuǎ"
       ],
+      "uncertain": null,
       "speak": "洗汰",
       "speakRomanization": [
         "sé-thuā",
@@ -2657,6 +2709,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -2668,12 +2721,14 @@
       "id": "A064",
       "section": "字音",
       "no": 64,
+      "paper": "下「水」湯",
       "prompt": "下水湯",
       "promptNote": null,
       "target": "水",
       "readings": [
         "suí"
       ],
+      "uncertain": null,
       "speak": "下水湯",
       "speakRomanization": [
         "hā-suí-thng"
@@ -2704,6 +2759,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2713,12 +2769,14 @@
       "id": "A065",
       "section": "字音",
       "no": 65,
+      "paper": "「嚓」嚓趒",
       "prompt": "嚓嚓趒",
       "promptNote": null,
       "target": "嚓",
       "readings": [
         "tshia̍k"
       ],
+      "uncertain": null,
       "speak": "嚓嚓趒",
       "speakRomanization": [
         "tshia̍k-tshia̍k-tiô"
@@ -2749,6 +2807,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2758,6 +2817,7 @@
       "id": "A066",
       "section": "字音",
       "no": 66,
+      "paper": "鐵「撬」",
       "prompt": "鐵撬",
       "promptNote": null,
       "target": "撬",
@@ -2765,6 +2825,7 @@
         "kiāu",
         "kiǎu"
       ],
+      "uncertain": null,
       "speak": "鐵撬",
       "speakRomanization": [
         "thih-kiāu"
@@ -2795,6 +2856,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -2806,12 +2868,14 @@
       "id": "A067",
       "section": "字音",
       "no": 67,
+      "paper": "花「鮡」",
       "prompt": "花鮡",
       "promptNote": null,
       "target": "鮡",
       "readings": [
         "thiâu"
       ],
+      "uncertain": null,
       "speak": "花鮡",
       "speakRomanization": [
         "hue-thiâu"
@@ -2831,6 +2895,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -2840,12 +2905,14 @@
       "id": "A068",
       "section": "字音",
       "no": 68,
+      "paper": "嘔「紅」",
       "prompt": "嘔紅",
       "promptNote": null,
       "target": "紅",
       "readings": [
         "hông"
       ],
+      "uncertain": null,
       "speak": "嘔紅",
       "speakRomanization": [
         "áu-hông"
@@ -2876,6 +2943,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2885,12 +2953,14 @@
       "id": "A069",
       "section": "字音",
       "no": 69,
+      "paper": "「傑」作",
       "prompt": "傑作",
       "promptNote": null,
       "target": "傑",
       "readings": [
         "kia̍t"
       ],
+      "uncertain": null,
       "speak": "傑作",
       "speakRomanization": [
         "kia̍t-tsok"
@@ -2910,6 +2980,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -2919,12 +2990,14 @@
       "id": "A070",
       "section": "字音",
       "no": 70,
+      "paper": "鋸屑「烌」",
       "prompt": "鋸屑烌",
       "promptNote": null,
       "target": "烌",
       "readings": [
         "hu"
       ],
+      "uncertain": null,
       "speak": "鋸屑烌",
       "speakRomanization": [
         "kì-sut-hu",
@@ -2957,6 +3030,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -2966,12 +3040,14 @@
       "id": "A071",
       "section": "字音",
       "no": 71,
+      "paper": "海「拔」",
       "prompt": "海拔",
       "promptNote": null,
       "target": "拔",
       "readings": [
         "pua̍t"
       ],
+      "uncertain": null,
       "speak": "海拔",
       "speakRomanization": [
         "hái-pua̍t"
@@ -2991,6 +3067,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -3000,12 +3077,14 @@
       "id": "A072",
       "section": "字音",
       "no": 72,
+      "paper": "損「蕩」",
       "prompt": "損蕩",
       "promptNote": null,
       "target": "蕩",
       "readings": [
         "tn̄g"
       ],
+      "uncertain": null,
       "speak": "損蕩",
       "speakRomanization": [
         "sńg-tn̄g"
@@ -3025,6 +3104,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -3034,12 +3114,14 @@
       "id": "A073",
       "section": "字音",
       "no": 73,
+      "paper": "油「脂」",
       "prompt": "油脂",
       "promptNote": null,
       "target": "脂",
       "readings": [
         "tsi"
       ],
+      "uncertain": null,
       "speak": "油脂",
       "speakRomanization": [
         "iû-tsi"
@@ -3059,6 +3141,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -3068,12 +3151,14 @@
       "id": "A074",
       "section": "字音",
       "no": 74,
+      "paper": "「慷」慨",
       "prompt": "慷慨",
       "promptNote": null,
       "target": "慷",
       "readings": [
         "khóng"
       ],
+      "uncertain": null,
       "speak": "慷慨",
       "speakRomanization": [
         "khóng-khài"
@@ -3093,6 +3178,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -3102,12 +3188,14 @@
       "id": "A075",
       "section": "字音",
       "no": 75,
+      "paper": "「接」接",
       "prompt": "接接",
       "promptNote": null,
       "target": "接",
       "readings": [
         "tsih"
       ],
+      "uncertain": null,
       "speak": "接接",
       "speakRomanization": [
         "tsih-tsiap"
@@ -3138,6 +3226,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3147,12 +3236,14 @@
       "id": "A076",
       "section": "字音",
       "no": 76,
+      "paper": "「落」杓",
       "prompt": "落杓",
       "promptNote": null,
       "target": "落",
       "readings": [
         "làu"
       ],
+      "uncertain": null,
       "speak": "落杓",
       "speakRomanization": [
         "làu-sia̍h"
@@ -3183,6 +3274,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3192,12 +3284,14 @@
       "id": "A077",
       "section": "字音",
       "no": 77,
+      "paper": "「哼」哼叫",
       "prompt": "哼哼叫",
       "promptNote": null,
       "target": "哼",
       "readings": [
         "hainn"
       ],
+      "uncertain": null,
       "speak": "哼哼叫",
       "speakRomanization": [
         "hainn-hainn-kiò"
@@ -3228,6 +3322,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3237,6 +3332,7 @@
       "id": "A078",
       "section": "字音",
       "no": 78,
+      "paper": "「串」仔",
       "prompt": "串仔",
       "promptNote": null,
       "target": "串",
@@ -3244,6 +3340,7 @@
         "tshǹg",
         "tshuàn"
       ],
+      "uncertain": null,
       "speak": "串仔",
       "speakRomanization": [
         "tshǹg-á"
@@ -3285,6 +3382,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3294,6 +3392,7 @@
       "id": "A079",
       "section": "字音",
       "no": 79,
+      "paper": "相「楗」",
       "prompt": "相楗",
       "promptNote": null,
       "target": "楗",
@@ -3302,6 +3401,7 @@
         "kǐng",
         "kān"
       ],
+      "uncertain": null,
       "speak": "相楗",
       "speakRomanization": [
         "sio-kīng"
@@ -3332,6 +3432,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -3344,12 +3445,14 @@
       "id": "A080",
       "section": "字音",
       "no": 80,
+      "paper": "花「眉」",
       "prompt": "花眉",
       "promptNote": null,
       "target": "眉",
       "readings": [
         "bî"
       ],
+      "uncertain": null,
       "speak": "花眉",
       "speakRomanization": [
         "hue-bî"
@@ -3380,6 +3483,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3389,6 +3493,7 @@
       "id": "A081",
       "section": "字音",
       "no": 81,
+      "paper": "豆「粕」",
       "prompt": "豆粕",
       "promptNote": null,
       "target": "粕",
@@ -3396,6 +3501,7 @@
         "phoh",
         "phorh"
       ],
+      "uncertain": null,
       "speak": "豆粕",
       "speakRomanization": [
         "tāu-phoh"
@@ -3426,6 +3532,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -3437,12 +3544,14 @@
       "id": "A082",
       "section": "字音",
       "no": 82,
+      "paper": "空「隙」",
       "prompt": "空隙",
       "promptNote": null,
       "target": "隙",
       "readings": [
         "khiah"
       ],
+      "uncertain": null,
       "speak": "空隙",
       "speakRomanization": [
         "khang-khiah"
@@ -3473,6 +3582,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3482,12 +3592,14 @@
       "id": "A083",
       "section": "字音",
       "no": 83,
+      "paper": "消「磨」",
       "prompt": "消磨",
       "promptNote": null,
       "target": "磨",
       "readings": [
         "môo"
       ],
+      "uncertain": null,
       "speak": "消磨",
       "speakRomanization": [
         "siau-môo"
@@ -3507,6 +3619,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -3516,12 +3629,14 @@
       "id": "A084",
       "section": "字音",
       "no": 84,
+      "paper": "「眵」目",
       "prompt": "眵目",
       "promptNote": null,
       "target": "眵",
       "readings": [
         "tshuh"
       ],
+      "uncertain": null,
       "speak": "眵目",
       "speakRomanization": [
         "tshuh-ba̍k"
@@ -3552,6 +3667,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3561,6 +3677,7 @@
       "id": "A085",
       "section": "字音",
       "no": 85,
+      "paper": "狗「𩸶」仔",
       "prompt": "狗𩸶仔",
       "promptNote": null,
       "target": "𩸶",
@@ -3568,6 +3685,7 @@
         "gām",
         "kām"
       ],
+      "uncertain": null,
       "speak": "狗𩸶仔",
       "speakRomanization": [
         "káu-gām-á"
@@ -3587,6 +3705,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": [
@@ -3598,12 +3717,14 @@
       "id": "A086",
       "section": "字音",
       "no": 86,
+      "paper": "解「散」",
       "prompt": "解散",
       "promptNote": null,
       "target": "散",
       "readings": [
         "sàn"
       ],
+      "uncertain": null,
       "speak": "解散",
       "speakRomanization": [
         "kái-sàn"
@@ -3634,6 +3755,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3643,6 +3765,7 @@
       "id": "A087",
       "section": "字音",
       "no": 87,
+      "paper": "蝦「膎」",
       "prompt": "蝦膎",
       "promptNote": null,
       "target": "膎",
@@ -3651,6 +3774,7 @@
         "kuê",
         "kerê"
       ],
+      "uncertain": null,
       "speak": "蝦膎",
       "speakRomanization": [
         "hê-kê",
@@ -3672,6 +3796,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": [
@@ -3683,6 +3808,7 @@
       "id": "A088",
       "section": "字音",
       "no": 88,
+      "paper": "「象」桮",
       "prompt": "象桮",
       "promptNote": null,
       "target": "象",
@@ -3691,6 +3817,7 @@
         "sīn",
         "siōnn"
       ],
+      "uncertain": null,
       "speak": "象桮",
       "speakRomanization": [
         "siūnn-pue"
@@ -3710,6 +3837,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": [
@@ -3722,12 +3850,14 @@
       "id": "A089",
       "section": "字音",
       "no": 89,
+      "paper": "「繏」嚨喉",
       "prompt": "繏嚨喉",
       "promptNote": null,
       "target": "繏",
       "readings": [
         "sǹg"
       ],
+      "uncertain": null,
       "speak": "繏嚨喉",
       "speakRomanization": [
         "sǹg nâ-âu"
@@ -3758,6 +3888,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3767,12 +3898,14 @@
       "id": "A090",
       "section": "字音",
       "no": 90,
+      "paper": "司公「鈃」",
       "prompt": "司公鈃",
       "promptNote": null,
       "target": "鈃",
       "readings": [
         "giang"
       ],
+      "uncertain": null,
       "speak": "司公鈃",
       "speakRomanization": [
         "sai-kong-giang"
@@ -3803,6 +3936,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3812,12 +3946,14 @@
       "id": "A091",
       "section": "字音",
       "no": 91,
+      "paper": "「灇」水",
       "prompt": "灇水",
       "promptNote": null,
       "target": "灇",
       "readings": [
         "tsâng"
       ],
+      "uncertain": null,
       "speak": "灇水",
       "speakRomanization": [
         "tsâng-tsuí"
@@ -3848,6 +3984,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3857,12 +3994,14 @@
       "id": "A092",
       "section": "字音",
       "no": 92,
+      "paper": "高「長」",
       "prompt": "高長",
       "promptNote": null,
       "target": "長",
       "readings": [
         "tshiâng"
       ],
+      "uncertain": null,
       "speak": "高長",
       "speakRomanization": [
         "kau-tshiâng"
@@ -3882,6 +4021,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -3891,12 +4031,14 @@
       "id": "A093",
       "section": "字音",
       "no": 93,
+      "paper": "「綿」延",
       "prompt": "綿延",
       "promptNote": null,
       "target": "綿",
       "readings": [
         "biân"
       ],
+      "uncertain": null,
       "speak": "綿延",
       "speakRomanization": [
         "biân-iân"
@@ -3916,6 +4058,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -3925,12 +4068,14 @@
       "id": "A094",
       "section": "字音",
       "no": 94,
+      "paper": "「斜」角",
       "prompt": "斜角",
       "promptNote": null,
       "target": "斜",
       "readings": [
         "tshua̍h"
       ],
+      "uncertain": null,
       "speak": "斜角",
       "speakRomanization": [
         "tshua̍h-kak"
@@ -3961,6 +4106,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -3970,12 +4116,14 @@
       "id": "A095",
       "section": "字音",
       "no": 95,
+      "paper": "四界「遹」",
       "prompt": "四界遹",
       "promptNote": null,
       "target": "遹",
       "readings": [
         "u̍t"
       ],
+      "uncertain": null,
       "speak": "遹",
       "speakRomanization": [
         "u̍t"
@@ -3995,6 +4143,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": false,
         "readings": []
@@ -4004,12 +4153,14 @@
       "id": "A096",
       "section": "字音",
       "no": 96,
+      "paper": "「挩」門",
       "prompt": "挩門",
       "promptNote": null,
       "target": "挩",
       "readings": [
         "thuah"
       ],
+      "uncertain": null,
       "speak": "挩門",
       "speakRomanization": [
         "thuah-mn̂g"
@@ -4040,6 +4191,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4049,12 +4201,14 @@
       "id": "A097",
       "section": "字音",
       "no": 97,
+      "paper": "「溼」度",
       "prompt": "溼度",
       "promptNote": null,
       "target": "溼",
       "readings": [
         "sip"
       ],
+      "uncertain": null,
       "speak": "溼度",
       "speakRomanization": [
         "sip-tōo"
@@ -4085,6 +4239,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4094,12 +4249,14 @@
       "id": "A098",
       "section": "字音",
       "no": 98,
+      "paper": "「懵」膽",
       "prompt": "懵膽",
       "promptNote": null,
       "target": "懵",
       "readings": [
         "bòng"
       ],
+      "uncertain": null,
       "speak": "懵膽",
       "speakRomanization": [
         "bòng-tánn"
@@ -4119,6 +4276,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -4128,12 +4286,14 @@
       "id": "A099",
       "section": "字音",
       "no": 99,
+      "paper": "反「種」",
       "prompt": "反種",
       "promptNote": null,
       "target": "種",
       "readings": [
         "tsíng"
       ],
+      "uncertain": null,
       "speak": "反種",
       "speakRomanization": [
         "huán-tsíng"
@@ -4164,6 +4324,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4173,12 +4334,14 @@
       "id": "A100",
       "section": "字音",
       "no": 100,
+      "paper": "暗「行」",
       "prompt": "暗行",
       "promptNote": null,
       "target": "行",
       "readings": [
         "hīng"
       ],
+      "uncertain": null,
       "speak": "暗行",
       "speakRomanization": [
         "àm-hīng"
@@ -4209,6 +4372,3034 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B001",
+      "section": "字形",
+      "no": 1,
+      "paper": "「bua̍h」-bua̍h",
+      "prompt": "末末",
+      "promptNote": null,
+      "target": "末",
+      "readings": [
+        "bua̍h"
+      ],
+      "uncertain": null,
+      "speak": "末末",
+      "speakRomanization": [
+        "bua̍h-bua̍h"
+      ],
+      "reference": "B001_1_末末.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "末末",
+          "romanization": [
+            "bua̍h-bua̍h"
+          ],
+          "register": null,
+          "file": "B001_1_末末.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/1/1691.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/1691/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B002",
+      "section": "字形",
+      "no": 2,
+      "paper": "「ànn」-io",
+      "prompt": "向腰",
+      "promptNote": null,
+      "target": "向",
+      "readings": [
+        "ànn"
+      ],
+      "uncertain": null,
+      "speak": "向腰",
+      "speakRomanization": [
+        "ànn-io"
+      ],
+      "reference": "B002_2_向腰.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "向",
+          "romanization": [
+            "ànn"
+          ],
+          "register": null,
+          "file": "B002_1_向.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2120.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2120/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "向腰",
+          "romanization": [
+            "ànn-io"
+          ],
+          "register": null,
+          "file": "B002_2_向腰.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2233.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2233/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B003",
+      "section": "字形",
+      "no": 3,
+      "paper": "「tè」-ám",
+      "prompt": "渧",
+      "promptNote": "tè-ám",
+      "target": "渧",
+      "readings": [
+        "tè"
+      ],
+      "uncertain": null,
+      "speak": "渧",
+      "speakRomanization": [
+        "tè"
+      ],
+      "reference": "B003_1_渧.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "渧",
+          "romanization": [
+            "tè"
+          ],
+          "register": null,
+          "file": "B003_1_渧.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8526.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8526/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B004",
+      "section": "字形",
+      "no": 4,
+      "paper": "tuā-khoo-「pé」",
+      "prompt": "大箍把",
+      "promptNote": null,
+      "target": "把",
+      "readings": [
+        "pé"
+      ],
+      "uncertain": null,
+      "speak": "大箍把",
+      "speakRomanization": [
+        "tuā-khoo-pé"
+      ],
+      "reference": "B004_2_大箍把.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "把",
+          "romanization": [
+            "pé"
+          ],
+          "register": "白",
+          "file": "B004_1_把.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3200.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3200/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "大箍把",
+          "romanization": [
+            "tuā-khoo-pé"
+          ],
+          "register": null,
+          "file": "B004_2_大箍把.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/4H/3Y/284011.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/28401/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B005",
+      "section": "字形",
+      "no": 5,
+      "paper": "oo-pe̍h 「tsō」",
+      "prompt": "皂",
+      "promptNote": "oo-pe̍h tsō",
+      "target": "皂",
+      "readings": [
+        "tsō"
+      ],
+      "uncertain": null,
+      "speak": "皂",
+      "speakRomanization": [
+        "tsō"
+      ],
+      "reference": "B005_1_皂.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "皂",
+          "romanization": [
+            "tsō"
+          ],
+          "register": null,
+          "file": "B005_1_皂.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3335.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3335/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B006",
+      "section": "字形",
+      "no": 6,
+      "paper": "「tènn/tìnn」-m̄-tsai",
+      "prompt": "佯毋知",
+      "promptNote": null,
+      "target": "佯",
+      "readings": [
+        "tènn",
+        "tìnn"
+      ],
+      "uncertain": null,
+      "speak": "佯毋知",
+      "speakRomanization": [
+        "tènn-m̄-tsai",
+        "tìnn-m̄-tsai"
+      ],
+      "reference": "B006_1_佯毋知.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "佯毋知",
+          "romanization": [
+            "tènn-m̄-tsai",
+            "tìnn-m̄-tsai"
+          ],
+          "register": null,
+          "file": "B006_1_佯毋知.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3534.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3534/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B007",
+      "section": "字形",
+      "no": 7,
+      "paper": "「king」-thé/thué",
+      "prompt": "供體",
+      "promptNote": null,
+      "target": "供",
+      "readings": [
+        "king"
+      ],
+      "uncertain": null,
+      "speak": "供體",
+      "speakRomanization": [
+        "king-thé",
+        "king-thué"
+      ],
+      "reference": "B007_2_供體.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "供",
+          "romanization": [
+            "king"
+          ],
+          "register": "白",
+          "file": "B007_1_供.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3531.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3531/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "供體",
+          "romanization": [
+            "king-thé",
+            "king-thué"
+          ],
+          "register": null,
+          "file": "B007_2_供體.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3578.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3578/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B008",
+      "section": "字形",
+      "no": 8,
+      "paper": "「tshì」-pho",
+      "prompt": "刺波",
+      "promptNote": null,
+      "target": "刺",
+      "readings": [
+        "tshì"
+      ],
+      "uncertain": null,
+      "speak": "刺波",
+      "speakRomanization": [
+        "tshì-pho"
+      ],
+      "reference": "B008_2_刺波.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "刺",
+          "romanization": [
+            "tshì"
+          ],
+          "register": null,
+          "file": "B008_1_刺.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3596.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3596/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "刺波",
+          "romanization": [
+            "tshì-pho"
+          ],
+          "register": null,
+          "file": "B008_2_刺波.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3645.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3645/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B009",
+      "section": "字形",
+      "no": 9,
+      "paper": "「hô」-tsê/tsuê/tserê",
+      "prompt": "和齊",
+      "promptNote": null,
+      "target": "和",
+      "readings": [
+        "hô"
+      ],
+      "uncertain": null,
+      "speak": "和齊",
+      "speakRomanization": [
+        "hô-tsê",
+        "hô-tsuê"
+      ],
+      "reference": "B009_2_和齊.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "和",
+          "romanization": [
+            "hô"
+          ],
+          "register": "文",
+          "file": "B009_1_和.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3698.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3698/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "和齊",
+          "romanization": [
+            "hô-tsê",
+            "hô-tsuê"
+          ],
+          "register": null,
+          "file": "B009_2_和齊.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14079.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14079/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B010",
+      "section": "字形",
+      "no": 10,
+      "paper": "sai-「khia」",
+      "prompt": "私奇",
+      "promptNote": null,
+      "target": "奇",
+      "readings": [
+        "khia"
+      ],
+      "uncertain": null,
+      "speak": "私奇",
+      "speakRomanization": [
+        "sai-khia"
+      ],
+      "reference": "B010_2_私奇.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "奇",
+          "romanization": [
+            "khia"
+          ],
+          "register": "白",
+          "file": "B010_1_奇.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3758.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3758/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "私奇",
+          "romanization": [
+            "sai-khia"
+          ],
+          "register": null,
+          "file": "B010_2_私奇.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3364.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3364/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B011",
+      "section": "字形",
+      "no": 11,
+      "paper": "tuā-thâu-「bú/bó」",
+      "prompt": "大頭拇",
+      "promptNote": null,
+      "target": "拇",
+      "readings": [
+        "bú",
+        "bó"
+      ],
+      "uncertain": null,
+      "speak": "大頭拇",
+      "speakRomanization": [
+        "tuā-thâu-bú"
+      ],
+      "reference": "B011_1_大頭拇.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "大頭拇",
+          "romanization": [
+            "tuā-thâu-bú"
+          ],
+          "register": null,
+          "file": "B011_1_大頭拇.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/0/536.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/536/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "bó"
+        ]
+      }
+    },
+    {
+      "id": "B012",
+      "section": "字形",
+      "no": 12,
+      "paper": "「pha」-tiānn",
+      "prompt": "拋碇",
+      "promptNote": null,
+      "target": "拋",
+      "readings": [
+        "pha"
+      ],
+      "uncertain": null,
+      "speak": "拋碇",
+      "speakRomanization": [
+        "pha-tiānn"
+      ],
+      "reference": "B012_2_拋碇.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "拋",
+          "romanization": [
+            "pha"
+          ],
+          "register": "白",
+          "file": "B012_1_拋.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3953.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3953/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "拋碇",
+          "romanization": [
+            "pha-tiānn"
+          ],
+          "register": null,
+          "file": "B012_2_拋碇.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4123.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4123/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B013",
+      "section": "字形",
+      "no": 13,
+      "paper": "「hūn」-bê",
+      "prompt": "昏迷",
+      "promptNote": null,
+      "target": "昏",
+      "readings": [
+        "hūn"
+      ],
+      "uncertain": null,
+      "speak": "昏迷",
+      "speakRomanization": [
+        "hūn-bê"
+      ],
+      "reference": "B013_2_昏迷.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "昏",
+          "romanization": [
+            "hūn"
+          ],
+          "register": null,
+          "file": "B013_1_昏.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4183.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4183/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "昏迷",
+          "romanization": [
+            "hūn-bê"
+          ],
+          "register": null,
+          "file": "B013_2_昏迷.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4229.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4229/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B014",
+      "section": "字形",
+      "no": 14,
+      "paper": "ka-「ia̍h」",
+      "prompt": "交易",
+      "promptNote": null,
+      "target": "易",
+      "readings": [
+        "ia̍h"
+      ],
+      "uncertain": null,
+      "speak": "交易",
+      "speakRomanization": [
+        "ka-ia̍h"
+      ],
+      "reference": "B014_1_交易.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "交易",
+          "romanization": [
+            "ka-ia̍h"
+          ],
+          "register": null,
+          "file": "B014_1_交易.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2065.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2065/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B015",
+      "section": "字形",
+      "no": 15,
+      "paper": "tsǹg/tshǹg-tsuí-「bī」",
+      "prompt": "鑽水沬",
+      "promptNote": null,
+      "target": "沬",
+      "readings": [
+        "bī"
+      ],
+      "uncertain": null,
+      "speak": "鑽水沬",
+      "speakRomanization": [
+        "tsǹg-tsuí-bī"
+      ],
+      "reference": "B015_2_鑽水沬.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "沬",
+          "romanization": [
+            "bī"
+          ],
+          "register": null,
+          "file": "B015_1_沬.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4252.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4252/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "鑽水沬",
+          "romanization": [
+            "tsǹg-tsuí-bī"
+          ],
+          "register": null,
+          "file": "B015_2_鑽水沬.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14561.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14561/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B016",
+      "section": "字形",
+      "no": 16,
+      "paper": "hun-「pì」",
+      "prompt": "分泌",
+      "promptNote": null,
+      "target": "泌",
+      "readings": [
+        "pì"
+      ],
+      "uncertain": null,
+      "speak": "分泌",
+      "speakRomanization": [
+        "hun-pì"
+      ],
+      "reference": "B016_1_分泌.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "分泌",
+          "romanization": [
+            "hun-pì"
+          ],
+          "register": null,
+          "file": "B016_1_分泌.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/23/23000.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/23000/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B017",
+      "section": "字形",
+      "no": 17,
+      "paper": "「pó」-niá",
+      "prompt": "保領",
+      "promptNote": null,
+      "target": "保",
+      "readings": [
+        "pó"
+      ],
+      "uncertain": null,
+      "speak": "保領",
+      "speakRomanization": [
+        "pó-niá"
+      ],
+      "reference": "B017_2_保領.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "保",
+          "romanization": [
+            "pó"
+          ],
+          "register": null,
+          "file": "B017_1_保.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4691.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4691/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "保領",
+          "romanization": [
+            "pó-niá"
+          ],
+          "register": null,
+          "file": "B017_2_保領.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14126.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14126/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B018",
+      "section": "字形",
+      "no": 18,
+      "paper": "「tōo」-tsiam",
+      "prompt": "度針",
+      "promptNote": null,
+      "target": "度",
+      "readings": [
+        "tōo"
+      ],
+      "uncertain": null,
+      "speak": "度針",
+      "speakRomanization": [
+        "tōo-tsiam"
+      ],
+      "reference": "B018_2_度針.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "度",
+          "romanization": [
+            "tōo"
+          ],
+          "register": null,
+          "file": "B018_1_度.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4859.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4859/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "度針",
+          "romanization": [
+            "tōo-tsiam"
+          ],
+          "register": null,
+          "file": "B018_2_度針.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4874.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4874/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B019",
+      "section": "字形",
+      "no": 19,
+      "paper": "lāu-「sia̍p」",
+      "prompt": "漏洩",
+      "promptNote": null,
+      "target": "洩",
+      "readings": [
+        "sia̍p"
+      ],
+      "uncertain": null,
+      "speak": "漏洩",
+      "speakRomanization": [
+        "lāu-sia̍p"
+      ],
+      "reference": "B019_2_漏洩.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "洩",
+          "romanization": [
+            "sia̍p"
+          ],
+          "register": null,
+          "file": "B019_1_洩.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5131.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5131/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "漏洩",
+          "romanization": [
+            "lāu-sia̍p"
+          ],
+          "register": null,
+          "file": "B019_2_漏洩.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10624.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10624/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B020",
+      "section": "字形",
+      "no": 20,
+      "paper": "「káu」-kuài",
+      "prompt": "狡怪",
+      "promptNote": null,
+      "target": "狡",
+      "readings": [
+        "káu"
+      ],
+      "uncertain": null,
+      "speak": "狡怪",
+      "speakRomanization": [
+        "káu-kuài"
+      ],
+      "reference": "B020_1_狡怪.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "狡怪",
+          "romanization": [
+            "káu-kuài"
+          ],
+          "register": null,
+          "file": "B020_1_狡怪.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5187.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5187/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B021",
+      "section": "字形",
+      "no": 21,
+      "paper": "tì-「tiōng」",
+      "prompt": "致重",
+      "promptNote": null,
+      "target": "重",
+      "readings": [
+        "tiōng"
+      ],
+      "uncertain": null,
+      "speak": "重",
+      "speakRomanization": [
+        "tiōng"
+      ],
+      "reference": "B021_1_重.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "重",
+          "romanization": [
+            "tiōng"
+          ],
+          "register": "文",
+          "file": "B021_1_重.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5501.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5501/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B022",
+      "section": "字形",
+      "no": 22,
+      "paper": "「pa」 thâu-khak",
+      "prompt": "𢼌",
+      "promptNote": "pa thâu-khak",
+      "target": "𢼌",
+      "readings": [
+        "pa"
+      ],
+      "uncertain": null,
+      "speak": "𢼌",
+      "speakRomanization": [
+        "pa"
+      ],
+      "reference": "B022_1_𢼌.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "𢼌",
+          "romanization": [
+            "pa"
+          ],
+          "register": null,
+          "file": "B022_1_𢼌.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13482.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13482/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B023",
+      "section": "字形",
+      "no": 23,
+      "paper": "thíng-「sīng」",
+      "prompt": "寵倖",
+      "promptNote": null,
+      "target": "倖",
+      "readings": [
+        "sīng"
+      ],
+      "uncertain": null,
+      "speak": "寵倖",
+      "speakRomanization": [
+        "thíng-sīng"
+      ],
+      "reference": "B023_2_寵倖.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "倖",
+          "romanization": [
+            "sīng"
+          ],
+          "register": null,
+          "file": "B023_1_倖.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5708.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5708/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "寵倖",
+          "romanization": [
+            "thíng-sīng"
+          ],
+          "register": null,
+          "file": "B023_2_寵倖.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12784.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12784/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B024",
+      "section": "字形",
+      "no": 24,
+      "paper": "「tín」-tāng",
+      "prompt": "振動",
+      "promptNote": null,
+      "target": "振",
+      "readings": [
+        "tín"
+      ],
+      "uncertain": null,
+      "speak": "振動",
+      "speakRomanization": [
+        "tín-tāng"
+      ],
+      "reference": "B024_1_振動.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "振動",
+          "romanization": [
+            "tín-tāng"
+          ],
+          "register": null,
+          "file": "B024_1_振動.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/6/6038.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/6038/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B025",
+      "section": "字形",
+      "no": 25,
+      "paper": "tshiú-「pôo/pô」",
+      "prompt": "手捗",
+      "promptNote": null,
+      "target": "捗",
+      "readings": [
+        "pôo",
+        "pô"
+      ],
+      "uncertain": null,
+      "speak": "手捗",
+      "speakRomanization": [
+        "tshiú-pôo"
+      ],
+      "reference": "B025_2_手捗.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "捗",
+          "romanization": [
+            "pôo"
+          ],
+          "register": null,
+          "file": "B025_1_捗.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5998.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5998/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "手捗",
+          "romanization": [
+            "tshiú-pôo"
+          ],
+          "register": null,
+          "file": "B025_2_手捗.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13631.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13631/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "pô"
+        ]
+      }
+    },
+    {
+      "id": "B026",
+      "section": "字形",
+      "no": 26,
+      "paper": "tshun-「tshia」",
+      "prompt": "伸捙",
+      "promptNote": null,
+      "target": "捙",
+      "readings": [
+        "tshia"
+      ],
+      "uncertain": null,
+      "speak": "伸捙",
+      "speakRomanization": [
+        "tshun-tshia"
+      ],
+      "reference": "B026_2_伸捙.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "捙",
+          "romanization": [
+            "tshia"
+          ],
+          "register": null,
+          "file": "B026_1_捙.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/6/6000.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/6000/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "伸捙",
+          "romanization": [
+            "tshun-tshia"
+          ],
+          "register": null,
+          "file": "B026_2_伸捙.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14034.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14034/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B027",
+      "section": "字形",
+      "no": 27,
+      "paper": "n̂g/uînn-「thán」",
+      "prompt": "黃疸",
+      "promptNote": null,
+      "target": "疸",
+      "readings": [
+        "thán"
+      ],
+      "uncertain": null,
+      "speak": "黃疸",
+      "speakRomanization": [
+        "n̂g-thán"
+      ],
+      "reference": "B027_1_黃疸.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "黃疸",
+          "romanization": [
+            "n̂g-thán"
+          ],
+          "register": null,
+          "file": "B027_1_黃疸.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9253.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9253/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B028",
+      "section": "字形",
+      "no": 28,
+      "paper": "「pì」-hng",
+      "prompt": "祕方",
+      "promptNote": null,
+      "target": "祕",
+      "readings": [
+        "pì"
+      ],
+      "uncertain": null,
+      "speak": "祕方",
+      "speakRomanization": [
+        "pì-hng"
+      ],
+      "reference": "B028_1_祕方.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "祕方",
+          "romanization": [
+            "pì-hng"
+          ],
+          "register": null,
+          "file": "B028_1_祕方.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/6/6384.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/6384/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B029",
+      "section": "字形",
+      "no": 29,
+      "paper": "ku-「sui」",
+      "prompt": "龜祟",
+      "promptNote": null,
+      "target": "祟",
+      "readings": [
+        "sui"
+      ],
+      "uncertain": null,
+      "speak": "龜祟",
+      "speakRomanization": [
+        "ku-sui"
+      ],
+      "reference": "B029_1_龜祟.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "龜祟",
+          "romanization": [
+            "ku-sui"
+          ],
+          "register": null,
+          "file": "B029_1_龜祟.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12103.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12103/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B030",
+      "section": "字形",
+      "no": 30,
+      "paper": "ām-「kui」",
+      "prompt": "頷胿",
+      "promptNote": null,
+      "target": "胿",
+      "readings": [
+        "kui"
+      ],
+      "uncertain": null,
+      "speak": "頷胿",
+      "speakRomanization": [
+        "ām-kui"
+      ],
+      "reference": "B030_2_頷胿.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "胿",
+          "romanization": [
+            "kui"
+          ],
+          "register": null,
+          "file": "B030_1_胿.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/6/6528.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/6528/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "頷胿",
+          "romanization": [
+            "ām-kui"
+          ],
+          "register": null,
+          "file": "B030_2_頷胿.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12066.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12066/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B031",
+      "section": "字形",
+      "no": 31,
+      "paper": "sī-「suā」",
+      "prompt": "窸倏",
+      "promptNote": null,
+      "target": "倏",
+      "readings": [
+        "suā"
+      ],
+      "uncertain": null,
+      "speak": "窸倏",
+      "speakRomanization": [
+        "sī-suā"
+      ],
+      "reference": "B031_1_窸倏.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "窸倏",
+          "romanization": [
+            "sī-suā"
+          ],
+          "register": null,
+          "file": "B031_1_窸倏.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11846.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11846/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B032",
+      "section": "字形",
+      "no": 32,
+      "paper": "tuā 「khian」",
+      "prompt": "圈",
+      "promptNote": "tuā khian",
+      "target": "圈",
+      "readings": [
+        "khian"
+      ],
+      "uncertain": null,
+      "speak": "圈",
+      "speakRomanization": [
+        "khian"
+      ],
+      "reference": "B032_1_圈.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "圈",
+          "romanization": [
+            "khian"
+          ],
+          "register": null,
+          "file": "B032_1_圈.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7570.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7570/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B033",
+      "section": "字形",
+      "no": 33,
+      "paper": "hù/hū-「tài」",
+      "prompt": "附帶",
+      "promptNote": null,
+      "target": "帶",
+      "readings": [
+        "tài"
+      ],
+      "uncertain": null,
+      "speak": "附帶",
+      "speakRomanization": [
+        "hù-tài"
+      ],
+      "reference": "B033_2_附帶.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "帶",
+          "romanization": [
+            "tài"
+          ],
+          "register": "文",
+          "file": "B033_1_帶.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7177.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7177/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "附帶",
+          "romanization": [
+            "hù-tài"
+          ],
+          "register": null,
+          "file": "B033_2_附帶.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/24/24508.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/24508/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B034",
+      "section": "字形",
+      "no": 34,
+      "paper": "báng-「sut」-á",
+      "prompt": "蠓捽仔",
+      "promptNote": null,
+      "target": "捽",
+      "readings": [
+        "sut"
+      ],
+      "uncertain": null,
+      "speak": "蠓捽仔",
+      "speakRomanization": [
+        "báng-sut-á"
+      ],
+      "reference": "B034_2_蠓捽仔.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "捽",
+          "romanization": [
+            "sut"
+          ],
+          "register": null,
+          "file": "B034_1_捽.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7291.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7291/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "蠓捽仔",
+          "romanization": [
+            "báng-sut-á"
+          ],
+          "register": null,
+          "file": "B034_2_蠓捽仔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13028.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13028/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B035",
+      "section": "字形",
+      "no": 35,
+      "paper": "「mńg/buán」-tang",
+      "prompt": "晚冬",
+      "promptNote": null,
+      "target": "晚",
+      "readings": [
+        "mńg",
+        "buán"
+      ],
+      "uncertain": null,
+      "speak": "晚冬",
+      "speakRomanization": [
+        "mńg-tang"
+      ],
+      "reference": "B035_1_晚冬.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "晚冬",
+          "romanization": [
+            "mńg-tang"
+          ],
+          "register": null,
+          "file": "B035_1_晚冬.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13723.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13723/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "buán"
+        ]
+      }
+    },
+    {
+      "id": "B036",
+      "section": "字形",
+      "no": 36,
+      "paper": "nńg/nuí-「poo」",
+      "prompt": "軟晡",
+      "promptNote": null,
+      "target": "晡",
+      "readings": [
+        "poo"
+      ],
+      "uncertain": null,
+      "speak": "軟晡",
+      "speakRomanization": [
+        "nńg-poo"
+      ],
+      "reference": "B036_2_軟晡.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "晡",
+          "romanization": [
+            "poo"
+          ],
+          "register": null,
+          "file": "B036_1_晡.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7434.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7434/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "軟晡",
+          "romanization": [
+            "nńg-poo"
+          ],
+          "register": null,
+          "file": "B036_2_軟晡.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7959.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7959/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B037",
+      "section": "字形",
+      "no": 37,
+      "paper": "hue-「m̂」",
+      "prompt": "花莓",
+      "promptNote": null,
+      "target": "莓",
+      "readings": [
+        "m̂"
+      ],
+      "uncertain": null,
+      "speak": "花莓",
+      "speakRomanization": [
+        "hue-m̂"
+      ],
+      "reference": "B037_1_花莓.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "花莓",
+          "romanization": [
+            "hue-m̂"
+          ],
+          "register": null,
+          "file": "B037_1_花莓.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4452.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4452/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B038",
+      "section": "字形",
+      "no": 38,
+      "paper": "ōo-「huâinn/huînn」",
+      "prompt": "芋莖",
+      "promptNote": null,
+      "target": "莖",
+      "readings": [
+        "huâinn",
+        "huînn"
+      ],
+      "uncertain": null,
+      "speak": "芋莖",
+      "speakRomanization": [
+        "ōo-huâinn"
+      ],
+      "reference": "B038_1_芋莖.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "芋莖",
+          "romanization": [
+            "ōo-huâinn"
+          ],
+          "register": null,
+          "file": "B038_1_芋莖.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3462.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3462/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "huînn"
+        ]
+      }
+    },
+    {
+      "id": "B039",
+      "section": "字形",
+      "no": 39,
+      "paper": "「phua̍h」-liān",
+      "prompt": "袚鍊",
+      "promptNote": null,
+      "target": "袚",
+      "readings": [
+        "phua̍h"
+      ],
+      "uncertain": null,
+      "speak": "袚鍊",
+      "speakRomanization": [
+        "phua̍h-liān"
+      ],
+      "reference": "B039_2_袚鍊.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "袚",
+          "romanization": [
+            "phua̍h"
+          ],
+          "register": null,
+          "file": "B039_1_袚.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7841.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7841/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "袚鍊",
+          "romanization": [
+            "phua̍h-liān"
+          ],
+          "register": null,
+          "file": "B039_2_袚鍊.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7882.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7882/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B040",
+      "section": "字形",
+      "no": 40,
+      "paper": "bí-「tâi」",
+      "prompt": "米𧉟",
+      "promptNote": null,
+      "target": "𧉟",
+      "readings": [
+        "tâi"
+      ],
+      "uncertain": null,
+      "speak": "米𧉟",
+      "speakRomanization": [
+        "bí-tâi"
+      ],
+      "reference": "B040_2_米𧉟.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "𧉟",
+          "romanization": [
+            "tâi"
+          ],
+          "register": null,
+          "file": "B040_1_𧉟.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13465.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13465/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "米𧉟",
+          "romanization": [
+            "bí-tâi"
+          ],
+          "register": null,
+          "file": "B040_2_米𧉟.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2608.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2608/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B041",
+      "section": "字形",
+      "no": 41,
+      "paper": "óng-「ho̍k」",
+      "prompt": "往復",
+      "promptNote": null,
+      "target": "復",
+      "readings": [
+        "ho̍k"
+      ],
+      "uncertain": null,
+      "speak": "往復",
+      "speakRomanization": [
+        "óng-ho̍k"
+      ],
+      "reference": "B041_1_往復.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "往復",
+          "romanization": [
+            "óng-ho̍k"
+          ],
+          "register": null,
+          "file": "B041_1_往復.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3918.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3918/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B042",
+      "section": "字形",
+      "no": 42,
+      "paper": "「iap」-āu",
+      "prompt": "揜",
+      "promptNote": "iap-āu",
+      "target": "揜",
+      "readings": [
+        "iap"
+      ],
+      "uncertain": null,
+      "speak": "揜",
+      "speakRomanization": [
+        "iap"
+      ],
+      "reference": "B042_1_揜.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "揜",
+          "romanization": [
+            "iap"
+          ],
+          "register": null,
+          "file": "B042_1_揜.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8407.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8407/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B043",
+      "section": "字形",
+      "no": 43,
+      "paper": "pênn/pînn-「pāng」",
+      "prompt": "平棒",
+      "promptNote": null,
+      "target": "棒",
+      "readings": [
+        "pāng"
+      ],
+      "uncertain": null,
+      "speak": "平棒",
+      "speakRomanization": [
+        "pênn-pāng",
+        "pînn-pāng"
+      ],
+      "reference": "B043_1_平棒.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "平棒",
+          "romanization": [
+            "pênn-pāng",
+            "pînn-pāng"
+          ],
+          "register": null,
+          "file": "B043_1_平棒.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/27/27320.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/27320/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B044",
+      "section": "字形",
+      "no": 44,
+      "paper": "àm-「phú」",
+      "prompt": "暗殕",
+      "promptNote": null,
+      "target": "殕",
+      "readings": [
+        "phú"
+      ],
+      "uncertain": null,
+      "speak": "暗殕",
+      "speakRomanization": [
+        "àm-phú"
+      ],
+      "reference": "B044_2_暗殕.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "殕",
+          "romanization": [
+            "phú"
+          ],
+          "register": null,
+          "file": "B044_1_殕.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8521.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8521/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "暗殕",
+          "romanization": [
+            "àm-phú"
+          ],
+          "register": null,
+          "file": "B044_2_暗殕.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/dw/mZ/285331.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/28533/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B045",
+      "section": "字形",
+      "no": 45,
+      "paper": "tshoo-「tshân」",
+      "prompt": "粗殘",
+      "promptNote": null,
+      "target": "殘",
+      "readings": [
+        "tshân"
+      ],
+      "uncertain": null,
+      "speak": "粗殘",
+      "speakRomanization": [
+        "tshoo-tshân"
+      ],
+      "reference": "B045_1_粗殘.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "粗殘",
+          "romanization": [
+            "tshoo-tshân"
+          ],
+          "register": null,
+          "file": "B045_1_粗殘.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14290.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14290/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B046",
+      "section": "字形",
+      "no": 46,
+      "paper": "「he」-ku",
+      "prompt": "痚呴",
+      "promptNote": null,
+      "target": "痚",
+      "readings": [
+        "he"
+      ],
+      "uncertain": null,
+      "speak": "痚呴",
+      "speakRomanization": [
+        "he-ku"
+      ],
+      "reference": "B046_2_痚呴.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "痚",
+          "romanization": [
+            "he"
+          ],
+          "register": null,
+          "file": "B046_1_痚.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8690.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8690/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "痚呴",
+          "romanization": [
+            "he-ku"
+          ],
+          "register": null,
+          "file": "B046_2_痚呴.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8713.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8713/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B047",
+      "section": "字形",
+      "no": 47,
+      "paper": "bí-「láu」",
+      "prompt": "米粩",
+      "promptNote": null,
+      "target": "粩",
+      "readings": [
+        "láu"
+      ],
+      "uncertain": null,
+      "speak": "米粩",
+      "speakRomanization": [
+        "bí-láu"
+      ],
+      "reference": "B047_2_米粩.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "粩",
+          "romanization": [
+            "láu"
+          ],
+          "register": null,
+          "file": "B047_1_粩.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13442.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13442/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "米粩",
+          "romanization": [
+            "bí-láu"
+          ],
+          "register": null,
+          "file": "B047_2_米粩.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2827.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2827/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B048",
+      "section": "字形",
+      "no": 48,
+      "paper": "「ân」-tòng-tòng",
+      "prompt": "絚",
+      "promptNote": "ân-tòng-tòng",
+      "target": "絚",
+      "readings": [
+        "ân"
+      ],
+      "uncertain": null,
+      "speak": "絚",
+      "speakRomanization": [
+        "ân"
+      ],
+      "reference": "B048_1_絚.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "絚",
+          "romanization": [
+            "ân"
+          ],
+          "register": null,
+          "file": "B048_1_絚.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8831.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8831/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B049",
+      "section": "字形",
+      "no": 49,
+      "paper": "「liú」 liú-á",
+      "prompt": "鈕",
+      "promptNote": "liú liú-á",
+      "target": "鈕",
+      "readings": [
+        "liú"
+      ],
+      "uncertain": null,
+      "speak": "鈕",
+      "speakRomanization": [
+        "liú"
+      ],
+      "reference": "B049_1_鈕.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "鈕",
+          "romanization": [
+            "liú"
+          ],
+          "register": null,
+          "file": "B049_1_鈕.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9143.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9143/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B050",
+      "section": "字形",
+      "no": 50,
+      "paper": "bū-「sà」-sà",
+      "prompt": "霧嗄嗄",
+      "promptNote": null,
+      "target": "嗄",
+      "readings": [
+        "sà"
+      ],
+      "uncertain": null,
+      "speak": "霧嗄嗄",
+      "speakRomanization": [
+        "bū-sà-sà"
+      ],
+      "reference": "B050_2_霧嗄嗄.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "嗄",
+          "romanization": [
+            "sà"
+          ],
+          "register": null,
+          "file": "B050_1_嗄.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9301.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9301/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "霧嗄嗄",
+          "romanization": [
+            "bū-sà-sà"
+          ],
+          "register": null,
+          "file": "B050_2_霧嗄嗄.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12916.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12916/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B051",
+      "section": "字形",
+      "no": 51,
+      "paper": "hong-siann-「pòng」-iánn",
+      "prompt": "風聲嗙影",
+      "promptNote": null,
+      "target": "嗙",
+      "readings": [
+        "pòng"
+      ],
+      "uncertain": null,
+      "speak": "風聲嗙影",
+      "speakRomanization": [
+        "hong-siann-pòng-iánn"
+      ],
+      "reference": "B051_1_風聲嗙影.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "風聲嗙影",
+          "romanization": [
+            "hong-siann-pòng-iánn"
+          ],
+          "register": null,
+          "file": "B051_1_風聲嗙影.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5682.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5682/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B052",
+      "section": "字形",
+      "no": 52,
+      "paper": "「lap/thap」-té/tué/teré",
+      "prompt": "塌底",
+      "promptNote": null,
+      "target": "塌",
+      "readings": [
+        "lap",
+        "thap"
+      ],
+      "uncertain": null,
+      "speak": "塌底",
+      "speakRomanization": [
+        "lap-té",
+        "lap-tué"
+      ],
+      "reference": "B052_3_塌底.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "塌",
+          "romanization": [
+            "thap"
+          ],
+          "register": null,
+          "file": "B052_1_塌.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9354.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9354/"
+        },
+        {
+          "kind": "單字本調",
+          "word": "塌",
+          "romanization": [
+            "lap"
+          ],
+          "register": null,
+          "file": "B052_2_塌.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13600.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13600/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "塌底",
+          "romanization": [
+            "lap-té",
+            "lap-tué"
+          ],
+          "register": null,
+          "file": "B052_3_塌底.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9380.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9380/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B053",
+      "section": "字形",
+      "no": 53,
+      "paper": "「thôo」-kha",
+      "prompt": "塗跤",
+      "promptNote": null,
+      "target": "塗",
+      "readings": [
+        "thôo"
+      ],
+      "uncertain": null,
+      "speak": "塗跤",
+      "speakRomanization": [
+        "thôo-kha"
+      ],
+      "reference": "B053_2_塗跤.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "塗",
+          "romanization": [
+            "thôo"
+          ],
+          "register": "白",
+          "file": "B053_1_塗.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9356.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9356/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "塗跤",
+          "romanization": [
+            "thôo-kha"
+          ],
+          "register": null,
+          "file": "B053_2_塗跤.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9393.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9393/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B054",
+      "section": "字形",
+      "no": 54,
+      "paper": "àu-「tah」",
+      "prompt": "漚搭",
+      "promptNote": null,
+      "target": "搭",
+      "readings": [
+        "tah"
+      ],
+      "uncertain": null,
+      "speak": "漚搭",
+      "speakRomanization": [
+        "àu-tah"
+      ],
+      "reference": "B054_2_漚搭.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "搭",
+          "romanization": [
+            "tah"
+          ],
+          "register": "白",
+          "file": "B054_1_搭.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9491.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9491/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "漚搭",
+          "romanization": [
+            "àu-tah"
+          ],
+          "register": null,
+          "file": "B054_2_漚搭.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/u5/rk/282611.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/28261/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B055",
+      "section": "字形",
+      "no": 55,
+      "paper": "pá-「tīnn」",
+      "prompt": "飽滇",
+      "promptNote": null,
+      "target": "滇",
+      "readings": [
+        "tīnn"
+      ],
+      "uncertain": null,
+      "speak": "飽滇",
+      "speakRomanization": [
+        "pá-tīnn"
+      ],
+      "reference": "B055_2_飽滇.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "滇",
+          "romanization": [
+            "tīnn"
+          ],
+          "register": null,
+          "file": "B055_1_滇.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9683.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9683/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "飽滇",
+          "romanization": [
+            "pá-tīnn"
+          ],
+          "register": null,
+          "file": "B055_2_飽滇.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10330.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10330/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B056",
+      "section": "字形",
+      "no": 56,
+      "paper": "píng-pe̍h-「kâinn」",
+      "prompt": "反白睚",
+      "promptNote": null,
+      "target": "睚",
+      "readings": [
+        "kâinn"
+      ],
+      "uncertain": null,
+      "speak": "反白睚",
+      "speakRomanization": [
+        "píng-pe̍h-kâinn"
+      ],
+      "reference": "B056_1_反白睚.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "反白睚",
+          "romanization": [
+            "píng-pe̍h-kâinn"
+          ],
+          "register": null,
+          "file": "B056_1_反白睚.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/0/885.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/885/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B057",
+      "section": "字形",
+      "no": 57,
+      "paper": "nâ-âu-「tì」-á",
+      "prompt": "嚨喉蒂仔",
+      "promptNote": null,
+      "target": "蒂",
+      "readings": [
+        "tì"
+      ],
+      "uncertain": null,
+      "speak": "嚨喉蒂仔",
+      "speakRomanization": [
+        "nâ-âu-tì-á"
+      ],
+      "reference": "B057_2_嚨喉蒂仔.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "蒂",
+          "romanization": [
+            "tì"
+          ],
+          "register": null,
+          "file": "B057_1_蒂.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9977.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9977/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "嚨喉蒂仔",
+          "romanization": [
+            "nâ-âu-tì-á"
+          ],
+          "register": null,
+          "file": "B057_2_嚨喉蒂仔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12768.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12768/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B058",
+      "section": "字形",
+      "no": 58,
+      "paper": "「tshiāng」-tú-tshiāng",
+      "prompt": "䢢拄䢢",
+      "promptNote": null,
+      "target": "䢢",
+      "readings": [
+        "tshiāng"
+      ],
+      "uncertain": null,
+      "speak": "䢢拄䢢",
+      "speakRomanization": [
+        "tshiāng-tú-tshiāng"
+      ],
+      "reference": "B058_1_䢢拄䢢.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "䢢拄䢢",
+          "romanization": [
+            "tshiāng-tú-tshiāng"
+          ],
+          "register": null,
+          "file": "B058_1_䢢拄䢢.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13564.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13564/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B059",
+      "section": "字形",
+      "no": 59,
+      "paper": "siann-「sàu」",
+      "prompt": "聲嗽",
+      "promptNote": null,
+      "target": "嗽",
+      "readings": [
+        "sàu"
+      ],
+      "uncertain": null,
+      "speak": "聲嗽",
+      "speakRomanization": [
+        "siann-sàu"
+      ],
+      "reference": "B059_2_聲嗽.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "嗽",
+          "romanization": [
+            "sàu"
+          ],
+          "register": null,
+          "file": "B059_1_嗽.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10378.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10378/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "聲嗽",
+          "romanization": [
+            "siann-sàu"
+          ],
+          "register": null,
+          "file": "B059_2_聲嗽.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12331.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12331/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B060",
+      "section": "字形",
+      "no": 60,
+      "paper": "「tshím」-thâu",
+      "prompt": "寢頭",
+      "promptNote": null,
+      "target": "寢",
+      "readings": [
+        "tshím"
+      ],
+      "uncertain": null,
+      "speak": "寢頭",
+      "speakRomanization": [
+        "tshím-thâu"
+      ],
+      "reference": "B060_2_寢頭.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "寢",
+          "romanization": [
+            "tshím"
+          ],
+          "register": null,
+          "file": "B060_1_寢.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13578.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13578/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "寢頭",
+          "romanization": [
+            "tshím-thâu"
+          ],
+          "register": null,
+          "file": "B060_2_寢頭.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14430.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14430/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B061",
+      "section": "字形",
+      "no": 61,
+      "paper": "in-「tuann/tuan」",
+      "prompt": "因端",
+      "promptNote": null,
+      "target": "端",
+      "readings": [
+        "tuann",
+        "tuan"
+      ],
+      "uncertain": null,
+      "speak": "因端",
+      "speakRomanization": [
+        "in-tuann"
+      ],
+      "reference": "B061_1_因端.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "因端",
+          "romanization": [
+            "in-tuann"
+          ],
+          "register": null,
+          "file": "B061_1_因端.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2239.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2239/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "tuan"
+        ]
+      }
+    },
+    {
+      "id": "B062",
+      "section": "字形",
+      "no": 62,
+      "paper": "thǹg-pak/bak-「theh」",
+      "prompt": "褪腹裼",
+      "promptNote": null,
+      "target": "裼",
+      "readings": [
+        "theh"
+      ],
+      "uncertain": null,
+      "speak": "褪腹裼",
+      "speakRomanization": [
+        "thǹg-pak-theh"
+      ],
+      "reference": "B062_1_褪腹裼.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "褪腹裼",
+          "romanization": [
+            "thǹg-pak-theh"
+          ],
+          "register": null,
+          "file": "B062_1_褪腹裼.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11894.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11894/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B063",
+      "section": "字形",
+      "no": 63,
+      "paper": "「iú」-in",
+      "prompt": "誘因",
+      "promptNote": null,
+      "target": "誘",
+      "readings": [
+        "iú"
+      ],
+      "uncertain": null,
+      "speak": "誘因",
+      "speakRomanization": [
+        "iú-in"
+      ],
+      "reference": "B063_2_誘因.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "誘",
+          "romanization": [
+            "iú"
+          ],
+          "register": null,
+          "file": "B063_1_誘.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10815.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10815/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "誘因",
+          "romanization": [
+            "iú-in"
+          ],
+          "register": null,
+          "file": "B063_2_誘因.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/24/24350.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/24350/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B064",
+      "section": "字形",
+      "no": 64,
+      "paper": "「bû」-luā",
+      "prompt": "誣賴",
+      "promptNote": null,
+      "target": "誣",
+      "readings": [
+        "bû"
+      ],
+      "uncertain": null,
+      "speak": "誣賴",
+      "speakRomanization": [
+        "bû-luā"
+      ],
+      "reference": "B064_1_誣賴.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "誣賴",
+          "romanization": [
+            "bû-luā"
+          ],
+          "register": null,
+          "file": "B064_1_誣賴.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10848.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10848/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B065",
+      "section": "字形",
+      "no": 65,
+      "paper": "「liù」-tsiann-á",
+      "prompt": "遛",
+      "promptNote": "liù-tsiann-á",
+      "target": "遛",
+      "readings": [
+        "liù"
+      ],
+      "uncertain": null,
+      "speak": "遛",
+      "speakRomanization": [
+        "liù"
+      ],
+      "reference": "B065_1_遛.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "遛",
+          "romanization": [
+            "liù"
+          ],
+          "register": null,
+          "file": "B065_1_遛.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10855.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10855/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B066",
+      "section": "字形",
+      "no": 66,
+      "paper": "huat-「kànn/kà」",
+      "prompt": "發酵",
+      "promptNote": null,
+      "target": "酵",
+      "readings": [
+        "kànn",
+        "kà"
+      ],
+      "uncertain": null,
+      "speak": "發酵",
+      "speakRomanization": [
+        "huat-kànn"
+      ],
+      "reference": "B066_2_發酵.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "酵",
+          "romanization": [
+            "kànn"
+          ],
+          "register": null,
+          "file": "B066_1_酵.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10859.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10859/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "發酵",
+          "romanization": [
+            "huat-kànn"
+          ],
+          "register": null,
+          "file": "B066_2_發酵.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8750.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8750/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "kà"
+        ]
+      }
+    },
+    {
+      "id": "B067",
+      "section": "字形",
+      "no": 67,
+      "paper": "bé-hue-「tsìnn」",
+      "prompt": "馬花糋",
+      "promptNote": null,
+      "target": "糋",
+      "readings": [
+        "tsìnn"
+      ],
+      "uncertain": null,
+      "speak": "馬花糋",
+      "speakRomanization": [
+        "bé-hue-tsìnn"
+      ],
+      "reference": "B067_2_馬花糋.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "糋",
+          "romanization": [
+            "tsìnn"
+          ],
+          "register": null,
+          "file": "B067_1_糋.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11275.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11275/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "馬花糋",
+          "romanization": [
+            "bé-hue-tsìnn"
+          ],
+          "register": null,
+          "file": "B067_2_馬花糋.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14253.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14253/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B068",
+      "section": "字形",
+      "no": 68,
+      "paper": "muâ-「tsî」",
+      "prompt": "麻糍",
+      "promptNote": null,
+      "target": "糍",
+      "readings": [
+        "tsî"
+      ],
+      "uncertain": null,
+      "speak": "麻糍",
+      "speakRomanization": [
+        "muâ-tsî"
+      ],
+      "reference": "B068_1_麻糍.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "麻糍",
+          "romanization": [
+            "muâ-tsî"
+          ],
+          "register": null,
+          "file": "B068_1_麻糍.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8137.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8137/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B069",
+      "section": "字形",
+      "no": 69,
+      "paper": "tshú-「tè」",
+      "prompt": "取締",
+      "promptNote": null,
+      "target": "締",
+      "readings": [
+        "tè"
+      ],
+      "uncertain": null,
+      "speak": "取締",
+      "speakRomanization": [
+        "tshú-tè"
+      ],
+      "reference": "B069_1_取締.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "取締",
+          "romanization": [
+            "tshú-tè"
+          ],
+          "register": null,
+          "file": "B069_1_取締.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3675.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3675/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B070",
+      "section": "字形",
+      "no": 70,
+      "paper": "「iân」-kim",
+      "prompt": "緣金",
+      "promptNote": null,
+      "target": "緣",
+      "readings": [
+        "iân"
+      ],
+      "uncertain": null,
+      "speak": "緣金",
+      "speakRomanization": [
+        "iân-kim"
+      ],
+      "reference": "B070_2_緣金.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "緣",
+          "romanization": [
+            "iân"
+          ],
+          "register": null,
+          "file": "B070_1_緣.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11278.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11278/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "緣金",
+          "romanization": [
+            "iân-kim"
+          ],
+          "register": null,
+          "file": "B070_2_緣金.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14527.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14527/"
+        }
+      ],
+      "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4218,12 +7409,14 @@
       "id": "B071",
       "section": "字形",
       "no": 71,
+      "paper": "tshiū-「ńg」",
       "prompt": "樹蔭",
       "promptNote": null,
       "target": "蔭",
       "readings": [
         "ńg"
       ],
+      "uncertain": null,
       "speak": "樹蔭",
       "speakRomanization": [
         "tshiū-ńg"
@@ -4254,6 +7447,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4263,12 +7457,14 @@
       "id": "B072",
       "section": "字形",
       "no": 72,
+      "paper": "「tshóng」-pōng",
       "prompt": "衝碰",
       "promptNote": null,
       "target": "衝",
       "readings": [
         "tshóng"
       ],
+      "uncertain": null,
       "speak": "衝碰",
       "speakRomanization": [
         "tshóng-pōng"
@@ -4288,6 +7484,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -4297,12 +7494,14 @@
       "id": "B073",
       "section": "字形",
       "no": 73,
+      "paper": "「lué」-tsì",
       "prompt": "餒志",
       "promptNote": null,
       "target": "餒",
       "readings": [
         "lué"
       ],
+      "uncertain": null,
       "speak": "餒志",
       "speakRomanization": [
         "lué-tsì"
@@ -4322,6 +7521,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -4331,17 +7531,19 @@
       "id": "B074",
       "section": "字形",
       "no": 74,
+      "paper": "「tann」 thâu",
       "prompt": "擔頭",
       "promptNote": null,
       "target": "擔",
       "readings": [
         "tann"
       ],
-      "speak": "擔頭",
+      "uncertain": null,
+      "speak": "擔",
       "speakRomanization": [
-        "tànn-thâu"
+        "tann"
       ],
-      "reference": "B074_2_擔頭.mp3",
+      "reference": "B074_1_擔.mp3",
       "audio": [
         {
           "kind": "單字本調",
@@ -4367,7 +7569,8 @@
         }
       ],
       "gaps": {
-        "wordAudio": false,
+        "noAudio": false,
+        "wordAudio": true,
         "charAudio": false,
         "readings": []
       }
@@ -4376,6 +7579,7 @@
       "id": "B075",
       "section": "字形",
       "no": 75,
+      "paper": "「kì/kù/kìr」-tsāi",
       "prompt": "據在",
       "promptNote": null,
       "target": "據",
@@ -4384,6 +7588,7 @@
         "kù",
         "kìr"
       ],
+      "uncertain": null,
       "speak": "據在",
       "speakRomanization": [
         "kì-tsāi",
@@ -4405,6 +7610,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": [
@@ -4416,12 +7622,14 @@
       "id": "B076",
       "section": "字形",
       "no": 76,
+      "paper": "tshó-「kan」-ná",
       "prompt": "草橄欖",
       "promptNote": null,
       "target": "橄",
       "readings": [
         "kan"
       ],
+      "uncertain": null,
       "speak": "草橄欖",
       "speakRomanization": [
         "tshó-kan-ná"
@@ -4441,6 +7649,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -4450,12 +7659,14 @@
       "id": "B077",
       "section": "字形",
       "no": 77,
+      "paper": "hông-「gū」",
       "prompt": "防禦",
       "promptNote": null,
       "target": "禦",
       "readings": [
         "gū"
       ],
+      "uncertain": null,
       "speak": "防禦",
       "speakRomanization": [
         "hông-gū"
@@ -4475,6 +7686,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -4484,12 +7696,14 @@
       "id": "B078",
       "section": "字形",
       "no": 78,
+      "paper": "bô-khah-「tsua̍h」",
       "prompt": "無較縒",
       "promptNote": null,
       "target": "縒",
       "readings": [
         "tsua̍h"
       ],
+      "uncertain": null,
       "speak": "無較縒",
       "speakRomanization": [
         "bô-khah-tsua̍h"
@@ -4520,6 +7734,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4529,12 +7744,14 @@
       "id": "B079",
       "section": "字形",
       "no": 79,
+      "paper": "「niau」-bīn",
       "prompt": "貓面",
       "promptNote": null,
       "target": "貓",
       "readings": [
         "niau"
       ],
+      "uncertain": null,
       "speak": "貓面",
       "speakRomanization": [
         "niau-bīn"
@@ -4565,6 +7782,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4574,12 +7792,14 @@
       "id": "B080",
       "section": "字形",
       "no": 80,
+      "paper": "puàn-sin-put-「suî」",
       "prompt": "半身不隨",
       "promptNote": null,
       "target": "隨",
       "readings": [
         "suî"
       ],
+      "uncertain": null,
       "speak": "半身不隨",
       "speakRomanization": [
         "puàn-sin-put-suî"
@@ -4610,6 +7830,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4619,12 +7840,14 @@
       "id": "B081",
       "section": "字形",
       "no": 81,
+      "paper": "「ìng」-hāu",
       "prompt": "應效",
       "promptNote": null,
       "target": "應",
       "readings": [
         "ìng"
       ],
+      "uncertain": null,
       "speak": "應效",
       "speakRomanization": [
         "ìng-hāu"
@@ -4644,6 +7867,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -4653,12 +7877,14 @@
       "id": "B082",
       "section": "字形",
       "no": 82,
+      "paper": "tsit 「tshok」 lâng",
       "prompt": "一簇人",
       "promptNote": null,
       "target": "簇",
       "readings": [
         "tshok"
       ],
+      "uncertain": null,
       "speak": "簇",
       "speakRomanization": [
         "tshok"
@@ -4678,6 +7904,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": false,
         "readings": []
@@ -4687,12 +7914,14 @@
       "id": "B083",
       "section": "字形",
       "no": 83,
+      "paper": "「pâng」-thīnn",
       "prompt": "縫紩",
       "promptNote": null,
       "target": "縫",
       "readings": [
         "pâng"
       ],
+      "uncertain": null,
       "speak": "縫紩",
       "speakRomanization": [
         "pâng-thīnn"
@@ -4723,6 +7952,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4732,12 +7962,14 @@
       "id": "B084",
       "section": "字形",
       "no": 84,
+      "paper": "mî-「tsioh」",
       "prompt": "棉襀",
       "promptNote": null,
       "target": "襀",
       "readings": [
         "tsioh"
       ],
+      "uncertain": null,
       "speak": "棉襀",
       "speakRomanization": [
         "mî-tsioh"
@@ -4757,6 +7989,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -4766,12 +7999,14 @@
       "id": "B085",
       "section": "字形",
       "no": 85,
+      "paper": "「tshu」-ping",
       "prompt": "趨冰",
       "promptNote": null,
       "target": "趨",
       "readings": [
         "tshu"
       ],
+      "uncertain": null,
       "speak": "趨冰",
       "speakRomanization": [
         "tshu-ping"
@@ -4802,6 +8037,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4811,12 +8047,14 @@
       "id": "B086",
       "section": "字形",
       "no": 86,
+      "paper": "kuán-「hat」",
       "prompt": "管轄",
       "promptNote": null,
       "target": "轄",
       "readings": [
         "hat"
       ],
+      "uncertain": null,
       "speak": "管轄",
       "speakRomanization": [
         "kuán-hat"
@@ -4836,6 +8074,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -4845,12 +8084,14 @@
       "id": "B087",
       "section": "字形",
       "no": 87,
+      "paper": "「tshinn」-tshioh",
       "prompt": "鮮沢",
       "promptNote": null,
       "target": "鮮",
       "readings": [
         "tshinn"
       ],
+      "uncertain": null,
       "speak": "鮮沢",
       "speakRomanization": [
         "tshinn-tshioh"
@@ -4881,6 +8122,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4890,12 +8132,14 @@
       "id": "B088",
       "section": "字形",
       "no": 88,
+      "paper": "「thuh」-tshàu",
       "prompt": "黜臭",
       "promptNote": null,
       "target": "黜",
       "readings": [
         "thuh"
       ],
+      "uncertain": null,
       "speak": "黜臭",
       "speakRomanization": [
         "thuh-tshàu"
@@ -4926,6 +8170,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -4935,6 +8180,7 @@
       "id": "B089",
       "section": "字形",
       "no": 89,
+      "paper": "tsuí-「phiô/phiôr」",
       "prompt": "水薸",
       "promptNote": null,
       "target": "薸",
@@ -4942,6 +8188,7 @@
         "phiô",
         "phiôr"
       ],
+      "uncertain": null,
       "speak": "水薸",
       "speakRomanization": [
         "tsuí-phiô"
@@ -4972,6 +8219,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": [
@@ -4983,12 +8231,14 @@
       "id": "B090",
       "section": "字形",
       "no": 90,
+      "paper": "ah-「hiàn」",
       "prompt": "鴨羶",
       "promptNote": null,
       "target": "羶",
       "readings": [
         "hiàn"
       ],
+      "uncertain": null,
       "speak": "鴨羶",
       "speakRomanization": [
         "ah-hiàn"
@@ -5019,6 +8269,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -5028,12 +8279,14 @@
       "id": "B091",
       "section": "字形",
       "no": 91,
+      "paper": "káu-「hiā」",
       "prompt": "狗蟻",
       "promptNote": null,
       "target": "蟻",
       "readings": [
         "hiā"
       ],
+      "uncertain": null,
       "speak": "狗蟻",
       "speakRomanization": [
         "káu-hiā"
@@ -5053,6 +8306,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -5062,12 +8316,14 @@
       "id": "B092",
       "section": "字形",
       "no": 92,
+      "paper": "ī-「gī」",
       "prompt": "異議",
       "promptNote": null,
       "target": "議",
       "readings": [
         "gī"
       ],
+      "uncertain": null,
       "speak": "異議",
       "speakRomanization": [
         "ī-gī"
@@ -5087,6 +8343,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -5096,12 +8353,14 @@
       "id": "B093",
       "section": "字形",
       "no": 93,
+      "paper": "huê/hê/hêr-「kuī」",
       "prompt": "回饋",
       "promptNote": null,
       "target": "饋",
       "readings": [
         "kuī"
       ],
+      "uncertain": null,
       "speak": "回饋",
       "speakRomanization": [
         "huê-kuī",
@@ -5123,6 +8382,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -5132,12 +8392,14 @@
       "id": "B094",
       "section": "字形",
       "no": 94,
+      "paper": "「tsong」-bu̍t",
       "prompt": "贓物",
       "promptNote": null,
       "target": "贓",
       "readings": [
         "tsong"
       ],
+      "uncertain": null,
       "speak": "贓物",
       "speakRomanization": [
         "tsong-bu̍t"
@@ -5157,6 +8419,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": true,
         "readings": []
@@ -5166,6 +8429,7 @@
       "id": "B095",
       "section": "字形",
       "no": 95,
+      "paper": "tsím-thâu-「lông/long」",
       "prompt": "枕頭囊",
       "promptNote": null,
       "target": "囊",
@@ -5173,6 +8437,7 @@
         "lông",
         "long"
       ],
+      "uncertain": null,
       "speak": "枕頭囊",
       "speakRomanization": [
         "tsím-thâu-lông"
@@ -5214,6 +8479,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -5223,12 +8489,14 @@
       "id": "B096",
       "section": "字形",
       "no": 96,
+      "paper": "「thia̍p」 tsng/tsuinn-á",
       "prompt": "疊",
       "promptNote": "thia̍p tsng/tsuinn-á",
       "target": "疊",
       "readings": [
         "thia̍p"
       ],
+      "uncertain": null,
       "speak": "疊",
       "speakRomanization": [
         "thia̍p"
@@ -5248,6 +8516,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": false,
         "readings": []
@@ -5257,12 +8526,14 @@
       "id": "B097",
       "section": "字形",
       "no": 97,
+      "paper": "pùn-sò-「láng」",
       "prompt": "糞埽籠",
       "promptNote": null,
       "target": "籠",
       "readings": [
         "láng"
       ],
+      "uncertain": null,
       "speak": "糞埽籠",
       "speakRomanization": [
         "pùn-sò-láng"
@@ -5293,6 +8564,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -5302,12 +8574,14 @@
       "id": "B098",
       "section": "字形",
       "no": 98,
+      "paper": "phah-「lân」",
       "prompt": "拍鱗",
       "promptNote": null,
       "target": "鱗",
       "readings": [
         "lân"
       ],
+      "uncertain": null,
       "speak": "拍鱗",
       "speakRomanization": [
         "phah-lân"
@@ -5338,6 +8612,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -5347,12 +8622,14 @@
       "id": "B099",
       "section": "字形",
       "no": 99,
+      "paper": "tshì-「tsha̍k」",
       "prompt": "刺鑿",
       "promptNote": null,
       "target": "鑿",
       "readings": [
         "tsha̍k"
       ],
+      "uncertain": null,
       "speak": "刺鑿",
       "speakRomanization": [
         "tshì-tsha̍k"
@@ -5383,6 +8660,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": false,
         "charAudio": false,
         "readings": []
@@ -5392,12 +8670,14 @@
       "id": "B100",
       "section": "字形",
       "no": 100,
+      "paper": "「siān」-tauh-tauh",
       "prompt": "𤺪",
       "promptNote": "siān-tauh-tauh",
       "target": "𤺪",
       "readings": [
         "siān"
       ],
+      "uncertain": null,
       "speak": "𤺪",
       "speakRomanization": [
         "siān"
@@ -5417,6 +8697,7 @@
         }
       ],
       "gaps": {
+        "noAudio": false,
         "wordAudio": true,
         "charAudio": false,
         "readings": []
