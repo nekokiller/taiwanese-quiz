@@ -1,0 +1,5426 @@
+{
+  "source": {
+    "exam": "信義國小115學年度語文競賽—臺灣台語字音字形（題目引自113年全國語文競賽【國小組】）",
+    "audio": "教育部《臺灣台語常用詞辭典》 https://sutian.moe.edu.tw/"
+  },
+  "audioBase": "taiwanese-pronunciation-130-mp3/mp3/",
+  "sections": {
+    "字音": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "字形": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ]
+  },
+  "questions": [
+    {
+      "id": "A001",
+      "section": "字音",
+      "no": 1,
+      "prompt": "噪音",
+      "promptNote": null,
+      "target": "噪",
+      "readings": [
+        "tshò"
+      ],
+      "speak": "噪音",
+      "speakRomanization": [
+        "tshò-im"
+      ],
+      "reference": "A001_1_噪音.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "噪音",
+          "romanization": [
+            "tshò-im"
+          ],
+          "register": null,
+          "file": "A001_1_噪音.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/23/23530.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/23530/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A002",
+      "section": "字音",
+      "no": 2,
+      "prompt": "蘭嶼",
+      "promptNote": null,
+      "target": "嶼",
+      "readings": [
+        "sū",
+        "sīr",
+        "sī",
+        "sǐr"
+      ],
+      "speak": "島嶼",
+      "speakRomanization": [
+        "tó-sū",
+        "tóo-sū"
+      ],
+      "reference": "A002_1_島嶼.mp3",
+      "audio": [
+        {
+          "kind": "同字參考詞",
+          "word": "島嶼",
+          "romanization": [
+            "tó-sū",
+            "tóo-sū"
+          ],
+          "register": null,
+          "file": "A002_1_島嶼.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/26/26318.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/26318/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": true,
+        "readings": [
+          "sīr",
+          "sī",
+          "sǐr"
+        ]
+      }
+    },
+    {
+      "id": "A003",
+      "section": "字音",
+      "no": 3,
+      "prompt": "花彔彔",
+      "promptNote": null,
+      "target": "彔",
+      "readings": [
+        "lok"
+      ],
+      "speak": "花彔彔",
+      "speakRomanization": [
+        "hue-lok-lok"
+      ],
+      "reference": "A003_1_花彔彔.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "花彔彔",
+          "romanization": [
+            "hue-lok-lok"
+          ],
+          "register": null,
+          "file": "A003_1_花彔彔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/dx/LZ/185001.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/18500/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A004",
+      "section": "字音",
+      "no": 4,
+      "prompt": "追溯",
+      "promptNote": null,
+      "target": "溯",
+      "readings": [
+        "sòo"
+      ],
+      "speak": "追溯",
+      "speakRomanization": [
+        "tui-sòo"
+      ],
+      "reference": "A004_1_追溯.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "追溯",
+          "romanization": [
+            "tui-sòo"
+          ],
+          "register": null,
+          "file": "A004_1_追溯.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/24/24090.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/24090/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A005",
+      "section": "字音",
+      "no": 5,
+      "prompt": "慢死趖",
+      "promptNote": null,
+      "target": "趖",
+      "readings": [
+        "sô",
+        "sôr"
+      ],
+      "speak": "慢死趖",
+      "speakRomanization": [
+        "bān-sí-sô"
+      ],
+      "reference": "A005_2_慢死趖.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "趖",
+          "romanization": [
+            "sô"
+          ],
+          "register": null,
+          "file": "A005_1_趖.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10825.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10825/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "慢死趖",
+          "romanization": [
+            "bān-sí-sô"
+          ],
+          "register": null,
+          "file": "A005_2_慢死趖.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/KJ/9r/283341.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/28334/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "sôr"
+        ]
+      }
+    },
+    {
+      "id": "A006",
+      "section": "字音",
+      "no": 6,
+      "prompt": "迅速",
+      "promptNote": null,
+      "target": "迅",
+      "readings": [
+        "sìn"
+      ],
+      "speak": "迅速",
+      "speakRomanization": [
+        "sìn-sok"
+      ],
+      "reference": "A006_1_迅速.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "迅速",
+          "romanization": [
+            "sìn-sok"
+          ],
+          "register": null,
+          "file": "A006_1_迅速.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/22/22505.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/22505/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A007",
+      "section": "字音",
+      "no": 7,
+      "prompt": "鋼琴",
+      "promptNote": null,
+      "target": "鋼",
+      "readings": [
+        "kǹg"
+      ],
+      "speak": "鋼琴",
+      "speakRomanization": [
+        "kǹg-khîm"
+      ],
+      "reference": "A007_2_鋼琴.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "鋼",
+          "romanization": [
+            "kǹg"
+          ],
+          "register": "白",
+          "file": "A007_1_鋼.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11954.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11954/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "鋼琴",
+          "romanization": [
+            "kǹg-khîm"
+          ],
+          "register": null,
+          "file": "A007_2_鋼琴.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11977.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11977/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A008",
+      "section": "字音",
+      "no": 8,
+      "prompt": "閉思",
+      "promptNote": null,
+      "target": "思",
+      "readings": [
+        "sù"
+      ],
+      "speak": "閉思",
+      "speakRomanization": [
+        "pì-sù"
+      ],
+      "reference": "A008_1_閉思.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "閉思",
+          "romanization": [
+            "pì-sù"
+          ],
+          "register": null,
+          "file": "A008_1_閉思.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8045.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8045/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A009",
+      "section": "字音",
+      "no": 9,
+      "prompt": "藃藃",
+      "promptNote": null,
+      "target": "藃",
+      "readings": [
+        "hiauh"
+      ],
+      "speak": "藃藃",
+      "speakRomanization": [
+        "hiauh-hiauh"
+      ],
+      "reference": "A009_2_藃藃.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "藃",
+          "romanization": [
+            "hiauh"
+          ],
+          "register": null,
+          "file": "A009_1_藃.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12588.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12588/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "藃藃",
+          "romanization": [
+            "hiauh-hiauh"
+          ],
+          "register": null,
+          "file": "A009_2_藃藃.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12610.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12610/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A010",
+      "section": "字音",
+      "no": 10,
+      "prompt": "佛龕",
+      "promptNote": null,
+      "target": "龕",
+      "readings": [
+        "kham"
+      ],
+      "speak": "佛龕",
+      "speakRomanization": [
+        "pu̍t-kham"
+      ],
+      "reference": "A010_1_佛龕.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "佛龕",
+          "romanization": [
+            "pu̍t-kham"
+          ],
+          "register": null,
+          "file": "A010_1_佛龕.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2943.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2943/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A011",
+      "section": "字音",
+      "no": 11,
+      "prompt": "強調",
+      "promptNote": null,
+      "target": "調",
+      "readings": [
+        "tiāu"
+      ],
+      "speak": "強調",
+      "speakRomanization": [
+        "kiông-tiāu"
+      ],
+      "reference": "A011_2_強調.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "調",
+          "romanization": [
+            "tiāu"
+          ],
+          "register": null,
+          "file": "A011_1_調.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11354.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11354/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "強調",
+          "romanization": [
+            "kiông-tiāu"
+          ],
+          "register": null,
+          "file": "A011_2_強調.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/22/22158.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/22158/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A012",
+      "section": "字音",
+      "no": 12,
+      "prompt": "落跑",
+      "promptNote": null,
+      "target": "跑",
+      "readings": [
+        "phâu"
+      ],
+      "speak": "落跑",
+      "speakRomanization": [
+        "làu-phâu"
+      ],
+      "reference": "A012_1_落跑.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "落跑",
+          "romanization": [
+            "làu-phâu"
+          ],
+          "register": null,
+          "file": "A012_1_落跑.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9951.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9951/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A013",
+      "section": "字音",
+      "no": 13,
+      "prompt": "坐禪",
+      "promptNote": null,
+      "target": "禪",
+      "readings": [
+        "siân",
+        "siâm"
+      ],
+      "speak": "坐禪",
+      "speakRomanization": [
+        "tsē-siân"
+      ],
+      "reference": "A013_2_坐禪.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "禪",
+          "romanization": [
+            "siân"
+          ],
+          "register": null,
+          "file": "A013_1_禪.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12234.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12234/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "坐禪",
+          "romanization": [
+            "tsē-siân"
+          ],
+          "register": null,
+          "file": "A013_2_坐禪.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3046.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3046/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "siâm"
+        ]
+      }
+    },
+    {
+      "id": "A014",
+      "section": "字音",
+      "no": 14,
+      "prompt": "半老老",
+      "promptNote": null,
+      "target": "老",
+      "readings": [
+        "ló"
+      ],
+      "speak": "半老老",
+      "speakRomanization": [
+        "puànn-ló-lāu"
+      ],
+      "reference": "A014_1_半老老.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "半老老",
+          "romanization": [
+            "puànn-ló-lāu"
+          ],
+          "register": null,
+          "file": "A014_1_半老老.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13963.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13963/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A015",
+      "section": "字音",
+      "no": 15,
+      "prompt": "犀牛",
+      "promptNote": null,
+      "target": "犀",
+      "readings": [
+        "sai"
+      ],
+      "speak": "犀牛",
+      "speakRomanization": [
+        "sai-gû"
+      ],
+      "reference": "A015_1_犀牛.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "犀牛",
+          "romanization": [
+            "sai-gû"
+          ],
+          "register": null,
+          "file": "A015_1_犀牛.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8585.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8585/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A016",
+      "section": "字音",
+      "no": 16,
+      "prompt": "顯目",
+      "promptNote": null,
+      "target": "顯",
+      "readings": [
+        "hiánn"
+      ],
+      "speak": "顯目",
+      "speakRomanization": [
+        "hiánn-ba̍k"
+      ],
+      "reference": "A016_2_顯目.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "顯",
+          "romanization": [
+            "hiánn"
+          ],
+          "register": "白",
+          "file": "A016_1_顯.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13276.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13276/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "顯目",
+          "romanization": [
+            "hiánn-ba̍k"
+          ],
+          "register": null,
+          "file": "A016_2_顯目.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13288.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13288/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A017",
+      "section": "字音",
+      "no": 17,
+      "prompt": "上腳",
+      "promptNote": null,
+      "target": "腳",
+      "readings": [
+        "kioh"
+      ],
+      "speak": "上腳",
+      "speakRomanization": [
+        "tsiūnn-kioh"
+      ],
+      "reference": "A017_1_上腳.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "上腳",
+          "romanization": [
+            "tsiūnn-kioh"
+          ],
+          "register": null,
+          "file": "A017_1_上腳.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/27/27493.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/27493/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A018",
+      "section": "字音",
+      "no": 18,
+      "prompt": "舒被",
+      "promptNote": null,
+      "target": "舒",
+      "readings": [
+        "tshu",
+        "tshir"
+      ],
+      "speak": "舒被",
+      "speakRomanization": [
+        "tshu-phuē",
+        "tshu-phē"
+      ],
+      "reference": "A018_2_舒被.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "舒",
+          "romanization": [
+            "tshu"
+          ],
+          "register": null,
+          "file": "A018_1_舒.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8903.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8903/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "舒被",
+          "romanization": [
+            "tshu-phuē",
+            "tshu-phē"
+          ],
+          "register": null,
+          "file": "A018_2_舒被.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8922.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8922/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "tshir"
+        ]
+      }
+    },
+    {
+      "id": "A019",
+      "section": "字音",
+      "no": 19,
+      "prompt": "臨臨仔",
+      "promptNote": null,
+      "target": "臨",
+      "readings": [
+        "lím"
+      ],
+      "speak": "臨臨仔",
+      "speakRomanization": [
+        "lím-lím--á"
+      ],
+      "reference": "A019_2_臨臨仔.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "臨",
+          "romanization": [
+            "lím"
+          ],
+          "register": null,
+          "file": "A019_1_臨.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12299.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12299/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "臨臨仔",
+          "romanization": [
+            "lím-lím--á"
+          ],
+          "register": null,
+          "file": "A019_2_臨臨仔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12342.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12342/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A020",
+      "section": "字音",
+      "no": 20,
+      "prompt": "齷齪",
+      "promptNote": null,
+      "target": "齪",
+      "readings": [
+        "tsak"
+      ],
+      "speak": "齷齪",
+      "speakRomanization": [
+        "ak-tsak"
+      ],
+      "reference": "A020_2_齷齪.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "齪",
+          "romanization": [
+            "tsak"
+          ],
+          "register": null,
+          "file": "A020_1_齪.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13255.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13255/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "齷齪",
+          "romanization": [
+            "ak-tsak"
+          ],
+          "register": null,
+          "file": "A020_2_齷齪.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13373.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13373/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A021",
+      "section": "字音",
+      "no": 21,
+      "prompt": "明呼明唱",
+      "promptNote": null,
+      "target": "唱",
+      "readings": [
+        "tshiàng"
+      ],
+      "speak": "唱",
+      "speakRomanization": [
+        "tshiàng"
+      ],
+      "reference": "A021_1_唱.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "唱",
+          "romanization": [
+            "tshiàng"
+          ],
+          "register": "文",
+          "file": "A021_1_唱.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7014.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7014/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A022",
+      "section": "字音",
+      "no": 22,
+      "prompt": "鵁鴒",
+      "promptNote": null,
+      "target": "鴒",
+      "readings": [
+        "līng",
+        "lǐng"
+      ],
+      "speak": "鵁鴒",
+      "speakRomanization": [
+        "ka-līng"
+      ],
+      "reference": "A022_1_鵁鴒.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "鵁鴒",
+          "romanization": [
+            "ka-līng"
+          ],
+          "register": null,
+          "file": "A022_1_鵁鴒.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12470.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12470/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "lǐng"
+        ]
+      }
+    },
+    {
+      "id": "A023",
+      "section": "字音",
+      "no": 23,
+      "prompt": "父兄",
+      "promptNote": null,
+      "target": "兄",
+      "readings": [
+        "hing"
+      ],
+      "speak": "父兄",
+      "speakRomanization": [
+        "hū-hing"
+      ],
+      "reference": "A023_1_父兄.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "父兄",
+          "romanization": [
+            "hū-hing"
+          ],
+          "register": null,
+          "file": "A023_1_父兄.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/1/1224.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/1224/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A024",
+      "section": "字音",
+      "no": 24,
+      "prompt": "惜略",
+      "promptNote": null,
+      "target": "略",
+      "readings": [
+        "lio̍h"
+      ],
+      "speak": "惜略",
+      "speakRomanization": [
+        "sioh-lio̍h"
+      ],
+      "reference": "A024_1_惜略.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "惜略",
+          "romanization": [
+            "sioh-lio̍h"
+          ],
+          "register": null,
+          "file": "A024_1_惜略.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/WC/x0/285051.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/28505/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A025",
+      "section": "字音",
+      "no": 25,
+      "prompt": "碟仔",
+      "promptNote": null,
+      "target": "碟",
+      "readings": [
+        "ti̍h"
+      ],
+      "speak": "碟仔",
+      "speakRomanization": [
+        "ti̍h-á"
+      ],
+      "reference": "A025_1_碟仔.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "碟仔",
+          "romanization": [
+            "ti̍h-á"
+          ],
+          "register": null,
+          "file": "A025_1_碟仔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10664.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10664/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A026",
+      "section": "字音",
+      "no": 26,
+      "prompt": "牛犅",
+      "promptNote": null,
+      "target": "犅",
+      "readings": [
+        "káng"
+      ],
+      "speak": "牛犅",
+      "speakRomanization": [
+        "gû-káng"
+      ],
+      "reference": "A026_2_牛犅.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "犅",
+          "romanization": [
+            "káng"
+          ],
+          "register": null,
+          "file": "A026_1_犅.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8569.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8569/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "牛犅",
+          "romanization": [
+            "gû-káng"
+          ],
+          "register": null,
+          "file": "A026_2_牛犅.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/1/1263.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/1263/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A027",
+      "section": "字音",
+      "no": 27,
+      "prompt": "膩瓤",
+      "promptNote": null,
+      "target": "瓤",
+      "readings": [
+        "nn̂g"
+      ],
+      "speak": "膩瓤",
+      "speakRomanization": [
+        "jī-nn̂g",
+        "lī-nn̂g"
+      ],
+      "reference": "A027_2_膩瓤.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "瓤",
+          "romanization": [
+            "nn̂g"
+          ],
+          "register": "白",
+          "file": "A027_1_瓤.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13212.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13212/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "膩瓤",
+          "romanization": [
+            "jī-nn̂g",
+            "lī-nn̂g"
+          ],
+          "register": null,
+          "file": "A027_2_膩瓤.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11882.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11882/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A028",
+      "section": "字音",
+      "no": 28,
+      "prompt": "擛風",
+      "promptNote": null,
+      "target": "擛",
+      "readings": [
+        "ia̍t"
+      ],
+      "speak": "擛風",
+      "speakRomanization": [
+        "ia̍t-hong"
+      ],
+      "reference": "A028_2_擛風.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "擛",
+          "romanization": [
+            "ia̍t"
+          ],
+          "register": null,
+          "file": "A028_1_擛.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11653.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11653/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "擛風",
+          "romanization": [
+            "ia̍t-hong"
+          ],
+          "register": null,
+          "file": "A028_2_擛風.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11672.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11672/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A029",
+      "section": "字音",
+      "no": 29,
+      "prompt": "大端",
+      "promptNote": null,
+      "target": "大",
+      "readings": [
+        "tāi"
+      ],
+      "speak": "大端",
+      "speakRomanization": [
+        "tāi-tuan"
+      ],
+      "reference": "A029_2_大端.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "大",
+          "romanization": [
+            "tāi"
+          ],
+          "register": "文",
+          "file": "A029_1_大.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/0/187.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/187/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "大端",
+          "romanization": [
+            "tāi-tuan"
+          ],
+          "register": null,
+          "file": "A029_2_大端.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13618.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13618/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A030",
+      "section": "字音",
+      "no": 30,
+      "prompt": "目降鬚聳",
+      "promptNote": null,
+      "target": "聳",
+      "readings": [
+        "tshàng"
+      ],
+      "speak": "目降鬚聳",
+      "speakRomanization": [
+        "ba̍k-kàng-tshiu-tshàng"
+      ],
+      "reference": "A030_2_目降鬚聳.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "聳",
+          "romanization": [
+            "tshàng"
+          ],
+          "register": null,
+          "file": "A030_1_聳.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12292.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12292/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "目降鬚聳",
+          "romanization": [
+            "ba̍k-kàng-tshiu-tshàng"
+          ],
+          "register": null,
+          "file": "A030_2_目降鬚聳.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/Ai/9Y/282821.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/28282/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A031",
+      "section": "字音",
+      "no": 31,
+      "prompt": "米糠",
+      "promptNote": null,
+      "target": "糠",
+      "readings": [
+        "khng"
+      ],
+      "speak": "米糠",
+      "speakRomanization": [
+        "bí-khng"
+      ],
+      "reference": "A031_2_米糠.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "糠",
+          "romanization": [
+            "khng"
+          ],
+          "register": "白",
+          "file": "A031_1_糠.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12247.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12247/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "米糠",
+          "romanization": [
+            "bí-khng"
+          ],
+          "register": null,
+          "file": "A031_2_米糠.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2805.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2805/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A032",
+      "section": "字音",
+      "no": 32,
+      "prompt": "吩咐",
+      "promptNote": null,
+      "target": "吩",
+      "readings": [
+        "huan"
+      ],
+      "speak": "吩咐",
+      "speakRomanization": [
+        "huan-hù"
+      ],
+      "reference": "A032_1_吩咐.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "吩咐",
+          "romanization": [
+            "huan-hù"
+          ],
+          "register": null,
+          "file": "A032_1_吩咐.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2985.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2985/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A033",
+      "section": "字音",
+      "no": 33,
+      "prompt": "亥時",
+      "promptNote": null,
+      "target": "亥",
+      "readings": [
+        "hāi"
+      ],
+      "speak": "亥",
+      "speakRomanization": [
+        "hāi"
+      ],
+      "reference": "A033_1_亥.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "亥",
+          "romanization": [
+            "hāi"
+          ],
+          "register": null,
+          "file": "A033_1_亥.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2041.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2041/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A034",
+      "section": "字音",
+      "no": 34,
+      "prompt": "桑椹",
+      "promptNote": null,
+      "target": "椹",
+      "readings": [
+        "suî",
+        "suînn"
+      ],
+      "speak": "桑椹",
+      "speakRomanization": [
+        "sng-suî"
+      ],
+      "reference": "A034_1_桑椹.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "桑椹",
+          "romanization": [
+            "sng-suî"
+          ],
+          "register": null,
+          "file": "A034_1_桑椹.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/20/20302.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/20302/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "suînn"
+        ]
+      }
+    },
+    {
+      "id": "A035",
+      "section": "字音",
+      "no": 35,
+      "prompt": "下𦜆",
+      "promptNote": null,
+      "target": "𦜆",
+      "readings": [
+        "ham"
+      ],
+      "speak": "下𦜆",
+      "speakRomanization": [
+        "ē-ham"
+      ],
+      "reference": "A035_2_下𦜆.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "𦜆",
+          "romanization": [
+            "ham"
+          ],
+          "register": null,
+          "file": "A035_1_𦜆.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13577.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13577/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "下𦜆",
+          "romanization": [
+            "ē-ham"
+          ],
+          "register": null,
+          "file": "A035_2_下𦜆.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/0/209.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/209/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A036",
+      "section": "字音",
+      "no": 36,
+      "prompt": "簾簷",
+      "promptNote": null,
+      "target": "簾",
+      "readings": [
+        "nî"
+      ],
+      "speak": "簾簷",
+      "speakRomanization": [
+        "nî-tsînn"
+      ],
+      "reference": "A036_1_簾簷.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "簾簷",
+          "romanization": [
+            "nî-tsînn"
+          ],
+          "register": null,
+          "file": "A036_1_簾簷.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12831.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12831/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A037",
+      "section": "字音",
+      "no": 37,
+      "prompt": "匏桸",
+      "promptNote": null,
+      "target": "桸",
+      "readings": [
+        "hia"
+      ],
+      "speak": "匏桸",
+      "speakRomanization": [
+        "pû-hia"
+      ],
+      "reference": "A037_2_匏桸.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "桸",
+          "romanization": [
+            "hia"
+          ],
+          "register": null,
+          "file": "A037_1_桸.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7441.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7441/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "匏桸",
+          "romanization": [
+            "pû-hia"
+          ],
+          "register": null,
+          "file": "A037_2_匏桸.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7049.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7049/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A038",
+      "section": "字音",
+      "no": 38,
+      "prompt": "硬掙",
+      "promptNote": null,
+      "target": "掙",
+      "readings": [
+        "tsiānn"
+      ],
+      "speak": "硬掙",
+      "speakRomanization": [
+        "ngē-tsiānn",
+        "ngī-tsiānn"
+      ],
+      "reference": "A038_1_硬掙.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "硬掙",
+          "romanization": [
+            "ngē-tsiānn",
+            "ngī-tsiānn"
+          ],
+          "register": null,
+          "file": "A038_1_硬掙.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8799.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8799/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A039",
+      "section": "字音",
+      "no": 39,
+      "prompt": "得定",
+      "promptNote": null,
+      "target": "定",
+      "readings": [
+        "tiānn"
+      ],
+      "speak": "得定",
+      "speakRomanization": [
+        "tik-tiānn"
+      ],
+      "reference": "A039_2_得定.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "定",
+          "romanization": [
+            "tiānn"
+          ],
+          "register": "白",
+          "file": "A039_1_定.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3810.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3810/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "得定",
+          "romanization": [
+            "tik-tiānn"
+          ],
+          "register": null,
+          "file": "A039_2_得定.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/4v/9o/284591.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/28459/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A040",
+      "section": "字音",
+      "no": 40,
+      "prompt": "矮頓",
+      "promptNote": null,
+      "target": "頓",
+      "readings": [
+        "tǹg",
+        "tuìnn"
+      ],
+      "speak": "矮頓",
+      "speakRomanization": [
+        "é-tǹg",
+        "ué-tǹg"
+      ],
+      "reference": "A040_2_矮頓.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "頓",
+          "romanization": [
+            "tǹg"
+          ],
+          "register": "白",
+          "file": "A040_1_頓.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10285.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10285/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "矮頓",
+          "romanization": [
+            "é-tǹg",
+            "ué-tǹg"
+          ],
+          "register": null,
+          "file": "A040_2_矮頓.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14394.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14394/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "tuìnn"
+        ]
+      }
+    },
+    {
+      "id": "A041",
+      "section": "字音",
+      "no": 41,
+      "prompt": "生癬",
+      "promptNote": null,
+      "target": "癬",
+      "readings": [
+        "sián"
+      ],
+      "speak": "生癬",
+      "speakRomanization": [
+        "senn sián",
+        "sinn sián"
+      ],
+      "reference": "A041_2_生癬.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "癬",
+          "romanization": [
+            "sián"
+          ],
+          "register": null,
+          "file": "A041_1_癬.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13215.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13215/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "生癬",
+          "romanization": [
+            "senn sián",
+            "sinn sián"
+          ],
+          "register": null,
+          "file": "A041_2_生癬.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2033.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2033/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A042",
+      "section": "字音",
+      "no": 42,
+      "prompt": "操勞",
+      "promptNote": null,
+      "target": "勞",
+      "readings": [
+        "lô"
+      ],
+      "speak": "操勞",
+      "speakRomanization": [
+        "tshau-lô"
+      ],
+      "reference": "A042_2_操勞.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "勞",
+          "romanization": [
+            "lô"
+          ],
+          "register": null,
+          "file": "A042_1_勞.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8159.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8159/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "操勞",
+          "romanization": [
+            "tshau-lô"
+          ],
+          "register": null,
+          "file": "A042_2_操勞.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11677.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11677/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A043",
+      "section": "字音",
+      "no": 43,
+      "prompt": "種作",
+      "promptNote": null,
+      "target": "作",
+      "readings": [
+        "tsoh"
+      ],
+      "speak": "種作",
+      "speakRomanization": [
+        "tsìng-tsoh"
+      ],
+      "reference": "A043_2_種作.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "作",
+          "romanization": [
+            "tsoh"
+          ],
+          "register": "白",
+          "file": "A043_1_作.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2866.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2866/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "種作",
+          "romanization": [
+            "tsìng-tsoh"
+          ],
+          "register": null,
+          "file": "A043_2_種作.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10710.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10710/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A044",
+      "section": "字音",
+      "no": 44,
+      "prompt": "反駁",
+      "promptNote": null,
+      "target": "駁",
+      "readings": [
+        "pok"
+      ],
+      "speak": "反駁",
+      "speakRomanization": [
+        "huán-pok"
+      ],
+      "reference": "A044_1_反駁.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "反駁",
+          "romanization": [
+            "huán-pok"
+          ],
+          "register": null,
+          "file": "A044_1_反駁.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/24/24416.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/24416/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A045",
+      "section": "字音",
+      "no": 45,
+      "prompt": "作孽",
+      "promptNote": null,
+      "target": "孽",
+      "readings": [
+        "gia̍t"
+      ],
+      "speak": "作孽",
+      "speakRomanization": [
+        "tsok-gia̍t"
+      ],
+      "reference": "A045_1_作孽.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "作孽",
+          "romanization": [
+            "tsok-gia̍t"
+          ],
+          "register": null,
+          "file": "A045_1_作孽.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2942.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2942/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A046",
+      "section": "字音",
+      "no": 46,
+      "prompt": "滸苔",
+      "promptNote": null,
+      "target": "滸",
+      "readings": [
+        "hóo"
+      ],
+      "speak": "滸苔",
+      "speakRomanization": [
+        "hóo-thî"
+      ],
+      "reference": "A046_1_滸苔.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "滸苔",
+          "romanization": [
+            "hóo-thî"
+          ],
+          "register": null,
+          "file": "A046_1_滸苔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14439.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14439/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A047",
+      "section": "字音",
+      "no": 47,
+      "prompt": "墨賊仔",
+      "promptNote": null,
+      "target": "賊",
+      "readings": [
+        "tsa̍t"
+      ],
+      "speak": "墨賊仔",
+      "speakRomanization": [
+        "ba̍k-tsa̍t-á"
+      ],
+      "reference": "A047_1_墨賊仔.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "墨賊仔",
+          "romanization": [
+            "ba̍k-tsa̍t-á"
+          ],
+          "register": null,
+          "file": "A047_1_墨賊仔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10994.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10994/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A048",
+      "section": "字音",
+      "no": 48,
+      "prompt": "食甲真飫",
+      "promptNote": null,
+      "target": "飫",
+      "readings": [
+        "uì",
+        "ìr"
+      ],
+      "speak": "飫",
+      "speakRomanization": [
+        "uì"
+      ],
+      "reference": "A048_1_飫.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "飫",
+          "romanization": [
+            "uì"
+          ],
+          "register": null,
+          "file": "A048_1_飫.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9221.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9221/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": [
+          "ìr"
+        ]
+      }
+    },
+    {
+      "id": "A049",
+      "section": "字音",
+      "no": 49,
+      "prompt": "拍交落",
+      "promptNote": null,
+      "target": "落",
+      "readings": [
+        "la̍uh"
+      ],
+      "speak": "拍交落",
+      "speakRomanization": [
+        "phah-ka-la̍uh"
+      ],
+      "reference": "A049_1_拍交落.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "拍交落",
+          "romanization": [
+            "phah-ka-la̍uh"
+          ],
+          "register": null,
+          "file": "A049_1_拍交落.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4000.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4000/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A050",
+      "section": "字音",
+      "no": 50,
+      "prompt": "打揲",
+      "promptNote": null,
+      "target": "揲",
+      "readings": [
+        "tia̍p"
+      ],
+      "speak": "打揲",
+      "speakRomanization": [
+        "tánn-tia̍p"
+      ],
+      "reference": "A050_2_打揲.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "揲",
+          "romanization": [
+            "tia̍p"
+          ],
+          "register": null,
+          "file": "A050_1_揲.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8411.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8411/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "打揲",
+          "romanization": [
+            "tánn-tia̍p"
+          ],
+          "register": null,
+          "file": "A050_2_打揲.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/1/1774.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/1774/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A051",
+      "section": "字音",
+      "no": 51,
+      "prompt": "看護婦",
+      "promptNote": null,
+      "target": "看",
+      "readings": [
+        "khàn"
+      ],
+      "speak": "看護婦",
+      "speakRomanization": [
+        "khàn-hōo-hū"
+      ],
+      "reference": "A051_2_看護婦.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "看",
+          "romanization": [
+            "khàn"
+          ],
+          "register": "文",
+          "file": "A051_1_看.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5307.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5307/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "看護婦",
+          "romanization": [
+            "khàn-hōo-hū"
+          ],
+          "register": null,
+          "file": "A051_2_看護婦.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5362.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5362/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A052",
+      "section": "字音",
+      "no": 52,
+      "prompt": "沓沓滴滴",
+      "promptNote": null,
+      "target": "沓",
+      "readings": [
+        "ta̍p"
+      ],
+      "speak": "沓沓滴滴",
+      "speakRomanization": [
+        "ta̍p-ta̍p-tih-tih"
+      ],
+      "reference": "A052_1_沓沓滴滴.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "沓沓滴滴",
+          "romanization": [
+            "ta̍p-ta̍p-tih-tih"
+          ],
+          "register": null,
+          "file": "A052_1_沓沓滴滴.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4276.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4276/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A053",
+      "section": "字音",
+      "no": 53,
+      "prompt": "焦蔫",
+      "promptNote": null,
+      "target": "蔫",
+      "readings": [
+        "lian"
+      ],
+      "speak": "焦蔫",
+      "speakRomanization": [
+        "ta-lian"
+      ],
+      "reference": "A053_2_焦蔫.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "蔫",
+          "romanization": [
+            "lian"
+          ],
+          "register": null,
+          "file": "A053_1_蔫.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11325.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11325/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "焦蔫",
+          "romanization": [
+            "ta-lian"
+          ],
+          "register": null,
+          "file": "A053_2_焦蔫.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/0M/7i/285381.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/28538/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A054",
+      "section": "字音",
+      "no": 54,
+      "prompt": "癰仔",
+      "promptNote": null,
+      "target": "癰",
+      "readings": [
+        "ing"
+      ],
+      "speak": "癰仔",
+      "speakRomanization": [
+        "ing-á"
+      ],
+      "reference": "A054_2_癰仔.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "癰",
+          "romanization": [
+            "ing"
+          ],
+          "register": null,
+          "file": "A054_1_癰.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13261.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13261/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "癰仔",
+          "romanization": [
+            "ing-á"
+          ],
+          "register": null,
+          "file": "A054_2_癰仔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13263.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13263/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A055",
+      "section": "字音",
+      "no": 55,
+      "prompt": "水崩山",
+      "promptNote": null,
+      "target": "崩",
+      "readings": [
+        "pang"
+      ],
+      "speak": "水崩山",
+      "speakRomanization": [
+        "tsuí-pang-suann"
+      ],
+      "reference": "A055_2_水崩山.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "崩",
+          "romanization": [
+            "pang"
+          ],
+          "register": "白",
+          "file": "A055_1_崩.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7176.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7176/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "水崩山",
+          "romanization": [
+            "tsuí-pang-suann"
+          ],
+          "register": null,
+          "file": "A055_2_水崩山.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13635.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13635/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A056",
+      "section": "字音",
+      "no": 56,
+      "prompt": "訪查",
+      "promptNote": null,
+      "target": "查",
+      "readings": [
+        "tsa"
+      ],
+      "speak": "訪查",
+      "speakRomanization": [
+        "hóng-tsa"
+      ],
+      "reference": "A056_1_訪查.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "訪查",
+          "romanization": [
+            "hóng-tsa"
+          ],
+          "register": null,
+          "file": "A056_1_訪查.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/24/24303.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/24303/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A057",
+      "section": "字音",
+      "no": 57,
+      "prompt": "熁燒",
+      "promptNote": null,
+      "target": "熁",
+      "readings": [
+        "hannh",
+        "hah"
+      ],
+      "speak": "熁",
+      "speakRomanization": [
+        "hannh"
+      ],
+      "reference": "A057_1_熁.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "熁",
+          "romanization": [
+            "hannh"
+          ],
+          "register": null,
+          "file": "A057_1_熁.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10613.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10613/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": [
+          "hah"
+        ]
+      }
+    },
+    {
+      "id": "A058",
+      "section": "字音",
+      "no": 58,
+      "prompt": "存後步",
+      "promptNote": null,
+      "target": "存",
+      "readings": [
+        "tshûn"
+      ],
+      "speak": "存後步",
+      "speakRomanization": [
+        "tshûn-āu-pōo"
+      ],
+      "reference": "A058_1_存後步.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "存後步",
+          "romanization": [
+            "tshûn-āu-pōo"
+          ],
+          "register": null,
+          "file": "A058_1_存後步.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2343.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2343/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A059",
+      "section": "字音",
+      "no": 59,
+      "prompt": "興衰",
+      "promptNote": null,
+      "target": "衰",
+      "readings": [
+        "sue"
+      ],
+      "speak": "興衰",
+      "speakRomanization": [
+        "hing-sue"
+      ],
+      "reference": "A059_2_興衰.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "衰",
+          "romanization": [
+            "sue"
+          ],
+          "register": null,
+          "file": "A059_1_衰.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/6/6631.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/6631/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "興衰",
+          "romanization": [
+            "hing-sue"
+          ],
+          "register": null,
+          "file": "A059_2_興衰.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11873.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11873/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A060",
+      "section": "字音",
+      "no": 60,
+      "prompt": "名譽",
+      "promptNote": null,
+      "target": "譽",
+      "readings": [
+        "ū"
+      ],
+      "speak": "名譽",
+      "speakRomanization": [
+        "bîng-ū"
+      ],
+      "reference": "A060_1_名譽.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "名譽",
+          "romanization": [
+            "bîng-ū"
+          ],
+          "register": null,
+          "file": "A060_1_名譽.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/26/26109.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/26109/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A061",
+      "section": "字音",
+      "no": 61,
+      "prompt": "米糕𣻸",
+      "promptNote": null,
+      "target": "𣻸",
+      "readings": [
+        "siûnn",
+        "siônn"
+      ],
+      "speak": "米糕𣻸",
+      "speakRomanization": [
+        "bí-ko-siûnn"
+      ],
+      "reference": "A061_2_米糕𣻸.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "𣻸",
+          "romanization": [
+            "siûnn"
+          ],
+          "register": null,
+          "file": "A061_1_𣻸.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13575.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13575/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "米糕𣻸",
+          "romanization": [
+            "bí-ko-siûnn"
+          ],
+          "register": null,
+          "file": "A061_2_米糕𣻸.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2796.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2796/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "siônn"
+        ]
+      }
+    },
+    {
+      "id": "A062",
+      "section": "字音",
+      "no": 62,
+      "prompt": "𫝻手機仔",
+      "promptNote": null,
+      "target": "𫝻",
+      "readings": [
+        "huê"
+      ],
+      "speak": "𫝻",
+      "speakRomanization": [
+        "huê"
+      ],
+      "reference": "A062_1_𫝻.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "𫝻",
+          "romanization": [
+            "huê"
+          ],
+          "register": null,
+          "file": "A062_1_𫝻.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13585.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13585/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A063",
+      "section": "字音",
+      "no": 63,
+      "prompt": "洗汰",
+      "promptNote": null,
+      "target": "汰",
+      "readings": [
+        "thuā",
+        "thuǎ"
+      ],
+      "speak": "洗汰",
+      "speakRomanization": [
+        "sé-thuā",
+        "sué-thuā"
+      ],
+      "reference": "A063_2_洗汰.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "汰",
+          "romanization": [
+            "thuā"
+          ],
+          "register": null,
+          "file": "A063_1_汰.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3280.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3280/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "洗汰",
+          "romanization": [
+            "sé-thuā",
+            "sué-thuā"
+          ],
+          "register": null,
+          "file": "A063_2_洗汰.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5138.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5138/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "thuǎ"
+        ]
+      }
+    },
+    {
+      "id": "A064",
+      "section": "字音",
+      "no": 64,
+      "prompt": "下水湯",
+      "promptNote": null,
+      "target": "水",
+      "readings": [
+        "suí"
+      ],
+      "speak": "下水湯",
+      "speakRomanization": [
+        "hā-suí-thng"
+      ],
+      "reference": "A064_2_下水湯.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "水",
+          "romanization": [
+            "suí"
+          ],
+          "register": "文",
+          "file": "A064_1_水.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/0/815.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/815/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "下水湯",
+          "romanization": [
+            "hā-suí-thng"
+          ],
+          "register": null,
+          "file": "A064_2_下水湯.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/0/270.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/270/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A065",
+      "section": "字音",
+      "no": 65,
+      "prompt": "嚓嚓趒",
+      "promptNote": null,
+      "target": "嚓",
+      "readings": [
+        "tshia̍k"
+      ],
+      "speak": "嚓嚓趒",
+      "speakRomanization": [
+        "tshia̍k-tshia̍k-tiô"
+      ],
+      "reference": "A065_2_嚓嚓趒.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "嚓",
+          "romanization": [
+            "tshia̍k"
+          ],
+          "register": null,
+          "file": "A065_1_嚓.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12126.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12126/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "嚓嚓趒",
+          "romanization": [
+            "tshia̍k-tshia̍k-tiô"
+          ],
+          "register": null,
+          "file": "A065_2_嚓嚓趒.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12131.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12131/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A066",
+      "section": "字音",
+      "no": 66,
+      "prompt": "鐵撬",
+      "promptNote": null,
+      "target": "撬",
+      "readings": [
+        "kiāu",
+        "kiǎu"
+      ],
+      "speak": "鐵撬",
+      "speakRomanization": [
+        "thih-kiāu"
+      ],
+      "reference": "A066_2_鐵撬.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "撬",
+          "romanization": [
+            "kiāu"
+          ],
+          "register": null,
+          "file": "A066_1_撬.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11102.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11102/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "鐵撬",
+          "romanization": [
+            "thih-kiāu"
+          ],
+          "register": null,
+          "file": "A066_2_鐵撬.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14545.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14545/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "kiǎu"
+        ]
+      }
+    },
+    {
+      "id": "A067",
+      "section": "字音",
+      "no": 67,
+      "prompt": "花鮡",
+      "promptNote": null,
+      "target": "鮡",
+      "readings": [
+        "thiâu"
+      ],
+      "speak": "花鮡",
+      "speakRomanization": [
+        "hue-thiâu"
+      ],
+      "reference": "A067_1_花鮡.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "花鮡",
+          "romanization": [
+            "hue-thiâu"
+          ],
+          "register": null,
+          "file": "A067_1_花鮡.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4476.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4476/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A068",
+      "section": "字音",
+      "no": 68,
+      "prompt": "嘔紅",
+      "promptNote": null,
+      "target": "紅",
+      "readings": [
+        "hông"
+      ],
+      "speak": "嘔紅",
+      "speakRomanization": [
+        "áu-hông"
+      ],
+      "reference": "A068_2_嘔紅.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "紅",
+          "romanization": [
+            "hông"
+          ],
+          "register": "文",
+          "file": "A068_1_紅.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5366.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5366/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "嘔紅",
+          "romanization": [
+            "áu-hông"
+          ],
+          "register": null,
+          "file": "A068_2_嘔紅.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10392.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10392/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A069",
+      "section": "字音",
+      "no": 69,
+      "prompt": "傑作",
+      "promptNote": null,
+      "target": "傑",
+      "readings": [
+        "kia̍t"
+      ],
+      "speak": "傑作",
+      "speakRomanization": [
+        "kia̍t-tsok"
+      ],
+      "reference": "A069_1_傑作.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "傑作",
+          "romanization": [
+            "kia̍t-tsok"
+          ],
+          "register": null,
+          "file": "A069_1_傑作.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/24/24863.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/24863/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A070",
+      "section": "字音",
+      "no": 70,
+      "prompt": "鋸屑烌",
+      "promptNote": null,
+      "target": "烌",
+      "readings": [
+        "hu"
+      ],
+      "speak": "鋸屑烌",
+      "speakRomanization": [
+        "kì-sut-hu",
+        "kù-sut-hu"
+      ],
+      "reference": "A070_2_鋸屑烌.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "烌",
+          "romanization": [
+            "hu"
+          ],
+          "register": null,
+          "file": "A070_1_烌.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/6/6226.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/6226/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "鋸屑烌",
+          "romanization": [
+            "kì-sut-hu",
+            "kù-sut-hu"
+          ],
+          "register": null,
+          "file": "A070_2_鋸屑烌.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14492.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14492/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A071",
+      "section": "字音",
+      "no": 71,
+      "prompt": "海拔",
+      "promptNote": null,
+      "target": "拔",
+      "readings": [
+        "pua̍t"
+      ],
+      "speak": "海拔",
+      "speakRomanization": [
+        "hái-pua̍t"
+      ],
+      "reference": "A071_1_海拔.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "海拔",
+          "romanization": [
+            "hái-pua̍t"
+          ],
+          "register": null,
+          "file": "A071_1_海拔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/24/24277.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/24277/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A072",
+      "section": "字音",
+      "no": 72,
+      "prompt": "損蕩",
+      "promptNote": null,
+      "target": "蕩",
+      "readings": [
+        "tn̄g"
+      ],
+      "speak": "損蕩",
+      "speakRomanization": [
+        "sńg-tn̄g"
+      ],
+      "reference": "A072_1_損蕩.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "損蕩",
+          "romanization": [
+            "sńg-tn̄g"
+          ],
+          "register": null,
+          "file": "A072_1_損蕩.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9551.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9551/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A073",
+      "section": "字音",
+      "no": 73,
+      "prompt": "油脂",
+      "promptNote": null,
+      "target": "脂",
+      "readings": [
+        "tsi"
+      ],
+      "speak": "油脂",
+      "speakRomanization": [
+        "iû-tsi"
+      ],
+      "reference": "A073_1_油脂.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "油脂",
+          "romanization": [
+            "iû-tsi"
+          ],
+          "register": null,
+          "file": "A073_1_油脂.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/23/23605.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/23605/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A074",
+      "section": "字音",
+      "no": 74,
+      "prompt": "慷慨",
+      "promptNote": null,
+      "target": "慷",
+      "readings": [
+        "khóng"
+      ],
+      "speak": "慷慨",
+      "speakRomanization": [
+        "khóng-khài"
+      ],
+      "reference": "A074_1_慷慨.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "慷慨",
+          "romanization": [
+            "khóng-khài"
+          ],
+          "register": null,
+          "file": "A074_1_慷慨.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10516.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10516/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A075",
+      "section": "字音",
+      "no": 75,
+      "prompt": "接接",
+      "promptNote": null,
+      "target": "接",
+      "readings": [
+        "tsih"
+      ],
+      "speak": "接接",
+      "speakRomanization": [
+        "tsih-tsiap"
+      ],
+      "reference": "A075_2_接接.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "接",
+          "romanization": [
+            "tsih"
+          ],
+          "register": "白",
+          "file": "A075_1_接.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7307.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7307/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "接接",
+          "romanization": [
+            "tsih-tsiap"
+          ],
+          "register": null,
+          "file": "A075_2_接接.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7374.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7374/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A076",
+      "section": "字音",
+      "no": 76,
+      "prompt": "落杓",
+      "promptNote": null,
+      "target": "落",
+      "readings": [
+        "làu"
+      ],
+      "speak": "落杓",
+      "speakRomanization": [
+        "làu-sia̍h"
+      ],
+      "reference": "A076_2_落杓.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "落",
+          "romanization": [
+            "làu"
+          ],
+          "register": null,
+          "file": "A076_1_落.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9863.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9863/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "落杓",
+          "romanization": [
+            "làu-sia̍h"
+          ],
+          "register": null,
+          "file": "A076_2_落杓.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9905.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9905/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A077",
+      "section": "字音",
+      "no": 77,
+      "prompt": "哼哼叫",
+      "promptNote": null,
+      "target": "哼",
+      "readings": [
+        "hainn"
+      ],
+      "speak": "哼哼叫",
+      "speakRomanization": [
+        "hainn-hainn-kiò"
+      ],
+      "reference": "A077_2_哼哼叫.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "哼",
+          "romanization": [
+            "hainn"
+          ],
+          "register": null,
+          "file": "A077_1_哼.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5799.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5799/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "哼哼叫",
+          "romanization": [
+            "hainn-hainn-kiò"
+          ],
+          "register": null,
+          "file": "A077_2_哼哼叫.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5832.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5832/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A078",
+      "section": "字音",
+      "no": 78,
+      "prompt": "串仔",
+      "promptNote": null,
+      "target": "串",
+      "readings": [
+        "tshǹg",
+        "tshuàn"
+      ],
+      "speak": "串仔",
+      "speakRomanization": [
+        "tshǹg-á"
+      ],
+      "reference": "A078_3_串仔.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "串",
+          "romanization": [
+            "tshǹg"
+          ],
+          "register": "白",
+          "file": "A078_1_串.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2850.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2850/"
+        },
+        {
+          "kind": "單字本調",
+          "word": "串",
+          "romanization": [
+            "tshuàn"
+          ],
+          "register": "文",
+          "file": "A078_2_串.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2851.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2851/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "串仔",
+          "romanization": [
+            "tshǹg-á"
+          ],
+          "register": null,
+          "file": "A078_3_串仔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2886.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2886/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A079",
+      "section": "字音",
+      "no": 79,
+      "prompt": "相楗",
+      "promptNote": null,
+      "target": "楗",
+      "readings": [
+        "kīng",
+        "kǐng",
+        "kān"
+      ],
+      "speak": "相楗",
+      "speakRomanization": [
+        "sio-kīng"
+      ],
+      "reference": "A079_2_相楗.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "楗",
+          "romanization": [
+            "kīng"
+          ],
+          "register": null,
+          "file": "A079_1_楗.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9570.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9570/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "相楗",
+          "romanization": [
+            "sio-kīng"
+          ],
+          "register": null,
+          "file": "A079_2_相楗.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5280.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5280/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "kǐng",
+          "kān"
+        ]
+      }
+    },
+    {
+      "id": "A080",
+      "section": "字音",
+      "no": 80,
+      "prompt": "花眉",
+      "promptNote": null,
+      "target": "眉",
+      "readings": [
+        "bî"
+      ],
+      "speak": "花眉",
+      "speakRomanization": [
+        "hue-bî"
+      ],
+      "reference": "A080_2_花眉.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "眉",
+          "romanization": [
+            "bî"
+          ],
+          "register": "文",
+          "file": "A080_1_眉.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5306.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5306/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "花眉",
+          "romanization": [
+            "hue-bî"
+          ],
+          "register": null,
+          "file": "A080_2_花眉.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14109.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14109/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A081",
+      "section": "字音",
+      "no": 81,
+      "prompt": "豆粕",
+      "promptNote": null,
+      "target": "粕",
+      "readings": [
+        "phoh",
+        "phorh"
+      ],
+      "speak": "豆粕",
+      "speakRomanization": [
+        "tāu-phoh"
+      ],
+      "reference": "A081_2_豆粕.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "粕",
+          "romanization": [
+            "phoh"
+          ],
+          "register": "白",
+          "file": "A081_1_粕.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7714.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7714/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "豆粕",
+          "romanization": [
+            "tāu-phoh"
+          ],
+          "register": null,
+          "file": "A081_2_豆粕.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3461.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3461/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "phorh"
+        ]
+      }
+    },
+    {
+      "id": "A082",
+      "section": "字音",
+      "no": 82,
+      "prompt": "空隙",
+      "promptNote": null,
+      "target": "隙",
+      "readings": [
+        "khiah"
+      ],
+      "speak": "空隙",
+      "speakRomanization": [
+        "khang-khiah"
+      ],
+      "reference": "A082_2_空隙.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "隙",
+          "romanization": [
+            "khiah"
+          ],
+          "register": null,
+          "file": "A082_1_隙.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10908.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10908/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "空隙",
+          "romanization": [
+            "khang-khiah"
+          ],
+          "register": null,
+          "file": "A082_2_空隙.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/26/26206.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/26206/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A083",
+      "section": "字音",
+      "no": 83,
+      "prompt": "消磨",
+      "promptNote": null,
+      "target": "磨",
+      "readings": [
+        "môo"
+      ],
+      "speak": "消磨",
+      "speakRomanization": [
+        "siau-môo"
+      ],
+      "reference": "A083_1_消磨.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "消磨",
+          "romanization": [
+            "siau-môo"
+          ],
+          "register": null,
+          "file": "A083_1_消磨.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/27/27549.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/27549/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A084",
+      "section": "字音",
+      "no": 84,
+      "prompt": "眵目",
+      "promptNote": null,
+      "target": "眵",
+      "readings": [
+        "tshuh"
+      ],
+      "speak": "眵目",
+      "speakRomanization": [
+        "tshuh-ba̍k"
+      ],
+      "reference": "A084_2_眵目.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "眵",
+          "romanization": [
+            "tshuh"
+          ],
+          "register": null,
+          "file": "A084_1_眵.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7640.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7640/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "眵目",
+          "romanization": [
+            "tshuh-ba̍k"
+          ],
+          "register": null,
+          "file": "A084_2_眵目.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7651.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7651/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A085",
+      "section": "字音",
+      "no": 85,
+      "prompt": "狗𩸶仔",
+      "promptNote": null,
+      "target": "𩸶",
+      "readings": [
+        "gām",
+        "kām"
+      ],
+      "speak": "狗𩸶仔",
+      "speakRomanization": [
+        "káu-gām-á"
+      ],
+      "reference": "A085_1_狗𩸶仔.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "狗𩸶仔",
+          "romanization": [
+            "káu-gām-á"
+          ],
+          "register": null,
+          "file": "A085_1_狗𩸶仔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4330.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4330/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "kām"
+        ]
+      }
+    },
+    {
+      "id": "A086",
+      "section": "字音",
+      "no": 86,
+      "prompt": "解散",
+      "promptNote": null,
+      "target": "散",
+      "readings": [
+        "sàn"
+      ],
+      "speak": "解散",
+      "speakRomanization": [
+        "kái-sàn"
+      ],
+      "reference": "A086_2_解散.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "散",
+          "romanization": [
+            "sàn"
+          ],
+          "register": "文",
+          "file": "A086_1_散.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8417.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8417/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "解散",
+          "romanization": [
+            "kái-sàn"
+          ],
+          "register": null,
+          "file": "A086_2_解散.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10031.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10031/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A087",
+      "section": "字音",
+      "no": 87,
+      "prompt": "蝦膎",
+      "promptNote": null,
+      "target": "膎",
+      "readings": [
+        "kê",
+        "kuê",
+        "kerê"
+      ],
+      "speak": "蝦膎",
+      "speakRomanization": [
+        "hê-kê",
+        "hê-kuê"
+      ],
+      "reference": "A087_1_蝦膎.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "蝦膎",
+          "romanization": [
+            "hê-kê",
+            "hê-kuê"
+          ],
+          "register": null,
+          "file": "A087_1_蝦膎.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11342.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11342/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "kerê"
+        ]
+      }
+    },
+    {
+      "id": "A088",
+      "section": "字音",
+      "no": 88,
+      "prompt": "象桮",
+      "promptNote": null,
+      "target": "象",
+      "readings": [
+        "siūnn",
+        "sīn",
+        "siōnn"
+      ],
+      "speak": "象桮",
+      "speakRomanization": [
+        "siūnn-pue"
+      ],
+      "reference": "A088_1_象桮.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "象桮",
+          "romanization": [
+            "siūnn-pue"
+          ],
+          "register": null,
+          "file": "A088_1_象桮.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9081.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9081/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "sīn",
+          "siōnn"
+        ]
+      }
+    },
+    {
+      "id": "A089",
+      "section": "字音",
+      "no": 89,
+      "prompt": "繏嚨喉",
+      "promptNote": null,
+      "target": "繏",
+      "readings": [
+        "sǹg"
+      ],
+      "speak": "繏嚨喉",
+      "speakRomanization": [
+        "sǹg nâ-âu"
+      ],
+      "reference": "A089_2_繏嚨喉.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "繏",
+          "romanization": [
+            "sǹg"
+          ],
+          "register": null,
+          "file": "A089_1_繏.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12542.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12542/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "繏嚨喉",
+          "romanization": [
+            "sǹg nâ-âu"
+          ],
+          "register": null,
+          "file": "A089_2_繏嚨喉.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12585.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12585/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A090",
+      "section": "字音",
+      "no": 90,
+      "prompt": "司公鈃",
+      "promptNote": null,
+      "target": "鈃",
+      "readings": [
+        "giang"
+      ],
+      "speak": "司公鈃",
+      "speakRomanization": [
+        "sai-kong-giang"
+      ],
+      "reference": "A090_2_司公鈃.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "鈃",
+          "romanization": [
+            "giang"
+          ],
+          "register": null,
+          "file": "A090_1_鈃.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9139.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9139/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "司公鈃",
+          "romanization": [
+            "sai-kong-giang"
+          ],
+          "register": null,
+          "file": "A090_2_司公鈃.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/1/1430.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/1430/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A091",
+      "section": "字音",
+      "no": 91,
+      "prompt": "灇水",
+      "promptNote": null,
+      "target": "灇",
+      "readings": [
+        "tsâng"
+      ],
+      "speak": "灇水",
+      "speakRomanization": [
+        "tsâng-tsuí"
+      ],
+      "reference": "A091_2_灇水.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "灇",
+          "romanization": [
+            "tsâng"
+          ],
+          "register": null,
+          "file": "A091_1_灇.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13089.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13089/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "灇水",
+          "romanization": [
+            "tsâng-tsuí"
+          ],
+          "register": null,
+          "file": "A091_2_灇水.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14537.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14537/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A092",
+      "section": "字音",
+      "no": 92,
+      "prompt": "高長",
+      "promptNote": null,
+      "target": "長",
+      "readings": [
+        "tshiâng"
+      ],
+      "speak": "高長",
+      "speakRomanization": [
+        "kau-tshiâng"
+      ],
+      "reference": "A092_1_高長.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "高長",
+          "romanization": [
+            "kau-tshiâng"
+          ],
+          "register": null,
+          "file": "A092_1_高長.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13715.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13715/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A093",
+      "section": "字音",
+      "no": 93,
+      "prompt": "綿延",
+      "promptNote": null,
+      "target": "綿",
+      "readings": [
+        "biân"
+      ],
+      "speak": "綿延",
+      "speakRomanization": [
+        "biân-iân"
+      ],
+      "reference": "A093_1_綿延.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "綿延",
+          "romanization": [
+            "biân-iân"
+          ],
+          "register": null,
+          "file": "A093_1_綿延.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/25/25324.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/25324/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A094",
+      "section": "字音",
+      "no": 94,
+      "prompt": "斜角",
+      "promptNote": null,
+      "target": "斜",
+      "readings": [
+        "tshua̍h"
+      ],
+      "speak": "斜角",
+      "speakRomanization": [
+        "tshua̍h-kak"
+      ],
+      "reference": "A094_2_斜角.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "斜",
+          "romanization": [
+            "tshua̍h"
+          ],
+          "register": null,
+          "file": "A094_1_斜.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7429.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7429/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "斜角",
+          "romanization": [
+            "tshua̍h-kak"
+          ],
+          "register": null,
+          "file": "A094_2_斜角.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/7/7450.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/7450/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A095",
+      "section": "字音",
+      "no": 95,
+      "prompt": "四界遹",
+      "promptNote": null,
+      "target": "遹",
+      "readings": [
+        "u̍t"
+      ],
+      "speak": "遹",
+      "speakRomanization": [
+        "u̍t"
+      ],
+      "reference": "A095_1_遹.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "遹",
+          "romanization": [
+            "u̍t"
+          ],
+          "register": null,
+          "file": "A095_1_遹.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11950.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11950/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A096",
+      "section": "字音",
+      "no": 96,
+      "prompt": "挩門",
+      "promptNote": null,
+      "target": "挩",
+      "readings": [
+        "thuah"
+      ],
+      "speak": "挩門",
+      "speakRomanization": [
+        "thuah-mn̂g"
+      ],
+      "reference": "A096_2_挩門.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "挩",
+          "romanization": [
+            "thuah"
+          ],
+          "register": null,
+          "file": "A096_1_挩.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5960.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5960/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "挩門",
+          "romanization": [
+            "thuah-mn̂g"
+          ],
+          "register": null,
+          "file": "A096_2_挩門.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/5/5966.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/5966/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A097",
+      "section": "字音",
+      "no": 97,
+      "prompt": "溼度",
+      "promptNote": null,
+      "target": "溼",
+      "readings": [
+        "sip"
+      ],
+      "speak": "溼度",
+      "speakRomanization": [
+        "sip-tōo"
+      ],
+      "reference": "A097_2_溼度.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "溼",
+          "romanization": [
+            "sip"
+          ],
+          "register": null,
+          "file": "A097_1_溼.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12203.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12203/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "溼度",
+          "romanization": [
+            "sip-tōo"
+          ],
+          "register": null,
+          "file": "A097_2_溼度.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/25/25929.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/25929/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A098",
+      "section": "字音",
+      "no": 98,
+      "prompt": "懵膽",
+      "promptNote": null,
+      "target": "懵",
+      "readings": [
+        "bòng"
+      ],
+      "speak": "懵膽",
+      "speakRomanization": [
+        "bòng-tánn"
+      ],
+      "reference": "A098_1_懵膽.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "懵膽",
+          "romanization": [
+            "bòng-tánn"
+          ],
+          "register": null,
+          "file": "A098_1_懵膽.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14528.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14528/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "A099",
+      "section": "字音",
+      "no": 99,
+      "prompt": "反種",
+      "promptNote": null,
+      "target": "種",
+      "readings": [
+        "tsíng"
+      ],
+      "speak": "反種",
+      "speakRomanization": [
+        "huán-tsíng"
+      ],
+      "reference": "A099_2_反種.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "種",
+          "romanization": [
+            "tsíng"
+          ],
+          "register": "白",
+          "file": "A099_1_種.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10678.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10678/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "反種",
+          "romanization": [
+            "huán-tsíng"
+          ],
+          "register": null,
+          "file": "A099_2_反種.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13907.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13907/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "A100",
+      "section": "字音",
+      "no": 100,
+      "prompt": "暗行",
+      "promptNote": null,
+      "target": "行",
+      "readings": [
+        "hīng"
+      ],
+      "speak": "暗行",
+      "speakRomanization": [
+        "àm-hīng"
+      ],
+      "reference": "A100_2_暗行.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "行",
+          "romanization": [
+            "hīng"
+          ],
+          "register": null,
+          "file": "A100_1_行.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/2/2606.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/2606/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "暗行",
+          "romanization": [
+            "àm-hīng"
+          ],
+          "register": null,
+          "file": "A100_2_暗行.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/9/9589.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/9589/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B071",
+      "section": "字形",
+      "no": 71,
+      "prompt": "樹蔭",
+      "promptNote": null,
+      "target": "蔭",
+      "readings": [
+        "ńg"
+      ],
+      "speak": "樹蔭",
+      "speakRomanization": [
+        "tshiū-ńg"
+      ],
+      "reference": "B071_2_樹蔭.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "蔭",
+          "romanization": [
+            "ńg"
+          ],
+          "register": null,
+          "file": "B071_1_蔭.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11327.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11327/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "樹蔭",
+          "romanization": [
+            "tshiū-ńg"
+          ],
+          "register": null,
+          "file": "B071_2_樹蔭.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11727.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11727/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B072",
+      "section": "字形",
+      "no": 72,
+      "prompt": "衝碰",
+      "promptNote": null,
+      "target": "衝",
+      "readings": [
+        "tshóng"
+      ],
+      "speak": "衝碰",
+      "speakRomanization": [
+        "tshóng-pōng"
+      ],
+      "reference": "B072_1_衝碰.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "衝碰",
+          "romanization": [
+            "tshóng-pōng"
+          ],
+          "register": null,
+          "file": "B072_1_衝碰.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11370.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11370/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B073",
+      "section": "字形",
+      "no": 73,
+      "prompt": "餒志",
+      "promptNote": null,
+      "target": "餒",
+      "readings": [
+        "lué"
+      ],
+      "speak": "餒志",
+      "speakRomanization": [
+        "lué-tsì"
+      ],
+      "reference": "B073_1_餒志.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "餒志",
+          "romanization": [
+            "lué-tsì"
+          ],
+          "register": null,
+          "file": "B073_1_餒志.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13825.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13825/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B074",
+      "section": "字形",
+      "no": 74,
+      "prompt": "擔頭",
+      "promptNote": null,
+      "target": "擔",
+      "readings": [
+        "tann"
+      ],
+      "speak": "擔頭",
+      "speakRomanization": [
+        "tànn-thâu"
+      ],
+      "reference": "B074_2_擔頭.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "擔",
+          "romanization": [
+            "tann"
+          ],
+          "register": "白",
+          "file": "B074_1_擔.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11650.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11650/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "擔頭",
+          "romanization": [
+            "tànn-thâu"
+          ],
+          "register": null,
+          "file": "B074_2_擔頭.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11696.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11696/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B075",
+      "section": "字形",
+      "no": 75,
+      "prompt": "據在",
+      "promptNote": null,
+      "target": "據",
+      "readings": [
+        "kì",
+        "kù",
+        "kìr"
+      ],
+      "speak": "據在",
+      "speakRomanization": [
+        "kì-tsāi",
+        "kù-tsāi"
+      ],
+      "reference": "B075_1_據在.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "據在",
+          "romanization": [
+            "kì-tsāi",
+            "kù-tsāi"
+          ],
+          "register": null,
+          "file": "B075_1_據在.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11661.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11661/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": [
+          "kìr"
+        ]
+      }
+    },
+    {
+      "id": "B076",
+      "section": "字形",
+      "no": 76,
+      "prompt": "草橄欖",
+      "promptNote": null,
+      "target": "橄",
+      "readings": [
+        "kan"
+      ],
+      "speak": "草橄欖",
+      "speakRomanization": [
+        "tshó-kan-ná"
+      ],
+      "reference": "B076_1_草橄欖.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "草橄欖",
+          "romanization": [
+            "tshó-kan-ná"
+          ],
+          "register": null,
+          "file": "B076_1_草橄欖.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/6/6614.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/6614/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B077",
+      "section": "字形",
+      "no": 77,
+      "prompt": "防禦",
+      "promptNote": null,
+      "target": "禦",
+      "readings": [
+        "gū"
+      ],
+      "speak": "防禦",
+      "speakRomanization": [
+        "hông-gū"
+      ],
+      "reference": "B077_1_防禦.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "防禦",
+          "romanization": [
+            "hông-gū"
+          ],
+          "register": null,
+          "file": "B077_1_防禦.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/24/24752.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/24752/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B078",
+      "section": "字形",
+      "no": 78,
+      "prompt": "無較縒",
+      "promptNote": null,
+      "target": "縒",
+      "readings": [
+        "tsua̍h"
+      ],
+      "speak": "無較縒",
+      "speakRomanization": [
+        "bô-khah-tsua̍h"
+      ],
+      "reference": "B078_2_無較縒.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "縒",
+          "romanization": [
+            "tsua̍h"
+          ],
+          "register": null,
+          "file": "B078_1_縒.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/F3/pZ/5889.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/16960/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "無較縒",
+          "romanization": [
+            "bô-khah-tsua̍h"
+          ],
+          "register": null,
+          "file": "B078_2_無較縒.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8657.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8657/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B079",
+      "section": "字形",
+      "no": 79,
+      "prompt": "貓面",
+      "promptNote": null,
+      "target": "貓",
+      "readings": [
+        "niau"
+      ],
+      "speak": "貓面",
+      "speakRomanization": [
+        "niau-bīn"
+      ],
+      "reference": "B079_2_貓面.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "貓",
+          "romanization": [
+            "niau"
+          ],
+          "register": null,
+          "file": "B079_1_貓.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11905.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11905/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "貓面",
+          "romanization": [
+            "niau-bīn"
+          ],
+          "register": null,
+          "file": "B079_2_貓面.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11927.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11927/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B080",
+      "section": "字形",
+      "no": 80,
+      "prompt": "半身不隨",
+      "promptNote": null,
+      "target": "隨",
+      "readings": [
+        "suî"
+      ],
+      "speak": "半身不隨",
+      "speakRomanization": [
+        "puàn-sin-put-suî"
+      ],
+      "reference": "B080_2_半身不隨.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "隨",
+          "romanization": [
+            "suî"
+          ],
+          "register": null,
+          "file": "B080_1_隨.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/11/11992.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/11992/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "半身不隨",
+          "romanization": [
+            "puàn-sin-put-suî"
+          ],
+          "register": null,
+          "file": "B080_2_半身不隨.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/aq/fL/281581.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/28158/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B081",
+      "section": "字形",
+      "no": 81,
+      "prompt": "應效",
+      "promptNote": null,
+      "target": "應",
+      "readings": [
+        "ìng"
+      ],
+      "speak": "應效",
+      "speakRomanization": [
+        "ìng-hāu"
+      ],
+      "reference": "B081_1_應效.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "應效",
+          "romanization": [
+            "ìng-hāu"
+          ],
+          "register": null,
+          "file": "B081_1_應效.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12163.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12163/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B082",
+      "section": "字形",
+      "no": 82,
+      "prompt": "一簇人",
+      "promptNote": null,
+      "target": "簇",
+      "readings": [
+        "tshok"
+      ],
+      "speak": "簇",
+      "speakRomanization": [
+        "tshok"
+      ],
+      "reference": "B082_1_簇.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "簇",
+          "romanization": [
+            "tshok"
+          ],
+          "register": null,
+          "file": "B082_1_簇.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/14/14509.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/14509/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B083",
+      "section": "字形",
+      "no": 83,
+      "prompt": "縫紩",
+      "promptNote": null,
+      "target": "縫",
+      "readings": [
+        "pâng"
+      ],
+      "speak": "縫紩",
+      "speakRomanization": [
+        "pâng-thīnn"
+      ],
+      "reference": "B083_2_縫紩.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "縫",
+          "romanization": [
+            "pâng"
+          ],
+          "register": "白",
+          "file": "B083_1_縫.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12248.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12248/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "縫紩",
+          "romanization": [
+            "pâng-thīnn"
+          ],
+          "register": null,
+          "file": "B083_2_縫紩.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12271.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12271/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B084",
+      "section": "字形",
+      "no": 84,
+      "prompt": "棉襀",
+      "promptNote": null,
+      "target": "襀",
+      "readings": [
+        "tsioh"
+      ],
+      "speak": "棉襀",
+      "speakRomanization": [
+        "mî-tsioh"
+      ],
+      "reference": "B084_1_棉襀.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "棉襀",
+          "romanization": [
+            "mî-tsioh"
+          ],
+          "register": null,
+          "file": "B084_1_棉襀.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/8/8513.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/8513/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B085",
+      "section": "字形",
+      "no": 85,
+      "prompt": "趨冰",
+      "promptNote": null,
+      "target": "趨",
+      "readings": [
+        "tshu"
+      ],
+      "speak": "趨冰",
+      "speakRomanization": [
+        "tshu-ping"
+      ],
+      "reference": "B085_2_趨冰.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "趨",
+          "romanization": [
+            "tshu"
+          ],
+          "register": null,
+          "file": "B085_1_趨.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12371.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12371/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "趨冰",
+          "romanization": [
+            "tshu-ping"
+          ],
+          "register": null,
+          "file": "B085_2_趨冰.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13839.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13839/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B086",
+      "section": "字形",
+      "no": 86,
+      "prompt": "管轄",
+      "promptNote": null,
+      "target": "轄",
+      "readings": [
+        "hat"
+      ],
+      "speak": "管轄",
+      "speakRomanization": [
+        "kuán-hat"
+      ],
+      "reference": "B086_1_管轄.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "管轄",
+          "romanization": [
+            "kuán-hat"
+          ],
+          "register": null,
+          "file": "B086_1_管轄.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/10/10740.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/10740/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B087",
+      "section": "字形",
+      "no": 87,
+      "prompt": "鮮沢",
+      "promptNote": null,
+      "target": "鮮",
+      "readings": [
+        "tshinn"
+      ],
+      "speak": "鮮沢",
+      "speakRomanization": [
+        "tshinn-tshioh"
+      ],
+      "reference": "B087_2_鮮沢.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "鮮",
+          "romanization": [
+            "tshinn"
+          ],
+          "register": "白",
+          "file": "B087_1_鮮.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12445.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12445/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "鮮沢",
+          "romanization": [
+            "tshinn-tshioh"
+          ],
+          "register": null,
+          "file": "B087_2_鮮沢.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12446.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12446/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B088",
+      "section": "字形",
+      "no": 88,
+      "prompt": "黜臭",
+      "promptNote": null,
+      "target": "黜",
+      "readings": [
+        "thuh"
+      ],
+      "speak": "黜臭",
+      "speakRomanization": [
+        "thuh-tshàu"
+      ],
+      "reference": "B088_2_黜臭.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "黜",
+          "romanization": [
+            "thuh"
+          ],
+          "register": "白",
+          "file": "B088_1_黜.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12448.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12448/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "黜臭",
+          "romanization": [
+            "thuh-tshàu"
+          ],
+          "register": null,
+          "file": "B088_2_黜臭.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12462.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12462/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B089",
+      "section": "字形",
+      "no": 89,
+      "prompt": "水薸",
+      "promptNote": null,
+      "target": "薸",
+      "readings": [
+        "phiô",
+        "phiôr"
+      ],
+      "speak": "水薸",
+      "speakRomanization": [
+        "tsuí-phiô"
+      ],
+      "reference": "B089_2_水薸.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "薸",
+          "romanization": [
+            "phiô"
+          ],
+          "register": null,
+          "file": "B089_1_薸.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12554.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12554/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "水薸",
+          "romanization": [
+            "tsuí-phiô"
+          ],
+          "register": null,
+          "file": "B089_2_水薸.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/1/1190.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/1190/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": [
+          "phiôr"
+        ]
+      }
+    },
+    {
+      "id": "B090",
+      "section": "字形",
+      "no": 90,
+      "prompt": "鴨羶",
+      "promptNote": null,
+      "target": "羶",
+      "readings": [
+        "hiàn"
+      ],
+      "speak": "鴨羶",
+      "speakRomanization": [
+        "ah-hiàn"
+      ],
+      "reference": "B090_2_鴨羶.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "羶",
+          "romanization": [
+            "hiàn"
+          ],
+          "register": null,
+          "file": "B090_1_羶.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12815.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12815/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "鴨羶",
+          "romanization": [
+            "ah-hiàn"
+          ],
+          "register": null,
+          "file": "B090_2_鴨羶.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12120.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12120/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B091",
+      "section": "字形",
+      "no": 91,
+      "prompt": "狗蟻",
+      "promptNote": null,
+      "target": "蟻",
+      "readings": [
+        "hiā"
+      ],
+      "speak": "狗蟻",
+      "speakRomanization": [
+        "káu-hiā"
+      ],
+      "reference": "B091_1_狗蟻.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "狗蟻",
+          "romanization": [
+            "káu-hiā"
+          ],
+          "register": null,
+          "file": "B091_1_狗蟻.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4367.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4367/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B092",
+      "section": "字形",
+      "no": 92,
+      "prompt": "異議",
+      "promptNote": null,
+      "target": "議",
+      "readings": [
+        "gī"
+      ],
+      "speak": "異議",
+      "speakRomanization": [
+        "ī-gī"
+      ],
+      "reference": "B092_1_異議.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "異議",
+          "romanization": [
+            "ī-gī"
+          ],
+          "register": null,
+          "file": "B092_1_異議.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/23/23778.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/23778/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B093",
+      "section": "字形",
+      "no": 93,
+      "prompt": "回饋",
+      "promptNote": null,
+      "target": "饋",
+      "readings": [
+        "kuī"
+      ],
+      "speak": "回饋",
+      "speakRomanization": [
+        "huê-kuī",
+        "hê-kuī"
+      ],
+      "reference": "B093_1_回饋.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "回饋",
+          "romanization": [
+            "huê-kuī",
+            "hê-kuī"
+          ],
+          "register": null,
+          "file": "B093_1_回饋.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/22/22676.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/22676/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B094",
+      "section": "字形",
+      "no": 94,
+      "prompt": "贓物",
+      "promptNote": null,
+      "target": "贓",
+      "readings": [
+        "tsong"
+      ],
+      "speak": "贓物",
+      "speakRomanization": [
+        "tsong-bu̍t"
+      ],
+      "reference": "B094_1_贓物.mp3",
+      "audio": [
+        {
+          "kind": "整詞讀音",
+          "word": "贓物",
+          "romanization": [
+            "tsong-bu̍t"
+          ],
+          "register": null,
+          "file": "B094_1_贓物.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/25/25408.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/25408/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": true,
+        "readings": []
+      }
+    },
+    {
+      "id": "B095",
+      "section": "字形",
+      "no": 95,
+      "prompt": "枕頭囊",
+      "promptNote": null,
+      "target": "囊",
+      "readings": [
+        "lông",
+        "long"
+      ],
+      "speak": "枕頭囊",
+      "speakRomanization": [
+        "tsím-thâu-lông"
+      ],
+      "reference": "B095_3_枕頭囊.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "囊",
+          "romanization": [
+            "long"
+          ],
+          "register": null,
+          "file": "B095_1_囊.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13190.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13190/"
+        },
+        {
+          "kind": "單字本調",
+          "word": "囊",
+          "romanization": [
+            "lông"
+          ],
+          "register": null,
+          "file": "B095_2_囊.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13191.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13191/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "枕頭囊",
+          "romanization": [
+            "tsím-thâu-lông"
+          ],
+          "register": null,
+          "file": "B095_3_枕頭囊.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4245.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4245/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B096",
+      "section": "字形",
+      "no": 96,
+      "prompt": "疊",
+      "promptNote": "thia̍p tsng/tsuinn-á",
+      "target": "疊",
+      "readings": [
+        "thia̍p"
+      ],
+      "speak": "疊",
+      "speakRomanization": [
+        "thia̍p"
+      ],
+      "reference": "B096_1_疊.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "疊",
+          "romanization": [
+            "thia̍p"
+          ],
+          "register": "文",
+          "file": "B096_1_疊.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13214.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13214/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B097",
+      "section": "字形",
+      "no": 97,
+      "prompt": "糞埽籠",
+      "promptNote": null,
+      "target": "籠",
+      "readings": [
+        "láng"
+      ],
+      "speak": "糞埽籠",
+      "speakRomanization": [
+        "pùn-sò-láng"
+      ],
+      "reference": "B097_2_糞埽籠.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "籠",
+          "romanization": [
+            "láng"
+          ],
+          "register": "白",
+          "file": "B097_1_籠.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13220.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13220/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "糞埽籠",
+          "romanization": [
+            "pùn-sò-láng"
+          ],
+          "register": null,
+          "file": "B097_2_糞埽籠.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/12/12270.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/12270/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B098",
+      "section": "字形",
+      "no": 98,
+      "prompt": "拍鱗",
+      "promptNote": null,
+      "target": "鱗",
+      "readings": [
+        "lân"
+      ],
+      "speak": "拍鱗",
+      "speakRomanization": [
+        "phah-lân"
+      ],
+      "reference": "B098_2_拍鱗.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "鱗",
+          "romanization": [
+            "lân"
+          ],
+          "register": "白",
+          "file": "B098_1_鱗.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13324.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13324/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "拍鱗",
+          "romanization": [
+            "phah-lân"
+          ],
+          "register": null,
+          "file": "B098_2_拍鱗.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/4/4175.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/4175/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B099",
+      "section": "字形",
+      "no": 99,
+      "prompt": "刺鑿",
+      "promptNote": null,
+      "target": "鑿",
+      "readings": [
+        "tsha̍k"
+      ],
+      "speak": "刺鑿",
+      "speakRomanization": [
+        "tshì-tsha̍k"
+      ],
+      "reference": "B099_2_刺鑿.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "鑿",
+          "romanization": [
+            "tsha̍k"
+          ],
+          "register": "白",
+          "file": "B099_1_鑿.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13413.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13413/"
+        },
+        {
+          "kind": "整詞讀音",
+          "word": "刺鑿",
+          "romanization": [
+            "tshì-tsha̍k"
+          ],
+          "register": null,
+          "file": "B099_2_刺鑿.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/3/3685.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/3685/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": false,
+        "charAudio": false,
+        "readings": []
+      }
+    },
+    {
+      "id": "B100",
+      "section": "字形",
+      "no": 100,
+      "prompt": "𤺪",
+      "promptNote": "siān-tauh-tauh",
+      "target": "𤺪",
+      "readings": [
+        "siān"
+      ],
+      "speak": "𤺪",
+      "speakRomanization": [
+        "siān"
+      ],
+      "reference": "B100_1_𤺪.mp3",
+      "audio": [
+        {
+          "kind": "單字本調",
+          "word": "𤺪",
+          "romanization": [
+            "siān"
+          ],
+          "register": null,
+          "file": "B100_1_𤺪.mp3",
+          "url": "https://sutian.moe.edu.tw/media/senn/mp3/imtong/subak/13/13571.mp3",
+          "entryUrl": "https://sutian.moe.edu.tw/zh-hant/su/13571/"
+        }
+      ],
+      "gaps": {
+        "wordAudio": true,
+        "charAudio": false,
+        "readings": []
+      }
+    }
+  ]
+}
