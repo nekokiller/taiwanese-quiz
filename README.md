@@ -31,5 +31,6 @@ GitHub Pages：Settings → Pages → Source 選 `main` 分支、`/ (root)`。
 | `js/scoring.js` | 評分：MFCC + DTW 比對音段，YIN 音高曲線比對聲調 |
 | `data/exam.csv` | 試卷逐題抄錄（題目依據） |
 | `data/questions.json` | 題庫，由 `python scripts/build_questions.py` 產生 |
+| `docs/examples.md` | 200 題的教育部釋義、例句與詞目網址 |
 | `taiwanese-pronunciation-200-mp3/` | 教育部辭典原始 MP3 與對照表 |
 | `docs/reference/` | 試卷照片 |
