@@ -154,6 +154,38 @@ input[type="checkbox"] {
   accent-color: var(--brand);
 }
 
+.sources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 16px;
+  padding: 4px 0 8px;
+}
+
+.sources input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--brand);
+}
+
+.sources .check:has(input:disabled) {
+  opacity: 0.45;
+}
+
+#review-count {
+  font-weight: 400;
+}
+
+#open-review {
+  margin-left: auto;
+  font-size: 15px;
+}
+
+#range-fields {
+  border-top: 1px solid var(--line);
+}
+
 .range-row {
   display: flex;
   flex-wrap: wrap;
@@ -371,10 +403,49 @@ button:disabled {
   padding: 20px 16px 24px;
 }
 
+.q-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 32px;
+}
+
 .q-label {
   color: var(--muted);
   font-size: 14px;
   margin: 0;
+}
+
+.review-toggle {
+  flex: none;
+  padding: 4px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.review-toggle.on {
+  border-color: var(--mid);
+  background: color-mix(in srgb, var(--mid) 14%, transparent);
+  color: var(--mid);
+  font-weight: 700;
+}
+
+/* 清單列只放星號 */
+.review-toggle.compact {
+  padding: 4px 8px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.result-list li.removed .r-word {
+  opacity: 0.4;
 }
 
 .q-prompt {

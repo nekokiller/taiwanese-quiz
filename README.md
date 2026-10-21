@@ -4,6 +4,7 @@
 
 - **測驗模式**：隨機出題，按住按鈕唸出讀音，放開後與標準音比對並給分。
 - **練習模式**：依題號瀏覽，聽標準發音，不錄音。
+- **複習本**：按 ☆ 收進還不熟的題目，之後可以只練或只考複習本的題目（存在瀏覽器裡）。
 
 需求與設計見 [docs/requirements.md](docs/requirements.md)，題目與音檔盤點見 [docs/audio-inventory.md](docs/audio-inventory.md)。
 
@@ -29,6 +30,7 @@ GitHub Pages：Settings → Pages → Source 選 `main` 分支、`/ (root)`。
 |---|---|
 | `index.html`、`css/`、`js/` | 網頁 |
 | `js/scoring.js` | 評分：MFCC + DTW 比對音段，YIN 音高曲線比對聲調 |
+| `js/review.js` | 複習本：以題目 id 存在 `localStorage` |
 | `data/exam.csv` | 試卷逐題抄錄（題目依據） |
 | `data/questions.json` | 題庫，由 `python scripts/build_questions.py` 產生 |
 | `docs/examples.md`、`examples.html` | 200 題的教育部釋義、例句與詞目網址（網頁版發佈在 GitHub Pages） |

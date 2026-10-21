@@ -1,9 +1,11 @@
 // 測驗模式：設定 → 隨機出題 → 按住錄音、評分、聽標準音 → 結果。
 // 練習模式：設定 → 依題號瀏覽，上一題／下一題、聽標準音，不錄音。
+// 複習本：練習或測驗看答案後按 ☆ 收進題目，設定時可以只出複習本的題目。
 
 import { analyze, compare } from "./scoring.js";
 import { audioContext, loadAudio, play, stop, toAnalysisRate } from "./audio.js";
 import { MicError, Recorder } from "./recorder.js";
+import { addToReview, clearReview, inReview, pruneReview, reviewSize, setInReview } from "./review.js";
 
 const DEBUG = new URLSearchParams(location.search).has("debug");
 const LOW_SCORE = 60;
@@ -25,17 +27,20 @@ const state = {
   enablingMic: false,
   lastRecording: null,
   playToken: 0,
+  confirmClear: false,
 };
 
 const audioUrl = (file) => bank.audioBase + encodeURIComponent(file);
 const current = () => state.list[state.index];
 const practicing = () => state.mode === "practice";
 const selectedMode = () => document.querySelector("input[name=mode]:checked").value;
+const selectedSource = () => document.querySelector("input[name=source]:checked").value;
+const lowResults = () => state.results.filter((r) => r.score === null || r.score < LOW_SCORE);
 
 // ---------- 共用 ----------
 
 function show(id) {
-  for (const s of ["loading", "setup", "quiz", "result"]) $(s).hidden = s !== id;
+  for (const s of ["loading", "setup", "quiz", "result", "review"]) $(s).hidden = s !== id;
   window.scrollTo(0, 0);
 }
 
@@ -74,6 +79,51 @@ function renderPrompt(target, text, char) {
 
 const grade = (score) => (score >= 80 ? "good" : score >= LOW_SCORE ? "mid" : "bad");
 
+/** 清單列的題目欄：題號＋題面。 */
+function wordCell(q) {
+  const word = el("span", { className: "r-word" }, el("span", { className: "r-label" }, `${q.section} ${q.no}`));
+  const prompt = el("span");
+  renderPrompt(prompt, q.prompt, q.target);
+  word.append(prompt);
+  return word;
+}
+
+function playButton(q) {
+  const b = el("button", { type: "button", className: "secondary", textContent: "🔊", ariaLabel: "播放標準音" });
+  b.disabled = !q.reference;
+  b.addEventListener("click", () => playClip(q.reference));
+  return b;
+}
+
+// ---------- 複習本按鈕 ----------
+
+/** 依 data-id 那題在不在複習本，更新按鈕的星號與文字。 */
+function paintReview(button) {
+  const on = inReview(button.dataset.id);
+  button.classList.toggle("on", on);
+  button.setAttribute("aria-pressed", String(on));
+  button.title = on ? "移出複習本" : "加入複習本";
+  if (button.classList.contains("compact")) button.textContent = on ? "★" : "☆";
+  else button.textContent = on ? "★ 已加入複習本" : "☆ 加入複習本";
+}
+
+function toggleReview(button) {
+  setInReview(button.dataset.id, !inReview(button.dataset.id));
+  paintReview(button);
+}
+
+/** 清單列用的星號按鈕。 */
+function reviewButton(q, onChange) {
+  const b = el("button", { type: "button", className: "review-toggle compact", ariaLabel: "複習本" });
+  b.dataset.id = q.id;
+  b.addEventListener("click", () => {
+    toggleReview(b);
+    onChange?.();
+  });
+  paintReview(b);
+  return b;
+}
+
 // ---------- 標準音分析（每個音檔只做一次） ----------
 
 const refAnalysis = new Map();
@@ -108,19 +158,37 @@ function readRanges() {
   return ranges;
 }
 
-function poolFor(ranges) {
-  const inRange = bank.questions.filter((q) =>
-    ranges.some((r) => r.section === q.section && q.no >= r.from && q.no <= r.to),
-  );
-  const playable = inRange.filter((q) => q.reference);
-  return { playable, missing: inRange.length - playable.length };
+/** 設定畫面選到的題目（依題號範圍或複習本），依題號排序。 */
+function selectedQuestions() {
+  if (selectedSource() === "review") return bank.questions.filter((q) => inReview(q.id));
+  const ranges = readRanges();
+  return bank.questions.filter((q) => ranges.some((r) => r.section === q.section && q.no >= r.from && q.no <= r.to));
+}
+
+function poolFor(questions) {
+  const playable = questions.filter((q) => q.reference);
+  return { playable, missing: questions.length - playable.length };
+}
+
+/** 複習本是空的就不能選；選複習本時收起題號範圍。 */
+function updateSource() {
+  const size = reviewSize();
+  const radio = document.querySelector("input[name=source][value=review]");
+  radio.disabled = !size;
+  if (!size && radio.checked) document.querySelector("input[name=source][value=range]").checked = true;
+  $("review-count").textContent = `（${size} 題）`;
+  const review = selectedSource() === "review";
+  $("range-fields").hidden = review;
+  $("review-hint").hidden = !review;
 }
 
 function updateAvailable() {
-  const { playable, missing } = poolFor(readRanges());
+  updateSource();
+  const { playable, missing } = poolFor(selectedQuestions());
   const practice = selectedMode() === "practice";
   const lacking = missing ? `（另有 ${missing} 題尚無錄音）` : "";
-  $("available").textContent = `目前範圍可出 ${playable.length} 題${lacking}`;
+  const where = selectedSource() === "review" ? "複習本" : "目前範圍";
+  $("available").textContent = `${where}可出 ${playable.length} 題${lacking}`;
   $("practice-info").textContent = `依題號順序練習，共 ${playable.length} 題${lacking}`;
   $("practice-info").hidden = !practice;
   $("count-field").hidden = practice;
@@ -141,10 +209,12 @@ async function onStart(e) {
   e.preventDefault();
   audioContext(); // 在使用者點擊時建立，iOS 才允許播放與錄音
   setupError("");
-  const ranges = readRanges();
-  if (!ranges.length) return setupError("請至少選一個部分（字音或字形）。");
-  const { playable } = poolFor(ranges);
-  if (!playable.length) return setupError("這個範圍沒有可以出的題目，請調整範圍。");
+  const review = selectedSource() === "review";
+  if (!review && !readRanges().length) return setupError("請至少選一個部分（字音或字形）。");
+  const { playable } = poolFor(selectedQuestions());
+  if (!playable.length) {
+    return setupError(review ? "複習本裡沒有可以出的題目。" : "這個範圍沒有可以出的題目，請調整範圍。");
+  }
   if (selectedMode() === "practice") return startSession(playable, "practice");
 
   let count = parseInt($("count").value, 10);
@@ -216,6 +286,10 @@ function renderQuestion() {
   $("progress").textContent = `第 ${state.index + 1} / ${n} 題`;
   $("progress-fill").style.width = `${(state.index / n) * 100}%`;
   $("q-label").textContent = `${q.section} 第 ${q.no} 題`;
+  // 練習時一直顯示；測驗時看過答案才顯示，作答前不分心
+  $("review-toggle").dataset.id = q.id;
+  $("review-toggle").hidden = !practicing();
+  paintReview($("review-toggle"));
   renderPrompt($("q-prompt"), q.prompt, q.target);
 
   const speak = $("q-speak");
@@ -338,6 +412,7 @@ function showAnswer(q) {
     }
   }
   $("play-ref").disabled = false;
+  $("review-toggle").hidden = false;
   $("show-answer").hidden = true;
   $("feedback").hidden = false;
 }
@@ -400,8 +475,13 @@ function goTo(index) {
 function quit() {
   if (state.busy || state.holding) return;
   if (!practicing()) return showResults();
+  backToSetup();
+}
+
+function backToSetup() {
   stop();
   state.playToken++;
+  updateAvailable();
   show("setup");
 }
 
@@ -425,21 +505,79 @@ function showResults() {
   const list = $("result-list");
   list.textContent = "";
   for (const { q, score } of state.results) {
-    const word = el("span", { className: "r-word" }, el("span", { className: "r-label" }, `${q.section} ${q.no}`));
-    const prompt = el("span");
-    renderPrompt(prompt, q.prompt, q.target);
-    word.append(prompt);
-    const playBtn = el("button", { type: "button", className: "secondary", textContent: "🔊", ariaLabel: "播放標準音" });
-    playBtn.addEventListener("click", () => playClip(q.reference));
     const s = el("span", { className: `r-score ${score === null ? "" : grade(score)}` }, score ?? "—");
-    list.append(el("li", {}, word, playBtn, s));
+    list.append(el("li", {}, wordCell(q), playButton(q), s, reviewButton(q, updateAddLow)));
   }
 
-  const low = state.results.filter((r) => r.score === null || r.score < LOW_SCORE);
+  const low = lowResults();
   const retry = $("retry-low");
   retry.disabled = !low.length;
   retry.textContent = low.length ? `只重練 ${LOW_SCORE} 分以下的題目（${low.length} 題）` : `沒有 ${LOW_SCORE} 分以下的題目`;
+  updateAddLow();
   show("result");
+}
+
+function updateAddLow() {
+  const low = lowResults();
+  const missing = low.filter((r) => !inReview(r.q.id));
+  const button = $("add-low");
+  button.hidden = !low.length;
+  button.disabled = !missing.length;
+  button.textContent = missing.length
+    ? `${LOW_SCORE} 分以下的都加入複習本（${missing.length} 題）`
+    : `${LOW_SCORE} 分以下的都在複習本裡了`;
+}
+
+function addLowToReview() {
+  addToReview(lowResults().map((r) => r.q.id));
+  for (const b of $("result-list").querySelectorAll(".review-toggle")) paintReview(b);
+  updateAddLow();
+}
+
+// ---------- 複習本清單 ----------
+
+function openReview() {
+  audioContext(); // 在使用者點擊時建立，iOS 才允許播放
+  renderReview();
+  show("review");
+}
+
+function renderReview() {
+  const list = $("review-list");
+  list.textContent = "";
+  const items = bank.questions.filter((q) => inReview(q.id));
+  for (const q of items) {
+    const li = el("li", {}, wordCell(q), playButton(q));
+    // 移出的題目先留在清單上（變淡），按錯了可以再加回來
+    li.append(
+      reviewButton(q, () => {
+        li.classList.toggle("removed", !inReview(q.id));
+        updateReviewTitle();
+      }),
+    );
+    list.append(li);
+  }
+  $("review-empty").hidden = items.length > 0;
+  updateReviewTitle();
+}
+
+function updateReviewTitle() {
+  const size = reviewSize();
+  $("review-title").textContent = `複習本共 ${size} 題`;
+  state.confirmClear = false;
+  $("review-clear").textContent = "清空複習本";
+  $("review-clear").hidden = !size;
+}
+
+/** 按兩次才清空，避免誤觸。 */
+function onClearReview() {
+  if (!state.confirmClear) {
+    state.confirmClear = true;
+    $("review-clear").textContent = "再按一次，確定清空";
+    return;
+  }
+  clearReview();
+  renderReview();
 }
 
 // ---------- 啟動 ----------
@@ -495,11 +633,16 @@ function bindEvents() {
   $("next").addEventListener("click", () => goTo(state.index + 1));
   $("prev").addEventListener("click", () => goTo(state.index - 1));
   $("toggle-answer").addEventListener("click", toggleAnswer);
+  $("review-toggle").addEventListener("click", () => toggleReview($("review-toggle")));
   $("quit").addEventListener("click", quit);
-  $("retry-low").addEventListener("click", () =>
-    startSession(shuffle(state.results.filter((r) => r.score === null || r.score < LOW_SCORE).map((r) => r.q)), "quiz"),
-  );
-  $("restart").addEventListener("click", () => show("setup"));
+  $("retry-low").addEventListener("click", () => startSession(shuffle(lowResults().map((r) => r.q)), "quiz"));
+  $("add-low").addEventListener("click", addLowToReview);
+  $("restart").addEventListener("click", backToSetup);
+
+  $("open-review").addEventListener("click", openReview);
+  $("review-clear").addEventListener("click", onClearReview);
+  $("review-back").addEventListener("click", backToSetup);
+  $("review-done").addEventListener("click", backToSetup);
 }
 
 async function main() {
@@ -515,6 +658,7 @@ async function main() {
     $("loading").textContent = "題庫載入失敗，請重新整理頁面。";
     return;
   }
+  pruneReview(new Set(bank.questions.map((q) => q.id)));
   bindEvents();
   updateAvailable();
   show("setup");

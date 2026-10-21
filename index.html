@@ -35,17 +35,25 @@
 
         <fieldset class="card">
           <legend>題目範圍</legend>
-          <div class="range-row" data-section="字音">
-            <label class="check"><input type="checkbox" name="section" value="字音" checked> 字音</label>
-            <span class="range">第 <input type="number" name="from" inputmode="numeric" min="1" max="100" value="1"> –
-              <input type="number" name="to" inputmode="numeric" min="1" max="100" value="100"> 題</span>
+          <div class="sources">
+            <label class="check"><input type="radio" name="source" value="range" checked> 依題號</label>
+            <label class="check"><input type="radio" name="source" value="review"> 複習本<span id="review-count"></span></label>
+            <button type="button" id="open-review" class="link">查看複習本</button>
           </div>
-          <div class="range-row" data-section="字形">
-            <label class="check"><input type="checkbox" name="section" value="字形" checked> 字形</label>
-            <span class="range">第 <input type="number" name="from" inputmode="numeric" min="1" max="100" value="1"> –
-              <input type="number" name="to" inputmode="numeric" min="1" max="100" value="100"> 題</span>
+          <div id="range-fields">
+            <div class="range-row" data-section="字音">
+              <label class="check"><input type="checkbox" name="section" value="字音" checked> 字音</label>
+              <span class="range">第 <input type="number" name="from" inputmode="numeric" min="1" max="100" value="1"> –
+                <input type="number" name="to" inputmode="numeric" min="1" max="100" value="100"> 題</span>
+            </div>
+            <div class="range-row" data-section="字形">
+              <label class="check"><input type="checkbox" name="section" value="字形" checked> 字形</label>
+              <span class="range">第 <input type="number" name="from" inputmode="numeric" min="1" max="100" value="1"> –
+                <input type="number" name="to" inputmode="numeric" min="1" max="100" value="100"> 題</span>
+            </div>
+            <p class="hint">字形題改成看漢字詞、唸出讀音。</p>
           </div>
-          <p class="hint">字形題改成看漢字詞、唸出讀音。</p>
+          <p id="review-hint" class="hint" hidden>只出複習本裡的題目。</p>
         </fieldset>
 
         <p id="practice-info" class="hint" hidden></p>
@@ -76,7 +84,10 @@
       <div class="progress-bar"><div id="progress-fill"></div></div>
 
       <div class="card question">
-        <p id="q-label" class="q-label"></p>
+        <div class="q-head">
+          <p id="q-label" class="q-label"></p>
+          <button type="button" id="review-toggle" class="review-toggle"></button>
+        </div>
         <p id="q-prompt" class="q-prompt"></p>
         <p id="q-speak" class="q-speak" hidden></p>
       </div>
@@ -129,7 +140,20 @@
       </div>
       <ol id="result-list" class="result-list"></ol>
       <button type="button" id="retry-low" class="primary big">只重練 60 分以下的題目</button>
+      <button type="button" id="add-low" class="secondary big">60 分以下的都加入複習本</button>
       <button type="button" id="restart" class="secondary big">重新設定</button>
+    </section>
+
+    <!-- 複習本 -->
+    <section id="review" hidden>
+      <div class="progress-row">
+        <span id="review-title"></span>
+        <button type="button" id="review-back" class="link">返回設定</button>
+      </div>
+      <p id="review-empty" class="card hint" hidden>複習本是空的。練習時，或測驗看完答案後，按題目右上角的「☆ 加入複習本」就會收進來。</p>
+      <ol id="review-list" class="result-list"></ol>
+      <button type="button" id="review-clear" class="secondary big">清空複習本</button>
+      <button type="button" id="review-done" class="primary big">返回設定</button>
     </section>
   </main>
 
